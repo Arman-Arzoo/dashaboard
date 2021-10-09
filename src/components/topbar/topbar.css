@@ -1,0 +1,141 @@
+.topbar {
+  width: 100%;
+  height: 100px;
+  background-color: #fcfbfb;
+  /* position: sticky;
+  top: 0; */
+  z-index: 999;
+  box-shadow: 0px 2.75313px 7.5711px rgba(0, 0, 0, 0.06);
+}
+
+.topbarWrapper {
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-image {
+  height: 41.6888313293457px;
+  width: 68.61701965332031px;
+  padding-left: 30px;
+}
+
+.logo {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #313131;
+  cursor: pointer;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+}
+.topLeft {
+  display: flex;
+  align-items: center;
+}
+
+.topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 80px;
+  color: #555;
+}
+
+.topIconBadge {
+  width: 27.48px;
+  height: 27.48px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  background-color: #ff5050;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.207px;
+  line-height: 26px;
+}
+.bottomTextNotification {
+  position: absolute;
+  left: -25%;
+  right: 0;
+  top: 80.55%;
+  bottom: 4.96%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.207px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #7a7a7a;
+}
+.bottomTextMessage {
+  position: absolute;
+  left: -15%;
+  right: 0;
+  top: 80.55%;
+  bottom: 4.96%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.207px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #7a7a7a;
+}
+
+.bottomTextResumes {
+  position: absolute;
+  left: -15%;
+  right: 0%;
+  top: 80.38%;
+  bottom: 5.01%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.207px;
+  line-height: 26px;
+
+  color: #7a7a7a;
+}
+.topAvatar {
+  width: 65.31px;
+  height: 65.39px;
+  margin-left: 65px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.welcome {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.6485px;
+  line-height: 31px;
+  color: #313131;
+}
+.welcome-text {
+  padding-left: 30px;
+}
+.insights {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.207px;
+  line-height: 26px;
+
+  color: #7a7a7a;
+}

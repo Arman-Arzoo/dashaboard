@@ -1,0 +1,88 @@
+/* second section info  */
+.clients-info-home {
+  background: #ffffff;
+  border-radius: 6.88282px;
+}
+.clients-info-home p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+  color: #7a7a7a;
+}
+.clients-info-home span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+  color: #313131;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.clients-info-home img {
+  width: 33.04px;
+  height: 32.35px;
+}
+
+.clients-info-home .today {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27.5313px;
+  line-height: 41px;
+
+  color: #313131;
+}
+.clients-info-home .prebooking {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.5313px;
+  line-height: 41px;
+
+  color: #313131;
+}
+.clients-info-home .cancelled {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.5313px;
+  line-height: 41px;
+
+  color: #ff5050;
+}
+
+.clients-info-home .booking-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.7656px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #7a7a7a;
+}
+
+/* artist live location start */
+.artist-live-location {
+  background: #ffffff;
+  border-radius: 6.88282px;
+}
+
+.artist-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.artist-head span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+
+  color: #313131;
+  padding-top: 10px;
+}

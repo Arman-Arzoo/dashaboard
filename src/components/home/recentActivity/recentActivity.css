@@ -1,0 +1,52 @@
+/* recent Activity start */
+.recent-activity {
+  background: #ffffff;
+  border-radius: 6.88282px;
+}
+.recent-activity-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recent-activity-head span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+
+  color: #313131;
+}
+
+.btn-route-status {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3891px;
+  line-height: 19px;
+  /* identical to box height */
+  background: #404040;
+  border-radius: 6.88282px;
+  color: #ffffff;
+  border: none;
+  padding: 5.51px 11.5px;
+}
+.btn-ongoing-status {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3891px;
+  line-height: 19px;
+  border: none;
+  padding: 5.51px 11.5px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  background: #68cb06;
+  border-radius: 6.88282px;
+}
+
+.order-no {
+  padding-left: 10px;
+}
