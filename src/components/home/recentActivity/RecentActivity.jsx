@@ -5,7 +5,6 @@ export default function Users() {
   return (
     <div>
       {/* Recent activity section start */}
-
       <div className="container-fluid mt-4 recent-activity">
         <div className="row">
           <div className="col-12">
@@ -88,6 +87,7 @@ export default function Users() {
                 {/* table body item3 end */}
               </tbody>
             </table>
+
             {/* table end */}
           </div>
         </div>
