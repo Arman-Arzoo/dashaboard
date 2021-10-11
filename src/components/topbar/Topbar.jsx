@@ -1,6 +1,5 @@
 import React from "react";
 import "./topbar.css";
-import { NotificationsNone } from "@material-ui/icons";
 import profilepic from "../topbar/profile.png";
 import logo from "../topbar/logo.png";
 import envelope from "../topbar/Envelope.png";
@@ -22,21 +21,21 @@ export default function Topbar() {
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
-            {/* <NotificationsNone /> */}
+            {/* <chat /> */}
             <img src={chat} alt="chat" />
             <span className="topIconBadge">5</span>
             <span className="bottomTextResumes">Resumes</span>
           </div>
 
           <div className="topbarIconContainer">
-            {/* <NotificationsNone /> */}
+            {/* <envelope /> */}
             <img src={envelope} alt="chat" />
             <span className="topIconBadge">5</span>
             <span className="bottomTextMessage">Messages</span>
           </div>
 
           <div className="topbarIconContainer">
-            {/* <NotificationsNone /> */}
+            {/* <Notification /> */}
             <img src={envelope} alt="chat" />
             <span className="topIconBadge">12</span>
             <span className="bottomTextNotification">Notification</span>
