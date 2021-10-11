@@ -1,0 +1,60 @@
+.job-post {
+  border: 0.69px solid #c4c4c4;
+  border-radius: 6.88282px;
+  background: #ffffff;
+}
+.job-post-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-post-head span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+  color: #313131;
+}
+
+.job-post-head .jobs-count {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20.6485px;
+  line-height: 31px;
+  color: #ff5050;
+}
+
+/* btn status job post */
+.job-post-btn-status {
+  display: flex;
+  /* justify-content: space-around;
+  align-items: center; */
+  width: 220px;
+}
+.job-post-btn-status .approve {
+  background: #68cb06;
+  border-radius: 6.88282px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3891px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 5.51px 11.5px;
+}
+.job-post-btn-status .cancel {
+  background: #ff5050;
+  border-radius: 6.88282px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3891px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 5.51px 11.5px;
+}

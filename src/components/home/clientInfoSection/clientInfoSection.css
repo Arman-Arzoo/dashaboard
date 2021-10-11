@@ -2,6 +2,7 @@
 .clients-info-home {
   background: #ffffff;
   border-radius: 6.88282px;
+  border: 0.69px solid #c4c4c4;
 }
 .clients-info-home p {
   font-family: Poppins;
@@ -69,6 +70,7 @@
 .artist-live-location {
   background: #ffffff;
   border-radius: 6.88282px;
+  border: 0.69px solid #c4c4c4;
 }
 
 .artist-head {

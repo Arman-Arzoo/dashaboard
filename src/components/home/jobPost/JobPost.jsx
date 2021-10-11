@@ -5,11 +5,14 @@ export default function JobPost() {
     <div>
       {/* Recent activity section start */}
 
-      <div className="container-fluid mt-4 recent-activity">
+      <div className="container-fluid mt-4 job-post">
         <div className="row">
           <div className="col-12">
-            <div className="recent-activity-head">
-              <span>20 Job Posts</span>
+            <div className="job-post-head">
+              <div>
+                <span className="jobs-count">20 </span>
+                <span>Job Posts</span>
+              </div>
               <i class="fa fa-refresh" aria-hidden="true"></i>
             </div>
             {/* table for recent activity*/}
@@ -37,8 +40,15 @@ export default function JobPost() {
                   <td>Tina Fox</td>
                   <td>8502 Preston Rd. Inglewood, Maine 98380</td>
                   <td>$20</td>
-                  <td>
-                    <button className="btn-route-status">Onroute</button>
+                  <td className="job-post-btn-status">
+                    <button className="mr-2 approve">
+                      <i class="fa fa-check pr-1" aria-hidden="true"></i>
+                      Approve
+                    </button>
+                    <button className="cancel">
+                      <i class="fa fa-times pr-1" aria-hidden="true"></i>
+                      Cancel
+                    </button>
                   </td>
                 </tr>
                 {/* table body item1 end */}
@@ -53,8 +63,15 @@ export default function JobPost() {
                   <td>8502 Preston Rd. Inglewood, Maine 98380</td>
                   <td>$20</td>
 
-                  <td>
-                    <button className="btn-ongoing-status">Ongoing</button>
+                  <td className="job-post-btn-status">
+                    <button className="mr-2 approve">
+                      <i class="fa fa-check pr-1" aria-hidden="true"></i>
+                      Approve
+                    </button>
+                    <button className="cancel">
+                      <i class="fa fa-times pr-1" aria-hidden="true"></i>
+                      Cancel
+                    </button>
                   </td>
                 </tr>
                 {/* table body item2 end */}
@@ -69,8 +86,15 @@ export default function JobPost() {
                   <td>8502 Preston Rd. Inglewood, Maine 98380</td>
                   <td>$20</td>
 
-                  <td>
-                    <button className="btn-ongoing-status">Ongoing</button>
+                  <td className="job-post-btn-status">
+                    <button className="mr-2 approve">
+                      <i class="fa fa-check pr-1" aria-hidden="true"></i>
+                      Approve
+                    </button>
+                    <button className="cancel">
+                      <i class="fa fa-times pr-1" aria-hidden="true"></i>
+                      Cancel
+                    </button>
                   </td>
                 </tr>
                 {/* table body item3 end */}

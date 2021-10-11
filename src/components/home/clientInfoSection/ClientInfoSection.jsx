@@ -9,7 +9,7 @@ export default function ClientInfoSection() {
           <div className="col-6 ">
             <div className="row">
               {/* client div start */}
-              <div className="col-5 bg-light clients-info-home ">
+              <div className="col-5  clients-info-home ">
                 <img src={User} alt="user" />
                 <span>Clients</span>
                 <hr />
@@ -20,7 +20,7 @@ export default function ClientInfoSection() {
               </div>
               {/* client div end */}
               {/* artist div start */}
-              <div className="col-5 bg-light clients-info-home ml-4">
+              <div className="col-5  clients-info-home ml-4">
                 <img src={User} alt="user" />
                 <span>Artist</span>
                 <hr />
@@ -33,7 +33,7 @@ export default function ClientInfoSection() {
             </div>
             <div className="row">
               {/* booking div start */}
-              <div className="col-5 bg-light clients-info-home mt-4">
+              <div className="col-5  clients-info-home mt-4">
                 <img src={User} alt="user" />
                 <span>Booking</span>
                 <hr />
@@ -48,7 +48,7 @@ export default function ClientInfoSection() {
               </div>
               {/* booking div end */}
               {/* booking div start */}
-              <div className="col-5 bg-light clients-info-home mt-4 ml-4">
+              <div className="col-5  clients-info-home mt-4 ml-4">
                 <img src={User} alt="user" />
                 <span>Job Posts</span>
                 <hr />
