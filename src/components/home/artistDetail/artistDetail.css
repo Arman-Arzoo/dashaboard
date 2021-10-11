@@ -1,0 +1,77 @@
+.artist-detail-main {
+  border: 0.69px solid #c4c4c4;
+  border-radius: 6.88282px;
+  background: #ffffff;
+  overflow: hidden;
+}
+.align {
+  margin-left: -7px !important;
+}
+
+.artist-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.artist-detail span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+  color: #313131;
+  padding-top: 5px;
+}
+
+.artist-img {
+  display: flex;
+  align-items: center;
+}
+.artist-img span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.7656px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #313131;
+  padding-left: 10px;
+}
+
+/* for all table td */
+td {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.7656px;
+  line-height: 21px;
+
+  color: #313131;
+  padding-left: 10px;
+}
+
+/* for all th */
+th {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.207px;
+  line-height: 26px;
+
+  color: #313131;
+}
+
+/* button status for artist */
+.btn-artist-detail-status {
+  border: none;
+  background: #68cb06;
+  border-radius: 6.88282px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3891px;
+  line-height: 19px;
+  padding: 5.51px 11.5px;
+  color: #ffffff;
+}

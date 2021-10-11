@@ -125,7 +125,7 @@ export default function Sidebar() {
 
         <div className="sidebarMenu">
           <ul className="sidebarList">
-            <Link to="/logout" className="link">
+            <Link to="#" className="link">
               <li className="sidebarListItem">
                 <img className="sidebarIcon" src={Power} alt="house" />
                 Logout
