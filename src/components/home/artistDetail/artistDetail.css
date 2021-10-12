@@ -27,6 +27,10 @@
   display: flex;
   align-items: center;
 }
+.artist-img img {
+  width: 32.35px;
+  height: 32.35px;
+}
 .artist-img span {
   font-family: Poppins;
   font-style: normal;
@@ -74,4 +78,109 @@ th {
   line-height: 19px;
   padding: 5.51px 11.5px;
   color: #ffffff;
+}
+
+/* customer review section */
+.customer-review-main-div {
+  height: 450px;
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5.51px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+.customer-review span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.6485px;
+  line-height: 31px;
+  color: #313131;
+}
+.customer-overall-rating span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.5313px;
+  line-height: 41px;
+  color: #313131;
+}
+.customer-overall-rating img {
+  width: 24.78px;
+  height: 24.78px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.customer-overall-rating p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.5188px;
+  line-height: 25px;
+  color: #313131;
+}
+.customer-review-info img {
+  width: 32.35px;
+  height: 32.35px;
+}
+
+.customer-review-info span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+  color: #313131;
+  padding-left: 10px;
+}
+.customer-review-info p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.207px;
+  line-height: 26px;
+  color: #7a7a7a;
+  padding-left: 41px;
+  margin-top: -10px;
+}
+.customer-review-rating img {
+  width: 17.21px;
+  height: 17.21px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.customer-review-rating span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+  color: #313131;
+}
+
+/* monthly generated revenue */
+.monthly-revenue span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.6485px;
+  line-height: 31px;
+  /* identical to box height */
+
+  color: #313131;
 }
