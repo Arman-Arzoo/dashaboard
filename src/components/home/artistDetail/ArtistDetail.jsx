@@ -66,7 +66,7 @@ export default function artistDetail() {
             {/* service status section start */}
             <div className="col-4  mt-3 artist-detail-main ml-4 monthly-revenue">
               <span>Service status</span>
-              <div>pie circular chart here</div>
+              <div>pie circular chart here you can replace</div>
             </div>
             {/* service status section end */}
           </div>
