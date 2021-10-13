@@ -1,6 +1,7 @@
 import "./artistDetail.css";
 import pic from "../artistDetail/profilepic.png";
 import rating from "../artistDetail/rating.png";
+import Barchart from "../charts/Barchart";
 
 export default function artistDetail() {
   return (
@@ -60,7 +61,7 @@ export default function artistDetail() {
                 <span>Monthly Generated Revenue</span>
               </div>
               <hr />
-              <div className="chart">chart is here</div>
+              <Barchart />
             </div>
             {/* montly generate section  end*/}
             {/* service status section start */}
