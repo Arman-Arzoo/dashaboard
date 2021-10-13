@@ -42,7 +42,7 @@
   font-weight: 600;
   font-size: 27.5313px;
   line-height: 41px;
-
+  padding-left: 40px;
   color: #313131;
 }
 .clients-info-home .cancelled {
@@ -51,7 +51,7 @@
   font-weight: 600;
   font-size: 27.5313px;
   line-height: 41px;
-
+  padding-left: 40px;
   color: #ff5050;
 }
 
@@ -59,13 +59,25 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 13.7656px;
+  font-size: 12.7656px;
   line-height: 21px;
   /* identical to box height */
 
   color: #7a7a7a;
 }
 
+@media only screen and (max-width: 1200px) {
+  .clients-info-home .cancelled {
+    padding-left: 20px;
+  }
+  .clients-info-home .prebooking {
+    padding-left: 20px;
+  }
+  .clients-info-home .booking-text {
+    font-size: 8.7656px;
+    line-height: 15px;
+  }
+}
 /* artist live location start */
 .artist-live-location {
   background: #ffffff;

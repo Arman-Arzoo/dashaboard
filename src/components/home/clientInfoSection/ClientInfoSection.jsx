@@ -39,8 +39,8 @@ export default function ClientInfoSection() {
                 <hr />
 
                 <span className="today ">20</span>
-                <span className="prebooking pl-5">10</span>
-                <span className="cancelled pl-5">20</span>
+                <span className="prebooking ">10</span>
+                <span className="cancelled ">20</span>
                 <br />
                 <span className="booking-text">Today</span>
                 <span className="booking-text">Prebooking</span>

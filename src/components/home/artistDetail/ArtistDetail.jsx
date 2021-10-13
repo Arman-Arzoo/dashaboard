@@ -2,6 +2,7 @@ import "./artistDetail.css";
 import pic from "../artistDetail/profilepic.png";
 import rating from "../artistDetail/rating.png";
 import Barchart from "../charts/Barchart";
+import DoughnutChart from "../charts/Doughnut";
 
 export default function artistDetail() {
   return (
@@ -67,7 +68,7 @@ export default function artistDetail() {
             {/* service status section start */}
             <div className="col-4  mt-3 artist-detail-main ml-4 monthly-revenue">
               <span>Service status</span>
-              <div>pie circular chart here you can replace</div>
+              <DoughnutChart />
             </div>
             {/* service status section end */}
           </div>
