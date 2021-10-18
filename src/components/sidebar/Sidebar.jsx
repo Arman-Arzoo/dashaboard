@@ -37,7 +37,9 @@ export default function Sidebar() {
               <Link to="/customers" className="link">
                 <li>customer</li>
               </Link>
-              <li className="pt-2">artists </li>
+              <Link to="/artists" className="link">
+                <li className="pt-2">artists </li>
+              </Link>
             </ul>
           </ul>
         </div>

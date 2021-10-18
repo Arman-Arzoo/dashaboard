@@ -10,6 +10,7 @@ import Team from "./pages/team/Team";
 import Chat from "./pages/chat/Chat";
 import Admin from "./pages/admin/Admin";
 import Setting from "./pages/setting/Setting";
+import Artists from "./pages/users/Artists";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function Dashborad() {
@@ -24,6 +25,9 @@ export default function Dashborad() {
           </Route>
           <Route path="/customers">
             <Customers />
+          </Route>
+          <Route path="/artists">
+            <Artists />
           </Route>
           <Route path="/booking">
             <Booking />

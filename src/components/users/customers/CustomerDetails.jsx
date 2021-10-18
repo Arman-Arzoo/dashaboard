@@ -1,4 +1,5 @@
 import "./customerDetail.css";
+import Pagination from "./Pagination";
 export default function CustomerDetails() {
   return (
     <div>
@@ -116,22 +117,7 @@ export default function CustomerDetails() {
         </div>
       </div>
       {/* pagination */}
-      <div className="pt-2">
-        <span>
-          <i class="fa fa-angle-double-left" aria-hidden="true"></i> Previous
-        </span>
-        <span className="float-right">
-          Next
-          <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-        </span>
-      </div>
-
-      {/* total entries */}
-      <div className="pt-4">
-        <p>
-          Showing <span>1</span> to <span>11</span> of <span>150</span>entries
-        </p>
-      </div>
+      <Pagination />
     </div>
   );
 }

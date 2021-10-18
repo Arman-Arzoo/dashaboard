@@ -1,0 +1,84 @@
+.artistlist {
+  box-shadow: 0 5px 5px #ebebeb;
+  border-radius: 6.4104px;
+  background: #ebebeb;
+  width: 294.75px;
+  height: 449.31px;
+}
+.artist-profile {
+  width: 102.05px;
+  height: 102.05px;
+  position: absolute;
+  left: 30.72%;
+  right: 32.72%;
+  top: 21.83%;
+  bottom: 55.46%;
+  border: 5.44917px solid #ffffff;
+  box-shadow: 0px 1.98152px 2.4769px 0.495379px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+.artist .artist-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.3383px;
+  line-height: 26px;
+  text-align: center;
+  color: #313131;
+}
+.artist-dec {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.3845px;
+  line-height: 19px;
+  color: #7a7a7a;
+  text-align: center;
+}
+.artist span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.8614px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #7a7a7a;
+}
+.artist .num {
+  color: #ff5050;
+}
+
+/* temporary     */
+.artist .arating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.artist .para span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.8614px;
+  line-height: 22px;
+  margin-left: 6px;
+  /* identical to box height */
+
+  color: #313131;
+}
+.artist .para i {
+  font-size: 18px;
+}
+
+.btn-artist-info {
+  background: #404040;
+  border-radius: 4.9538px;
+  background: #404040;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.3845px;
+  line-height: 19px;
+  margin-left: 80px;
+}
+
+.artist-card-body {
+  display: flex;
+  flex-wrap: wrap;
+}
