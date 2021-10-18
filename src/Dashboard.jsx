@@ -2,7 +2,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import "./App.css";
 import Home from "./pages/home/Home";
-import Users from "./pages/users/Users";
+import Customers from "./pages/users/Customers";
 import Booking from "./pages/booking/Booking";
 import Services from "./pages/services/Services";
 import Payment from "./pages/payment/Payment";
@@ -22,8 +22,8 @@ export default function Dashborad() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/customers">
+            <Customers />
           </Route>
           <Route path="/booking">
             <Booking />
