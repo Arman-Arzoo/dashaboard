@@ -17,6 +17,22 @@
   box-shadow: 0px 1.98152px 2.4769px 0.495379px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
 }
+.btn-add-artist {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.385px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #7a7a7a;
+  border: 1px dashed black;
+  padding: 10px;
+}
+.btn-add-artist span {
+  padding-left: 6px;
+}
+
 .artist .artist-name {
   font-style: normal;
   font-weight: 600;
@@ -69,7 +85,6 @@
 .btn-artist-info {
   background: #404040;
   border-radius: 4.9538px;
-  background: #404040;
   color: white;
   font-style: normal;
   font-weight: 600;
@@ -81,4 +96,19 @@
 .artist-card-body {
   display: flex;
   flex-wrap: wrap;
+}
+
+.toptrash {
+  width: 37.15px;
+  height: 37.15px;
+  position: absolute;
+  left: 83.05%;
+  right: 4.36%;
+  top: 2.76%;
+  bottom: 88.98%;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
