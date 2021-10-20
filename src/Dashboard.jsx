@@ -4,13 +4,15 @@ import "./App.css";
 import Home from "./pages/home/Home";
 import Customers from "./pages/users/Customers";
 import Booking from "./pages/booking/Booking";
-import Services from "./pages/services/Services";
+import DailyDeal from "./pages/services/DailyDeal";
+import AllServices from "./pages/services/AllServices";
 import Payment from "./pages/payment/Payment";
 import Team from "./pages/team/Team";
 import Chat from "./pages/chat/Chat";
 import Admin from "./pages/admin/Admin";
 import Setting from "./pages/setting/Setting";
 import Artists from "./pages/users/Artists";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function Dashborad() {
@@ -32,8 +34,11 @@ export default function Dashborad() {
           <Route path="/booking">
             <Booking />
           </Route>
-          <Route path="/services">
-            <Services />
+          <Route path="/daily-deals">
+            <DailyDeal />
+          </Route>
+          <Route path="/all-services">
+            <AllServices />
           </Route>
           <Route path="/payment">
             <Payment />

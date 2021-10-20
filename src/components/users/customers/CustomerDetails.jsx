@@ -1,8 +1,10 @@
 import "./customerDetail.css";
 import Pagination from "./Pagination";
+import Search from "../../home/search/search";
 export default function CustomerDetails() {
   return (
     <div>
+      <Search />
       <div>
         <span style={{ color: "#7A7A7A" }} className="pl-1">
           users/customers
@@ -115,9 +117,9 @@ export default function CustomerDetails() {
             </tbody>
           </table>
         </div>
+        {/* pagination */}
+        <Pagination />
       </div>
-      {/* pagination */}
-      <Pagination />
     </div>
   );
 }

@@ -18,7 +18,7 @@ export default function ArtistsList() {
           users/artists
         </span>
         {/* card */}
-        <div className="card card-outline-secondary mt-2">
+        <div className="card card-outline-secondary mt-2 ">
           {/* heading */}
           <div
             className="card-header"
@@ -34,7 +34,7 @@ export default function ArtistsList() {
             </button>
           </div>
           {/* body */}
-          <div className="artist-card-body">
+          <div className="artist-card-body pl-4">
             {/* artist card start */}
             <div className="card m-4 artistlist">
               <img className="card-img-top" src={apic} alt="Card" />
@@ -271,8 +271,8 @@ export default function ArtistsList() {
             </div>
             {/* artist card end */}
           </div>
+          <Pagination />
         </div>
-        <Pagination />
       </div>
     </div>
   );
