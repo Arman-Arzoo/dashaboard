@@ -50,7 +50,7 @@ export default function DailyDeal() {
       {/* Deal pakages start  */}
 
       {/* template */}
-      <div className="customerDetails pt-5">
+      <div className="customerDetails pt-3 ">
         {/* card */}
         <div className="card card-outline-secondary">
           {/* heading */}

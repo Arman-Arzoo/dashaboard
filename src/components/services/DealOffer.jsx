@@ -3,7 +3,7 @@ import apic from "../services/dealimg.png";
 
 export default function DealOffer() {
   return (
-    <div className="card ongoing-deal m-2 ">
+    <div className="card ongoing-deal m-2  ">
       <img src={apic} alt="Card" />
       <p className="bg-dark label pl-2">Order no : 23221</p>
       <p className="heading">Weekend Deal</p>

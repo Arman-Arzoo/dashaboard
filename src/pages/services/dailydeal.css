@@ -2,6 +2,12 @@
   flex: 4;
   padding: 20px;
 }
+.ongoing-deal {
+  border: 0.673742px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 6.73742px;
+  width: 200px;
+}
 .ongoing-deal .label {
   font-size: 13px;
   color: white;
