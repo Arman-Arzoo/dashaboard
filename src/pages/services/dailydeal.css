@@ -2,3 +2,64 @@
   flex: 4;
   padding: 20px;
 }
+.ongoing-deal .label {
+  font-size: 13px;
+  color: white;
+  font-weight: 600;
+}
+.ongoing-deal span {
+  font-size: 10px;
+  padding-left: 4px;
+}
+
+/* overwrite default property */
+.deal-container .col-4,
+.deal-container .col-8 {
+  padding-left: 0px !important;
+}
+
+.ongoing-deal p {
+  margin-bottom: 0px !important;
+}
+.heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.4748px;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-top: 8px;
+
+  /* identical to box height */
+
+  color: #313131;
+}
+.sub-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.7799px;
+  line-height: 16px;
+  padding-left: 10px;
+  color: #313131;
+}
+.normal {
+  padding-left: 10px;
+  font-size: 10px;
+}
+
+/* carousel */
+
+.carousel {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 0.5rem;
+}
