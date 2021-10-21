@@ -63,3 +63,24 @@
   padding: 20px;
   border-radius: 0.5rem;
 }
+
+/* checking */
+.carousel-control-prev-icon {
+  background-image: none;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+}
+.carousel-control-prev-icon i {
+  color: gray;
+}
+
+.carousel-control-next-icon {
+  background-image: none;
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+}
+.carousel-control-next-icon i {
+  color: gray;
+}

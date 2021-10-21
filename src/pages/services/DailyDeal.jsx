@@ -77,29 +77,29 @@ export default function DailyDeal() {
                   </ol> */}
                   <div className="carousel-inner">
                     <div className="carousel-item active ">
-                      <div className="d-none d-lg-block">
-                        <div className="slide-box">
-                          <DealOffer />
-                          <DealOffer />
-                          <DealOffer />
-                          <DealOffer />
-                          <DealOffer />
-                        </div>
+                      {/* <div className="d-none d-lg-block"> */}
+                      <div className="slide-box ">
+                        <DealOffer />
+                        <DealOffer />
+                        <DealOffer />
+                        <DealOffer />
+                        <DealOffer />
                       </div>
+                      {/* </div> */}
                     </div>
                     {/* second round */}
                     <div className="carousel-item">
-                      <div className="d-none d-lg-block">
-                        <div className="slide-box">
-                          {/* items box here  start*/}
-                          <DealOffer />
-                          <DealOffer />
-                          <DealOffer />
-                          <DealOffer />
-                          <DealOffer />
-                          {/* items box end */}
-                        </div>
+                      {/* <div className="d-none d-lg-block"> */}
+                      <div className="slide-box">
+                        {/* items box here  start*/}
+                        <DealOffer />
+                        <DealOffer />
+                        <DealOffer />
+                        <DealOffer />
+                        <DealOffer />
+                        {/* items box end */}
                       </div>
+                      {/* </div> */}
                     </div>
                   </div>
                   <a
@@ -111,7 +111,9 @@ export default function DailyDeal() {
                     <span
                       className="carousel-control-prev-icon"
                       aria-hidden="true"
-                    ></span>
+                    >
+                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </span>
                     <span className="sr-only">Previous</span>
                   </a>
                   <a
@@ -123,7 +125,9 @@ export default function DailyDeal() {
                     <span
                       className="carousel-control-next-icon"
                       aria-hidden="true"
-                    ></span>
+                    >
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
                     <span className="sr-only">Next</span>
                   </a>
                 </div>
