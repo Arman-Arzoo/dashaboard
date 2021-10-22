@@ -2,6 +2,7 @@ import "./dailydeal.css";
 import Search from "../../components/home/search/search";
 import { Link } from "react-router-dom";
 import DealOffer from "../../components/services/DealOffer";
+import apic from "../services/girl.png";
 
 export default function DailyDeal() {
   return (
@@ -22,7 +23,7 @@ export default function DailyDeal() {
                   <h3 className=" mb-0 ">Ongoing deal</h3>
                 </div>
                 {/* body */}
-                <div style={{ display: "flex" }}>
+                <div style={{ display: "flex" }} className=" pt-3 pb-4">
                   {/* card for ongoing deals start */}
                   <DealOffer />
                   <DealOffer />
@@ -33,15 +34,119 @@ export default function DailyDeal() {
           </div>
           <div className="col-8">
             {/* template */}
-            <div className="customerDetails">
-              {/* card */}
-              <div className="card card-outline-secondary">
-                {/* heading */}
-                <div className="card-header">
-                  <h3 className=" mb-0 ">All Customers</h3>
+
+            {/* card */}
+            <div className="card card-outline-secondary">
+              {/* heading */}
+
+              {/* body */}
+              <div>
+                {/* add new deal and services */}
+                <div className="row">
+                  <div className="col-6">
+                    <div className="card-header bg-white">
+                      <h4 className=" mb-0 ">add new deals</h4>
+                    </div>
+                    <div className="p-4">
+                      {/* form from add new deal */}
+                      <form>
+                        <div class="form-group">
+                          <label for="input">Select Services</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Acrylic Full</option>
+                            <option>...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Start Date</label>
+                            <input
+                              type="date"
+                              class="form-control"
+                              id="inputPassword4"
+                              placeholder="04/08/2021"
+                            />
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">End date</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputPassword4"
+                              placeholder="04/08/2021"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">Add Image</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputCity"
+                            />
+                          </div>
+
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">Discount</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputZip"
+                            />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="card mt-3 mr-3">
+                      <div className="deal-services pl-2 pt-2 ">
+                        <img src={apic} alt="" />
+                        <div>
+                          <h6>services</h6>
+                          <div className="deal-services-info">
+                            <div>
+                              <p>Acrylic Full</p>
+                              <p>French Manicure</p>
+                              <p>Reshape Nails</p>
+                            </div>
+                            <div>
+                              <p className="pl-5">$20</p>
+                              <p className="pl-5">$10</p>
+                              <p className="pl-5">$50</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* recipt total deal price */}
+                      <div className="deal-services-total pl-4 pr-4">
+                        <div>
+                          <p>Total</p>
+                          <p>Discount</p>
+                          <p className="font-weight-bold text-dark">
+                            Discounted Price
+                          </p>
+                          <p>Start Date</p>
+                          <p>End Date</p>
+                        </div>
+                        <div>
+                          <p>$80</p>
+                          <p>50%</p>
+                          <p className="font-weight-bold text-dark">$40</p>
+                          <p>11/8/2021</p>
+                          <p>14/8/2021</p>
+                        </div>
+                      </div>
+                    </div>
+                    <Link className="btn btn-dark mt-2 mb-2">
+                      Make a new Deal
+                    </Link>
+                  </div>
                 </div>
-                {/* body */}
-                <div>body</div>
               </div>
             </div>
           </div>

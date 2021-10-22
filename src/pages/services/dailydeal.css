@@ -52,6 +52,45 @@
   font-size: 10px;
 }
 
+/* add new deal css */
+.deal-services {
+  display: flex;
+  border-bottom: 0.67px solid #c4c4c4;
+  overflow-y: scroll;
+  height: 180px;
+  overflow-x: hidden;
+}
+.deal-services img {
+  height: 121.9472427368164px;
+  width: 94.3238296508789px;
+}
+.deal-services-info {
+  display: flex;
+  justify-content: space-around;
+}
+.deal-services-info p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.1698px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #9b9b9b;
+  margin-bottom: 11px;
+}
+.deal-services-total {
+  display: flex;
+  justify-content: space-between;
+}
+.deal-services-total p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.8223px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #9b9b9b;
+  margin-bottom: 8px;
+}
 /* carousel */
 
 .carousel {
