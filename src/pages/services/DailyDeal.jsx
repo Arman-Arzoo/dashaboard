@@ -50,51 +50,74 @@ export default function DailyDeal() {
                     <div className="p-4">
                       {/* form from add new deal */}
                       <form>
-                        <div class="form-group">
+                        <div className="form-group">
                           <label for="input">Select Services</label>
-                          <select id="inputState" class="form-control">
+                          <select id="inputState" className="form-control">
                             <option selected>Acrylic Full</option>
                             <option>...</option>
                             <option>...</option>
                           </select>
                         </div>
 
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
+                        <div className="form-row">
+                          <div className="form-group col-md-6">
                             <label for="inputEmail4">Start Date</label>
                             <input
                               type="date"
-                              class="form-control"
+                              className="form-control"
                               id="inputPassword4"
                               placeholder="04/08/2021"
                             />
                           </div>
-                          <div class="form-group col-md-6">
+                          <div className="form-group col-md-6">
                             <label for="inputPassword4">End date</label>
                             <input
                               type="text"
-                              class="form-control"
+                              className="form-control"
                               id="inputPassword4"
                               placeholder="04/08/2021"
                             />
                           </div>
                         </div>
 
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
+                        <div className="form-row">
+                          <div className="form-group col-md-6">
                             <label for="inputCity">Add Image</label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="inputCity"
-                            />
+
+                            <div class="image-upload">
+                              {" "}
+                              <label for="file_upload">
+                                {" "}
+                                <img src="" alt="" class="uploaded-image" />
+                                <div class="h-100">
+                                  <div class="dplay-tbl">
+                                    <div class="dplay-tbl-cell">
+                                      {" "}
+                                      <i
+                                        class="fa fa-camera"
+                                        aria-hidden="true"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input
+                                  data-required="image"
+                                  type="file"
+                                  name="image_name"
+                                  id="file_upload"
+                                  class="image-input"
+                                  data-traget-resolution="image_resolution"
+                                  value=""
+                                />
+                              </label>{" "}
+                            </div>
                           </div>
 
-                          <div class="form-group col-md-2">
+                          <div className="form-group col-md-2">
                             <label for="inputZip">Discount</label>
                             <input
                               type="text"
-                              class="form-control"
+                              className="form-control"
                               id="inputZip"
                             />
                           </div>
@@ -217,7 +240,7 @@ export default function DailyDeal() {
                       className="carousel-control-prev-icon"
                       aria-hidden="true"
                     >
-                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                      <i className="fa fa-chevron-left" aria-hidden="true"></i>
                     </span>
                     <span className="sr-only">Previous</span>
                   </a>
@@ -231,7 +254,7 @@ export default function DailyDeal() {
                       className="carousel-control-next-icon"
                       aria-hidden="true"
                     >
-                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                      <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     </span>
                     <span className="sr-only">Next</span>
                   </a>
