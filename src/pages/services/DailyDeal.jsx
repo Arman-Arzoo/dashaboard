@@ -47,7 +47,7 @@ export default function DailyDeal() {
                     <div className="card-header bg-white">
                       <h4 className=" mb-0 ">add new deals</h4>
                     </div>
-                    <div className="p-4">
+                    <div className="pl-4 pt-3">
                       {/* form from add new deal */}
                       <form>
                         <div className="form-group">
@@ -113,13 +113,22 @@ export default function DailyDeal() {
                             </div>
                           </div>
 
-                          <div className="form-group col-md-2">
+                          <div className="form-group col-md-4 pl-3">
                             <label for="inputZip">Discount</label>
-                            <input
-                              type="text"
-                              className="form-control"
-                              id="inputZip"
-                            />
+                            <div
+                              style={{
+                                display: "flex",
+                                alignItems: "center",
+                                width: "100%",
+                              }}
+                            >
+                              <input
+                                type="text"
+                                className="form-control "
+                                id="inputZip"
+                              />
+                              <span className="pl-3 font-weight-bold">%</span>
+                            </div>
                           </div>
                         </div>
                       </form>
