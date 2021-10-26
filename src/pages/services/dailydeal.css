@@ -18,7 +18,7 @@
   padding-left: 4px;
 }
 
-/* overwrite default property */
+/* overwrite default property  for deal deal div*/
 .deal-container .col-4,
 .deal-container .col-8 {
   padding-left: 0px !important;
@@ -34,9 +34,6 @@
   line-height: 20px;
   padding-left: 10px;
   padding-top: 8px;
-
-  /* identical to box height */
-
   color: #313131;
 }
 .sub-heading {
@@ -50,6 +47,43 @@
 .normal {
   padding-left: 10px;
   font-size: 10px;
+}
+
+/* deal deal edit and delete icon */
+.circle-div-right {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 73.86%;
+  right: 13.07%;
+  top: 3.99%;
+  bottom: 87.26%;
+  background: #ff5050;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+.circle-div-left {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 4.55%;
+  right: 90.39%;
+  top: 3.99%;
+  bottom: 87.26%;
+  background: #7a7a7a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+.ongoing-deal i {
+  font-size: 16px;
+  color: white;
 }
 
 /* add new deal css */
@@ -92,6 +126,7 @@
   margin-bottom: 8px;
 }
 /* carousel */
+/* daily deal carousel dev */
 
 .carousel {
   width: 100%;
@@ -109,7 +144,6 @@
   border-radius: 0.5rem;
 }
 
-/* checking */
 .carousel-control-prev-icon {
   background-image: none;
   position: absolute;
@@ -130,7 +164,7 @@
   color: gray;
 }
 
-/* checking
+/* add new deal image
  */
 
 .image-upload {

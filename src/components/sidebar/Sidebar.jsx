@@ -75,16 +75,22 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
-            <Link to="/Payment" className="link">
-              <li className="sidebarListItem">
-                <img
-                  className="sidebarIcon"
-                  src={CurrencyCircleDollar}
-                  alt="house"
-                />
-                Payment
-              </li>
-            </Link>
+            <li className="sidebarListItem">
+              <img
+                className="sidebarIcon"
+                src={CurrencyCircleDollar}
+                alt="house"
+              />
+              Payment
+            </li>
+            <ul className="pl-5 pt-1">
+              <Link to="/payments/customers" className="link">
+                <li>Customers</li>
+              </Link>
+              <Link to="/payments/artists" className="link">
+                <li className="pt-2">Artists </li>
+              </Link>
+            </ul>
           </ul>
         </div>
 

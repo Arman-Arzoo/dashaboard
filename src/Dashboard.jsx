@@ -6,12 +6,13 @@ import Customers from "./pages/users/Customers";
 import Booking from "./pages/booking/Booking";
 import DailyDeal from "./pages/services/DailyDeal";
 import AllServices from "./pages/services/AllServices";
-import Payment from "./pages/payment/Payment";
 import Team from "./pages/team/Team";
 import Chat from "./pages/chat/Chat";
 import Admin from "./pages/admin/Admin";
 import Setting from "./pages/setting/Setting";
 import Artists from "./pages/users/Artists";
+import Pcustomers from "./pages/payment/Pcustomers";
+import Partists from "./pages/payment/Partists";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -40,8 +41,11 @@ export default function Dashborad() {
           <Route path="/all-services">
             <AllServices />
           </Route>
-          <Route path="/payment">
-            <Payment />
+          <Route path="/payments/customers">
+            <Pcustomers />
+          </Route>
+          <Route path="/payments/artists">
+            <Partists />
           </Route>
           <Route path="/team">
             <Team />

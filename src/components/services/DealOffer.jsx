@@ -5,6 +5,13 @@ export default function DealOffer() {
   return (
     <div className="card ongoing-deal m-2  ">
       <img src={apic} alt="Card" />
+      <span className="circle-div-right">
+        <i className="fa fa-trash-o " aria-hidden="true"></i>
+      </span>
+      <span className="circle-div-left">
+        <i className="fa fa-pencil " aria-hidden="true"></i>
+      </span>
+
       <p className="bg-dark label pl-2">Order no : 23221</p>
       <p className="heading">Weekend Deal</p>
       <p className="sub-heading pt-1">Service</p>
