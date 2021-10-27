@@ -2,3 +2,10 @@
   flex: 4;
   padding-left: 20px;
 }
+
+.artist-payment-div {
+  padding-left: 0px !important;
+}
+.make-payment-div {
+  padding-left: 0px !important;
+}
