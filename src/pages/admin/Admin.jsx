@@ -29,7 +29,42 @@ export default function Admin() {
           </div>
           {/* body */}
           <div className="artist-card-body pl-4">
-          body area
+          {/* admin table */}
+           {/* table for artish detail*/}
+           <table class="table table-striped">
+              <thead>
+                {/* table list */}
+                <tr>
+                  <th>No</th>
+                  <th>Name</th>
+                  <th>Contact No</th>
+                  <th>Email Address</th>
+                  <th>Role</th>
+                  <th>Status</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                {/* table body item1 start */}
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <div className="artist-img">
+                      <img src="" alt="" />
+                      <span>Wade Warren</span>
+                    </div>
+                  </td>
+                  <td>02552215</td>
+                  <td>@gmail.com</td>
+                  <td>
+                    Owner
+                  </td>
+                  <td>Active</td>
+                  <td>view Detail</td>
+                </tr>
+                {/* table body item1 end */}
+              </tbody>
+            </table>
 
           </div>
           
