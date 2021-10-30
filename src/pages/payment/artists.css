@@ -20,3 +20,10 @@ line-height: 30px;
 
 color: #7A7A7A;
 }
+
+
+.make-payment-body button{
+  background: #313131;
+border-radius: 5.40767px;
+color: white;
+}

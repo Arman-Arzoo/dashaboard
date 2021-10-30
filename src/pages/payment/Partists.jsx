@@ -149,7 +149,7 @@ export default function Partists() {
                           className="form-control "
                           id="PayableAmount"
                         />
-                        <button className="btn ">Send</button>
+                        <button className="btn ml-4 ">Send</button>
                       </div>
                     </div>
                   </div>
