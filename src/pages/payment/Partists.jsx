@@ -67,10 +67,11 @@ export default function Partists() {
                 <h3 className=" mb-0 ">Make Payments</h3>
               </div>
               {/* body */}
-              <div className="p-1">
-                Date: 11/08/2021
-                <div>
-                  current balance : <span className="float-right">$5000</span>
+              <div className="p-3 make-payment-body">
+             
+                <div>Date: <span className="pl-2">11/08/2021</span> </div>
+                <div className="pt-3">
+                  current balance : <span className="float-right font-weight-bold">$5000</span>
                 </div>
                 {/* form */}
                 <form className="mt-5">
@@ -117,11 +118,12 @@ export default function Partists() {
                   </div>
 
                   <div className="form-row">
-                    <div className="form-group col-md-10">
+                    <div className="form-group col-md-11">
                       <label for="payableAmount">Amount</label>
                       <div
                         style={{
                           display: "flex",
+                          
                         }}
                       >
                         <input
@@ -129,7 +131,7 @@ export default function Partists() {
                           className="form-control "
                           id="PayableAmount"
                         />
-                        <p>commission:12%</p>
+                        <p className="pl-3"> commission:12%</p>
                       </div>
                     </div>
                   </div>

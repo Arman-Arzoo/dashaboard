@@ -9,3 +9,14 @@
 .make-payment-div {
   padding-left: 0px !important;
 }
+
+.make-payment-body label{
+  font-style: normal;
+font-weight: 500;
+font-size: 14.2787px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #7A7A7A;
+}
