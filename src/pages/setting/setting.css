@@ -26,6 +26,9 @@ box-sizing: border-box;
 border-radius: 8px
 
 }
+.setting-active{
+  border: 4px solid #313131 !important
+}
 .setting-menu-container p{
   font-style: normal;
 font-weight: 600;
