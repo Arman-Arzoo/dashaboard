@@ -156,3 +156,10 @@ input[type="checkbox"].switch:checked:after {
 .tue {
   margin-left: 100px !important;
 }
+
+/* setting image profile */
+.setting-image-profile {
+  border: 0.67px solid #9b9b9b;
+  box-sizing: border-box;
+  border-radius: 5.38993px;
+}
