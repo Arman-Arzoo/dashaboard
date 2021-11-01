@@ -100,7 +100,9 @@ export default function ProfileSetting() {
                     />
                   </div>
                   <div className="form-group col-md-4">
-                    <button className="btn">Save changes</button>
+                    <button className="btn btn-profile-update">
+                      Save changes
+                    </button>
                   </div>
                 </div>
               </div>

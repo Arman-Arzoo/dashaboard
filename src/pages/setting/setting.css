@@ -219,3 +219,10 @@ input[type="checkbox"].switch:checked:after {
   top: 0;
   left: 0;
 }
+
+.btn-profile-update {
+  background: #313131;
+  border-radius: 8px;
+  color: white;
+  margin-top: 32px;
+}
