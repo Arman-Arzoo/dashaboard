@@ -2,3 +2,18 @@
   flex: 4;
   padding: 20px;
 }
+.setting-div{
+  display: flex;
+}
+
+.setting-wrapper{
+  padding: 20px;
+
+}
+.setting-content{
+
+  flex: 4;
+}
+.setting-sidebar{
+flex: 1;
+}

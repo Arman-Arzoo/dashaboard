@@ -9,10 +9,17 @@ export default function Setting() {
         <div className="card card-outline-secondary">
           {/* heading */}
           <div className="card-header">
-            <h3 className=" mb-0 ">All Customers</h3>
+            <h3 className=" mb-0 ">Settings</h3>
           </div>
           {/* body */}
-          <div>body</div>
+          <div className="setting-div">
+            <div className="setting-sidebar">
+            <div className="setting-wrapper">
+                 setting item
+            </div>
+            </div>
+            <div className="setting-content">setting content</div>
+          </div>
         </div>
       </div>
     </div>
