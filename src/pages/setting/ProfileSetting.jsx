@@ -17,7 +17,34 @@ export default function ProfileSetting() {
               <div className="setting-image-profile p-3 m-3">
                 <p>Change Profile Picture</p>
                 <img src={propic} alt="" />
-                <input type="file" name="" id="" />
+                <div className="circle-div-setting">
+                  {/* demo start */}
+                  <div class="image-upload-setting mt-3">
+                    {" "}
+                    <label for="file_upload-setting">
+                      {" "}
+                      <img src="" alt="" class="uploaded-image" />
+                      <div class="h-100">
+                        <div class="dplay-tbl">
+                          <div class="dplay-tbl-cell">
+                            {" "}
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <input
+                        data-required="image"
+                        type="file"
+                        name="image_name"
+                        id="file_upload"
+                        class="image-input"
+                        data-traget-resolution="image_resolution"
+                        value=""
+                      />
+                    </label>{" "}
+                  </div>
+                  {/* demo end */}
+                </div>
               </div>
               <div>
                 <div className="form-row pt-4 pl-5">

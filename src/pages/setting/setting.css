@@ -163,3 +163,59 @@ input[type="checkbox"].switch:checked:after {
   box-sizing: border-box;
   border-radius: 5.38993px;
 }
+
+.setting-image-profile img {
+  border: 6px solid #ff5050;
+  border-radius: 50%;
+  width: 180.12px;
+  height: 180.12px;
+}
+
+.circle-div-setting {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 18.55%;
+  right: 90.39%;
+  top: 70%;
+
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+/* add new image */
+
+.image-upload-setting {
+  width: 100%;
+  height: 90px;
+  position: relative;
+  text-align: center;
+  color: #666;
+  overflow: hidden;
+}
+
+.image-upload-setting img {
+  height: 100% !important;
+  width: auto !important;
+  border-radius: 0px;
+  margin: 0 auto;
+}
+
+.image-upload-setting i {
+  font-size: 2em;
+}
+
+.image-upload-setting input {
+  cursor: pointer;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
