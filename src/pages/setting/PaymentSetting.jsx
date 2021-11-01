@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function PaymentSetting() {
-    return (
-        <div>
-            {/* template */}
+  return (
+    <div>
+      {/* template */}
       <div className="">
         {/* card */}
         <div className="card card-outline-secondary">
@@ -15,6 +15,6 @@ export default function PaymentSetting() {
           <div>body</div>
         </div>
       </div>
-        </div>
-    )
+    </div>
+  );
 }

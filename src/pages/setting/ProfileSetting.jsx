@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function ProfileSetting() {
-    return (
-        <div>
-            {/* template */}
+  return (
+    <div>
+      {/* template */}
       <div className="">
         {/* card */}
         <div className="card card-outline-secondary">
@@ -15,6 +15,6 @@ export default function ProfileSetting() {
           <div>body</div>
         </div>
       </div>
-        </div>
-    )
+    </div>
+  );
 }

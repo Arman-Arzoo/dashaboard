@@ -2,52 +2,46 @@
   flex: 4;
   padding: 20px;
 }
-.setting-div{
+.setting-div {
   display: flex;
 }
 
-.setting-wrapper{
+.setting-wrapper {
   padding: 15px;
-  
-
-
 }
-.setting-menu{
-  box-shadow: 0px 0.6518933176994324px 6.518933296203613px 4.563252925872803px #0000000F;
+.setting-menu {
+  box-shadow: 0px 0.6518933176994324px 6.518933296203613px 4.563252925872803px
+    #0000000f;
   padding: 10px;
 }
-.setting-menu-container{
-  border: 1px solid #ECECEC;
+.setting-menu-container {
+  border: 1px solid #ececec;
   /* border: 4px solid #313131 */
-width: 100px;
-text-align: center;
-padding-top: 10px;
-box-sizing: border-box;
-border-radius: 8px
-
+  width: 100px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
-.setting-active{
-  border: 4px solid #313131 !important
+.setting-active {
+  border: 4px solid #313131 !important;
 }
-.setting-menu-container p{
+.setting-menu-container p {
   font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 18px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
 
-color: #313131;
-padding-top: 10px;
+  color: #313131;
+  padding-top: 10px;
 }
-.setting-content{
-
+.setting-content {
   flex: 4;
 }
-.setting-sidebar{
-flex: 1;
+.setting-sidebar {
+  flex: 1;
 }
 
-
-.setting-display{
+.setting-display {
   display: flex;
- 
 }

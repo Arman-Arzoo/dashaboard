@@ -67,7 +67,6 @@ export default function Setting() {
             </div>
             <div className="setting-content ">
               <SettingsContent />
-              
             </div>
           </div>
         </div>
