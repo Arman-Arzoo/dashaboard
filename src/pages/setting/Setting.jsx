@@ -1,4 +1,6 @@
 import "./setting.css";
+import {Link} from 'react-router-dom';
+import settingicon from '../setting/settingsicon.png'
 
 export default function Setting() {
   return (
@@ -15,7 +17,57 @@ export default function Setting() {
           <div className="setting-div">
             <div className="setting-sidebar">
             <div className="setting-wrapper">
-                 setting item
+                 <div className="setting-menu">
+
+                <div className="setting-display">
+                <div className="setting-menu-container">
+                  <Link>
+                    <img src={settingicon} alt="" />
+                     <p>setting</p>
+                     </Link>
+                </div>
+
+                <div className="setting-menu-container ml-3">
+                  <Link>
+                    <img src={settingicon} alt="" />
+                     <p>setting</p>
+                     </Link>
+                </div>
+                </div>
+
+
+                <div className="setting-display">
+                <div className="setting-menu-container mt-3">
+                  <Link>
+                    <img src={settingicon} alt="" />
+                     <p>setting</p>
+                     </Link>
+                </div>
+
+                <div className="setting-menu-container ml-3 mt-3">
+                  <Link>
+                    <img src={settingicon} alt="" />
+                     <p>setting</p>
+                     </Link>
+                </div>
+                </div>
+                <div className="setting-display">
+              
+
+                <div className="setting-menu-container  mt-3">
+                  <Link>
+                    <img src={settingicon} alt="" />
+                     <p>setting</p>
+                     </Link>
+                </div>
+                </div>
+
+                
+
+
+
+                
+                 </div>
             </div>
             </div>
             <div className="setting-content">setting content</div>
