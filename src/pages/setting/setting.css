@@ -45,3 +45,89 @@
 .setting-display {
   display: flex;
 }
+
+/* General setting page content */
+.general-setting-form p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #313131;
+}
+.general-setting-form button {
+  background: #313131;
+  border-radius: 8px;
+  color: white;
+}
+.general-setting-form .update-btn {
+  margin-top: 30px !important;
+}
+
+/* Alert and notification setting page */
+
+input[type="checkbox"].switch {
+  font-size: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 1.5em;
+  height: 0.8em;
+  background: #ddd;
+  border-radius: 3em;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="checkbox"].switch:checked {
+  background: #0ebeff;
+}
+
+input[type="checkbox"].switch:after {
+  position: absolute;
+  content: "";
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(0.7);
+  transform: scale(0.7);
+  left: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="checkbox"].switch:checked:after {
+  left: calc(100% - 0.8em);
+}
+
+.alert-notification-setting {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* payment setting page */
+.payment-setting button {
+  margin-top: 30px;
+  background: #313131;
+  border-radius: 8px;
+  color: white;
+}
+
+/* select#payment-card option[value="v-card"] {
+  background-image: url(./visa.png);
+} */
+
+/* support setting pages css */
+.alert-notification-setting small {
+  color: #9b9b9b;
+}
+.alert-notification-setting button {
+  background: #313131;
+  border-radius: 8px;
+  color: white;
+}
