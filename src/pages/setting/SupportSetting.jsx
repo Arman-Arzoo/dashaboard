@@ -56,6 +56,209 @@ export default function SupportSetting() {
                 <input type="checkbox" className="switch" />
               </div>
             </div>
+
+            <div class="custom-control custom-checkbox mt-2">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customCheck1"
+              />
+              <label class="custom-control-label" for="customCheck1">
+                Enable Chat for all Days(24*7)
+              </label>
+            </div>
+
+            <p className="pt-3 pl-5">or</p>
+            <div class="custom-control custom-checkbox mt-2">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customCheck1"
+              />
+              <label class="custom-control-label" for="customCheck1">
+                Monday
+              </label>
+              <input
+                className="mon"
+                type="time"
+                id="appt"
+                name="appt"
+                readOnly
+                value="11:30"
+              ></input>
+              <input
+                className="ml-3"
+                type="time"
+                id="appt"
+                name="appt"
+                readOnly
+                value="07:00"
+              ></input>
+            </div>
+
+            <div class="custom-control custom-checkbox mt-2">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customCheck1"
+                value="11:30"
+              />
+              <label class="custom-control-label" for="customCheck1">
+                Tuesday
+              </label>
+              <input
+                className="tue"
+                type="time"
+                id="appt"
+                name="appt"
+                value="11:30"
+                readOnly
+              ></input>
+              <input
+                className="ml-3"
+                type="time"
+                id="appt"
+                name="appt"
+                value="07:00"
+                readOnly
+              ></input>
+            </div>
+
+            <div class="custom-control custom-checkbox mt-2">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customCheck1"
+              />
+              <label class="custom-control-label" for="customCheck1">
+                Wednesday
+              </label>
+              <input
+                className="timeinterval wed"
+                type="time"
+                id="appt"
+                name="appt"
+                value="11:30"
+                readOnly
+              ></input>
+              <input
+                className="ml-3"
+                type="time"
+                id="appt"
+                name="appt"
+                value="07:00"
+                readOnly
+              ></input>
+            </div>
+
+            <div class="custom-control custom-checkbox mt-2">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customCheck1"
+              />
+              <label class="custom-control-label" for="customCheck1">
+                Thursday
+              </label>
+              <input
+                className="thur"
+                type="time"
+                id="appt"
+                name="appt"
+                value="11:30"
+                readOnly
+              ></input>
+              <input
+                className="ml-3"
+                type="time"
+                id="appt"
+                name="appt"
+                readOnly
+                value="07:00"
+              ></input>
+            </div>
+
+            <div class="custom-control custom-checkbox mt-2">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customCheck1"
+              />
+              <label class="custom-control-label" for="customCheck1">
+                Firday
+              </label>
+              <input
+                className="fir"
+                type="time"
+                id="appt"
+                name="appt"
+                value="11:30"
+                readOnly
+              ></input>
+              <input
+                className="ml-3"
+                type="time"
+                id="appt"
+                name="appt"
+                readOnly
+                value="07:00"
+              ></input>
+            </div>
+
+            <div class="custom-control custom-checkbox mt-2">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customCheck1"
+              />
+              <label class="custom-control-label" for="customCheck1">
+                Saturday
+              </label>
+              <input
+                className="sat"
+                type="time"
+                id="appt"
+                name="appt"
+                value="11:30"
+                readOnly
+              ></input>
+              <input
+                className="ml-3"
+                type="time"
+                id="appt"
+                name="appt"
+                value="07:00"
+                readOnly
+              ></input>
+            </div>
+
+            <div class="custom-control custom-checkbox mt-2">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customCheck1"
+              />
+              <label class="custom-control-label" for="customCheck1">
+                Sunday
+              </label>
+              <input
+                className="sun"
+                type="time"
+                id="appt"
+                name="appt"
+                value="11:30"
+                readOnly
+              ></input>
+              <input
+                className="ml-3"
+                type="time"
+                id="appt"
+                name="appt"
+                readOnly
+                value="07:00"
+              ></input>
+            </div>
+            <small>*Set the Time format in 24h (e.g-15:30:00)</small>
           </div>
         </div>
       </div>

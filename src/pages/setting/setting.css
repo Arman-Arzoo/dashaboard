@@ -131,3 +131,28 @@ input[type="checkbox"].switch:checked:after {
   border-radius: 8px;
   color: white;
 }
+.wed {
+  margin-left: 72px !important;
+}
+.sun {
+  margin-left: 100px !important;
+}
+.fir {
+  margin-left: 120px !important;
+}
+.sun {
+  margin-left: 108px !important;
+}
+.sat {
+  margin-left: 96px !important;
+}
+.thur {
+  margin-left: 94px !important;
+}
+
+.mon {
+  margin-left: 100px !important;
+}
+.tue {
+  margin-left: 100px !important;
+}
