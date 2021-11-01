@@ -8,9 +8,7 @@ import ProfileSetting from './ProfileSetting'
 
 export default function SettingsContent() {
     return (
-        <div>
-            
-          
+        <div className="pt-3 pr-2 ">
             <Route path="/setting/general-setting" component={GeneralSetting}></Route>
             <Route path="/setting/alert-notification" component={AlertNotification}></Route>
             <Route path="/setting/payment-setting" component={PaymentSetting}></Route>

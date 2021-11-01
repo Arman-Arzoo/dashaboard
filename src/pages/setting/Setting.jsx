@@ -65,8 +65,9 @@ export default function Setting() {
                 </div>
               </div>
             </div>
-            <div className="setting-content">
+            <div className="setting-content ">
               <SettingsContent />
+              
             </div>
           </div>
         </div>
