@@ -191,7 +191,7 @@ export default function ArtistProfile() {
                     <li>5</li>
                     <li>6</li>
                     <li>7</li>
-                    <li>8</li>
+                    {/* <li>8</li>
                     <li>9</li>
                     <li>
                       <span class="active">10</span>
@@ -216,13 +216,38 @@ export default function ArtistProfile() {
                     <li>28</li>
                     <li>29</li>
                     <li>30</li>
-                    <li>31</li>
+                    <li>31</li> */}
                   </ul>
+
+                  <h5 className=" mb-0 pl-3 pt-3">Available slots </h5>
+                  <div className="available-slot p-2">
+                    <p>9:00 am</p>
+                    <p>9:30 am</p>
+                    <p>10:00 am</p>
+                    <p>10:30 am</p>
+                    <p>11:00 am</p>
+                    <p>11:30 am</p>
+                    <p>12:00 pm</p>
+                    <p>12:30 pm</p>
+                    <p>1:00 pm</p>
+                    <p>1:30 pm</p>
+                    <p>2:00 pm</p>
+                    <p>2:30 pm</p>
+                    <p>3:00 pm</p>
+                    <p>3:30 pm</p>
+                    <p>4:00 pm</p>
+                    <p>4:30 pm</p>
+                    <p>5:00 pm</p>
+                    <p>5:30 pm</p>
+                    <p>6:00 pm</p>
+                    <p>6:30 pm</p>
+                    <p>7:00 pm</p>
+                  </div>
                 </div>
               </div>
 
               {/* customer reviews */}
-              <div className="card card-outline-secondary mt-4">
+              <div className="card card-outline-secondary mt-2">
                 {/* heading */}
                 <div className="card-header">
                   <h5 className=" mb-0 ">Customer Reviews</h5>

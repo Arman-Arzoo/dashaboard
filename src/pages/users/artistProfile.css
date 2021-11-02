@@ -43,6 +43,7 @@
 .artist-customer-reviews {
   overflow-y: scroll;
   overflow-x: hidden;
+  height: 310px;
 }
 
 .artist-profile-services-div p {
@@ -57,7 +58,7 @@
 /* available slot detail */
 /* Month header */
 .month {
-  padding: 10px 25px;
+  padding: 1px 15px;
   width: 100%;
   background: #f6f6f6;
   text-align: center;
@@ -126,5 +127,23 @@
 }
 ul {
   list-style-type: none;
+}
+.available-slot {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.available-slot p {
+  font-weight: 600;
+  font-size: 14.5568px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #bbb7b7;
+  background: #f6f6f6;
+  width: 80px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-align: center;
 }
 /* available slot detail end */
