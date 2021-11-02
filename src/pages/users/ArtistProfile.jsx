@@ -3,6 +3,7 @@ import Search from "../../components/home/search/search";
 import artistprofile from "../users/artistprofile.png";
 import rated from "../users/rated.png";
 import unrated from "../users/unrated.png";
+import reviewpic from "../users/reviewpic.png";
 import "./artistProfile.css";
 
 export default function ArtistProfile() {
@@ -150,7 +151,154 @@ export default function ArtistProfile() {
                 </div>
               </div>
             </div>
-            <div className="col-8"></div>
+            <div className="col-8">
+              {/* available slot detail */}
+              <div className="card card-outline-secondary">
+                {/* heading */}
+                <div className="card-header">
+                  <h5 className=" mb-0 ">available slot details</h5>
+                </div>
+                {/* body */}
+                <div>
+                  {/* calender */}
+                  <div class="month">
+                    <ul>
+                      <li class="prev">&#10094;</li>
+                      <li class="next">&#10095;</li>
+                      <li>
+                        August
+                        <br />
+                        <span>2021</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <ul class="weekdays">
+                    <li>Mo</li>
+                    <li>Tu</li>
+                    <li>We</li>
+                    <li>Th</li>
+                    <li>Fr</li>
+                    <li>Sa</li>
+                    <li>Su</li>
+                  </ul>
+
+                  <ul class="days">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>
+                      <span class="active">10</span>
+                    </li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* customer reviews */}
+              <div className="card card-outline-secondary mt-4">
+                {/* heading */}
+                <div className="card-header">
+                  <h5 className=" mb-0 ">Customer Reviews</h5>
+                </div>
+                {/* body */}
+                <div className="artist-customer-reviews p-2">
+                  {/* review here 1 */}
+                  <div className="row ">
+                    <div className="col-10 customer-review-info">
+                      <img src={reviewpic} alt="profile" />
+                      <span>Sarah Doe</span>
+                      <p>Awesome ! Highly recommended</p>
+                    </div>
+                    <div className="col-2 customer-review-rating">
+                      <span>3.5</span>
+                      <img src={rated} alt="rating" />
+                    </div>
+                  </div>
+                  {/* reviews end*/}
+
+                  {/* review here 2*/}
+                  <div className="row ">
+                    <div className="col-10 customer-review-info">
+                      <img src={reviewpic} alt="profile" />
+                      <span>Sarah Doe</span>
+                      <p>Awesome ! Highly recommended</p>
+                    </div>
+                    <div className="col-2 customer-review-rating">
+                      <span>3.5</span>
+                      <img src={rated} alt="rating" />
+                    </div>
+                  </div>
+                  {/* reviews end*/}
+
+                  {/* review here 3 */}
+                  <div className="row ">
+                    <div className="col-10 customer-review-info">
+                      <img src={reviewpic} alt="profile" />
+                      <span>Sarah Doe</span>
+                      <p>Awesome ! Highly recommended</p>
+                    </div>
+                    <div className="col-2 customer-review-rating">
+                      <span>3.5</span>
+                      <img src={rated} alt="rating" />
+                    </div>
+                  </div>
+                  {/* reviews end*/}
+                  {/* review here 4 */}
+                  <div className="row ">
+                    <div className="col-10 customer-review-info">
+                      <img src={reviewpic} alt="profile" />
+                      <span>Sarah Doe</span>
+                      <p>Awesome ! Highly recommended</p>
+                    </div>
+                    <div className="col-2 customer-review-rating">
+                      <span>3.5</span>
+                      <img src={rated} alt="rating" />
+                    </div>
+                  </div>
+                  {/* reviews end*/}
+                  {/* review here 5 */}
+                  <div className="row ">
+                    <div className="col-10 customer-review-info">
+                      <img src={reviewpic} alt="profile" />
+                      <span>Sarah Doe</span>
+                      <p>Awesome ! Highly recommended</p>
+                    </div>
+                    <div className="col-2 customer-review-rating">
+                      <span>3.5</span>
+                      <img src={rated} alt="rating" />
+                    </div>
+                  </div>
+                  {/* reviews end*/}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
