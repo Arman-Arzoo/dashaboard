@@ -146,4 +146,8 @@ ul {
   margin-left: 10px;
   text-align: center;
 }
+.available-slot .active {
+  background: #313131;
+  color: white;
+}
 /* available slot detail end */

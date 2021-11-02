@@ -230,15 +230,15 @@ export default function ArtistProfile() {
                     <p>12:00 pm</p>
                     <p>12:30 pm</p>
                     <p>1:00 pm</p>
-                    <p>1:30 pm</p>
+                    <p className="active">1:30 pm</p>
                     <p>2:00 pm</p>
                     <p>2:30 pm</p>
                     <p>3:00 pm</p>
-                    <p>3:30 pm</p>
+                    <p className="active">3:30 pm</p>
                     <p>4:00 pm</p>
                     <p>4:30 pm</p>
                     <p>5:00 pm</p>
-                    <p>5:30 pm</p>
+                    <p className="active">5:30 pm</p>
                     <p>6:00 pm</p>
                     <p>6:30 pm</p>
                     <p>7:00 pm</p>
@@ -322,6 +322,61 @@ export default function ArtistProfile() {
                   </div>
                   {/* reviews end*/}
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* job post */}
+        <div className="ml-3 mr-3 mb-2">
+          <div className="container-fluid mt-2  job-post">
+            <div className="row">
+              <div className="col-12">
+                <div className="job-post-head">
+                  <div>
+                    {/* <span className="jobs-count">20 </span> */}
+                    <span>Job Done</span>
+                  </div>
+                  <div>
+                    {" "}
+                    <span>Total Job Done</span>
+                    <span className="jobs-count pl-2">150 </span>
+                  </div>
+                </div>
+                {/* table for recent activity*/}
+                <table class="table table-striped">
+                  <thead>
+                    {/* table list */}
+                    <tr>
+                      <th>No</th>
+                      <th>Order ID</th>
+                      <th>Service ID</th>
+                      <th>Amount</th>
+                      <th>Client's Name</th>
+                      <th>Location</th>
+                      <th>Date/time</th>
+                      <th>Payment</th>
+                      <th>Commission</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {/* table body item1 start */}
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>04/08/2021</td>
+                      <td>01:00PM</td>
+                      <td>Acrylic Nail art</td>
+                      <td>Tina Fox</td>
+                      <td>8502 Preston Rd. Inglewood, Maine 98380</td>
+                      <td>$20</td>
+                      <td className="job-post-btn-status">
+                        <button className="mr-2 approve">Paid</button>
+                      </td>
+                      <td>12%</td>
+                    </tr>
+                    {/* table body item1 end */}
+                  </tbody>
+                </table>
+                {/* table end */}
               </div>
             </div>
           </div>
