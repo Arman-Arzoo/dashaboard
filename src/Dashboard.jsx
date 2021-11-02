@@ -13,6 +13,7 @@ import Setting from "./pages/setting/Setting";
 import Artists from "./pages/users/Artists";
 import Pcustomers from "./pages/payment/Pcustomers";
 import Partists from "./pages/payment/Partists";
+import ArtistProfile from "./pages/users/ArtistProfile";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -29,8 +30,11 @@ export default function Dashborad() {
           <Route path="/customers">
             <Customers />
           </Route>
-          <Route path="/artists">
+          <Route exact path="/artists">
             <Artists />
+          </Route>
+          <Route exact path="/artists/artist-profile">
+            <ArtistProfile />
           </Route>
           <Route path="/booking">
             <Booking />

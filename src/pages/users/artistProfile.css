@@ -1,0 +1,40 @@
+.artist-profile-detail-div {
+  display: flex;
+}
+
+.artist-profile-detail-div .img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ff5050;
+  border-radius: 50%;
+}
+
+.artist-card-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.artist-card-header-info button {
+  background: #404040;
+  border-radius: 6.51893px;
+  color: white;
+}
+
+.artist-timeline-table {
+  display: flex;
+  align-items: flex-start;
+}
+
+.artist-table th {
+  font-size: 15px;
+}
+
+.colour {
+  color: red;
+}
+
+.artist-profile-services-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
