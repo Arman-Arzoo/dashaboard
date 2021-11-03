@@ -39,6 +39,40 @@
   align-items: center;
 }
 
+/* timeline */
+.timeline-artist-location {
+  margin-left: 15px;
+  border-left: 2px solid #ccc;
+  padding: 0 20px 0 30px;
+}
+
+.timeline-artist-location p {
+  font-size: 12px;
+}
+.timeline-artist-location h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.timeline-artist-location::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  border: 3px solid #ddd;
+  position: absolute;
+  left: 172px;
+  top: 92%;
+}
+
+.timeline-artist-location i {
+  position: absolute;
+  left: 175px;
+  top: 45%;
+  font-size: 22px;
+  color: #ff5050;
+}
 /* customer reviews */
 .artist-customer-reviews {
   overflow-y: scroll;

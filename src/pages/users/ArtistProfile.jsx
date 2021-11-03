@@ -46,10 +46,10 @@ export default function ArtistProfile() {
               <div>
                 <div className="artist-timeline-table">
                   {/* google map */}
-                  <div className="pt-2">
+                  <div className="mt-4">
                     <iframe
                       width="150"
-                      height="180"
+                      height="240"
                       frameborder="0"
                       scrolling="no"
                       marginheight="0"
@@ -77,7 +77,23 @@ export default function ArtistProfile() {
                         </tr>
                       </tbody>
                     </table>
-                    dkjfk
+                    {/* timeline  start*/}
+                    <div className="timeline-artist-location">
+                      <div>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <h5>Customer’s Location</h5>
+                        <p>xyz street , 123 block , abc</p>
+                      </div>
+                      <div>
+                        <h5>Time Left</h5>
+                        <p>5 min</p>
+                      </div>
+                      <div>
+                        <h5>Artist’s Location </h5>
+                        <p>xyz street , 123 block , abc</p>
+                      </div>
+                    </div>
+                    {/* timeline  end*/}
                   </div>
                 </div>
               </div>
