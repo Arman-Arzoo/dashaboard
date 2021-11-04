@@ -3,3 +3,34 @@
 
   border: 1px solid rgb(232, 232, 240);
 }
+
+.admin-most-recent-activity {
+  display: flex;
+  justify-content: space-between;
+}
+.admin-most-recent-activity .img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+  border: 1px solid #313131;
+}
+
+.admin-most-recent-activity p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 33px;
+  margin-bottom: 0rem !important ;
+  padding-left: 10px;
+
+  color: #9b9b9b;
+}
+
+.admin-most-recent-activity .simg {
+  width: 80px;
+  height: 80px;
+  border: 1.36748px solid #ffffff;
+  box-shadow: 0px 1.61118px 2.81957px 0.805592px rgba(0, 0, 0, 0.12);
+  border-radius: 4.02796px;
+}
