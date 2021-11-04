@@ -4,7 +4,9 @@ import artistprofile from "../users/artistprofile.png";
 import rated from "../users/rated.png";
 import unrated from "../users/unrated.png";
 import reviewpic from "../users/reviewpic.png";
+
 import "./artistProfile.css";
+import PortfolioItem from "../../components/users/artists/PortfolioItem";
 
 export default function ArtistProfile() {
   return (
@@ -403,7 +405,7 @@ export default function ArtistProfile() {
           <div className="card card-outline-secondary">
             {/* heading */}
             <div className="card-header">
-              <h3 className=" mb-0 ">Deal Packages</h3>
+              <h3 className=" mb-0 ">portfolio</h3>
             </div>
             {/* body */}
             <div>
@@ -427,10 +429,11 @@ export default function ArtistProfile() {
                       <div className="carousel-item active ">
                         {/* <div className="d-none d-lg-block"> */}
                         <div className="slide-box ">
-                          <p>fj</p>
-                          <p>fj</p>
-                          <p>fj</p>
-                          <p>fj</p>
+                          {/* slider item */}
+                          <PortfolioItem />
+                          <PortfolioItem />
+                          <PortfolioItem />
+                          <PortfolioItem />
                         </div>
                         {/* </div> */}
                       </div>
@@ -439,11 +442,11 @@ export default function ArtistProfile() {
                         {/* <div className="d-none d-lg-block"> */}
                         <div className="slide-box">
                           {/* items box here  start*/}
+                          <PortfolioItem />
+                          <PortfolioItem />
+                          <PortfolioItem />
+                          <PortfolioItem />
 
-                          <p>fj</p>
-                          <p>fj</p>
-                          <p>fj</p>
-                          <p>fj</p>
                           {/* items box end */}
                         </div>
                         {/* </div> */}
