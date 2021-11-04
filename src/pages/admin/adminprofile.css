@@ -34,3 +34,25 @@
   box-shadow: 0px 1.61118px 2.81957px 0.805592px rgba(0, 0, 0, 0.12);
   border-radius: 4.02796px;
 }
+
+.calender-schedule button {
+  background: #313131;
+  border-radius: 60px;
+  color: white;
+}
+
+/* calender detail  */
+.calendar-toolbar {
+  margin-bottom: 10px;
+}
+.calendar-month-row {
+  height: 75px;
+}
+.calendar-prior-months-date {
+  color: #ddd;
+}
+.calendar-current-date {
+  text-align: center;
+  display: inline-block;
+  width: 115px;
+}

@@ -178,38 +178,39 @@ export default function ArtistProfile() {
                 </div>
                 {/* body */}
                 <div>
-                  {/* calender */}
-                  <div class="month">
-                    <ul>
-                      <li class="prev">&#10094;</li>
-                      <li class="next">&#10095;</li>
-                      <li>
-                        August
-                        <br />
-                        <span>2021</span>
-                      </li>
+                  {/* calender start*/}
+                  <div>
+                    <div class="month">
+                      <ul>
+                        <li class="prev">&#10094;</li>
+                        <li class="next">&#10095;</li>
+                        <li>
+                          August
+                          <br />
+                          <span>2021</span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <ul class="weekdays">
+                      <li>Mo</li>
+                      <li>Tu</li>
+                      <li>We</li>
+                      <li>Th</li>
+                      <li>Fr</li>
+                      <li>Sa</li>
+                      <li>Su</li>
                     </ul>
-                  </div>
 
-                  <ul class="weekdays">
-                    <li>Mo</li>
-                    <li>Tu</li>
-                    <li>We</li>
-                    <li>Th</li>
-                    <li>Fr</li>
-                    <li>Sa</li>
-                    <li>Su</li>
-                  </ul>
-
-                  <ul class="days">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
-                    {/* <li>8</li>
+                    <ul class="days">
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                      <li>4</li>
+                      <li>5</li>
+                      <li>6</li>
+                      <li>7</li>
+                      {/* <li>8</li>
                     <li>9</li>
                     <li>
                       <span class="active">10</span>
@@ -235,7 +236,9 @@ export default function ArtistProfile() {
                     <li>29</li>
                     <li>30</li>
                     <li>31</li> */}
-                  </ul>
+                    </ul>
+                  </div>
+                  {/* calander end */}
 
                   <h5 className=" mb-0 pl-3 pt-3">Available slots </h5>
                   <div className="available-slot p-2">
