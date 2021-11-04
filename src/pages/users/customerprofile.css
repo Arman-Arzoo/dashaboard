@@ -101,6 +101,7 @@
   height: 300px;
   text-align: center;
   padding-top: 30px;
+  position: relative;
 }
 
 .favourite-slider-item .img {
@@ -115,4 +116,22 @@
   line-height: 35px;
 
   color: #313131;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 48.48%;
+  left: 60%;
+  background: #efeeee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+.circle i {
+  color: #ff5050;
 }

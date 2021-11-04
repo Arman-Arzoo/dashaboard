@@ -248,6 +248,7 @@ export default function CustomerProfile() {
                           <FavouriteItem />
                           <FavouriteItem />
                           <FavouriteItem />
+                          <FavouriteItem />
                         </div>
                         {/* </div> */}
                       </div>
@@ -260,6 +261,8 @@ export default function CustomerProfile() {
                           <FavouriteItem />
                           <FavouriteItem />
                           <FavouriteItem />
+                          <FavouriteItem />
+
                           {/* items box end */}
                         </div>
                         {/* </div> */}
