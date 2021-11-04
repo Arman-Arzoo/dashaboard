@@ -1,3 +1,7 @@
+.pre-booking-customer-div {
+  display: flex;
+  overflow: hidden;
+}
 .customer-prebooking {
   width: 180px;
   background: #f6f6f6;
@@ -34,4 +38,81 @@
 
   color: #5a5a5a;
   padding-left: 5px;
+}
+
+.prebooking-customer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.prebooking-customer-info h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.7534px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #313131;
+  padding-left: 5px;
+}
+.prebooking-customer-info p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.7534px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #7a7a7a;
+  margin-bottom: 0.5rem !important;
+}
+
+.prebooking-customer-profile {
+  display: flex;
+}
+.prebooking-customer-profile img {
+  width: 60px;
+  height: 60px;
+  border: 2.03124px solid #313131;
+  border-radius: 50%;
+}
+.prebooking-customer-profile h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  padding-left: 10px;
+  color: #313131;
+}
+
+.previous-booking-table th {
+  font-size: 14px;
+}
+.previous-booking-table-div {
+  overflow-y: scroll;
+  height: 340px;
+  overflow-x: hidden;
+}
+
+.favourite-slider-item {
+  background: #f6f6f6;
+  border-radius: 5px;
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.favourite-slider-item .img {
+  width: 150px;
+  height: 150px;
+}
+
+.favourite-slider-item h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.4548px;
+  line-height: 35px;
+
+  color: #313131;
 }
