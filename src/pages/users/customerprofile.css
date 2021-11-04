@@ -1,0 +1,37 @@
+.customer-prebooking {
+  width: 180px;
+  background: #f6f6f6;
+  border-radius: 5px;
+}
+
+.customer-prebooking img {
+  width: 180px;
+}
+.customer-prebooking h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.1041px;
+  line-height: 30px;
+
+  color: #313131;
+  padding-left: 5px;
+}
+.customer-prebooking h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.7534px;
+  line-height: 25px;
+  padding-left: 5px;
+
+  color: #313131;
+}
+
+.customer-prebooking p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.4028px;
+  line-height: 20px;
+
+  color: #5a5a5a;
+  padding-left: 5px;
+}

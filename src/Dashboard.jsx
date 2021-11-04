@@ -16,6 +16,8 @@ import Partists from "./pages/payment/Partists";
 import ArtistProfile from "./pages/users/ArtistProfile";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import CustomerProfile from "./pages/users/CustomerProfile";
+import AdminProfile from "./pages/admin/AdminProfile";
 
 export default function Dashborad() {
   return (
@@ -27,8 +29,11 @@ export default function Dashborad() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/customers">
+          <Route exact path="/customers">
             <Customers />
+          </Route>
+          <Route exact path="/customers/customer-profile">
+            <CustomerProfile />
           </Route>
           <Route exact path="/artists">
             <Artists />
@@ -57,8 +62,11 @@ export default function Dashborad() {
           <Route path="/chat">
             <Chat />
           </Route>
-          <Route path="/admin">
+          <Route exact path="/admin">
             <Admin />
+          </Route>
+          <Route exact path="/admin/admin-profile">
+            <AdminProfile />
           </Route>
           <Route path="/setting">
             <Setting />
