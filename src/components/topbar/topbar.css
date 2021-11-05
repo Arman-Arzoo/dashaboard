@@ -48,8 +48,8 @@
 }
 
 .topIconBadge {
-  width: 27.48px;
-  height: 27.48px;
+  width: 24.48px;
+  height: 24.48px;
   position: absolute;
   top: -5px;
   right: 0px;
@@ -67,9 +67,9 @@
 }
 .bottomTextNotification {
   position: absolute;
-  left: -25%;
+  left: -68%;
   right: 0;
-  top: 80.55%;
+  top: 88.55%;
   bottom: 4.96%;
   font-family: Poppins;
   font-style: normal;
@@ -138,4 +138,8 @@
   line-height: 26px;
 
   color: #7a7a7a;
+}
+
+.topbarIconContainer i {
+  font-size: 40px;
 }

@@ -29,7 +29,7 @@ export default function AllServices() {
             <h3 className=" mb-0 ">All Services</h3>
           </div>
           {/* body */}
-          <div>
+          <div className="all-services-list">
             {/* create a table for list of sevices */}
             <table className="table table-striped">
               <thead>
@@ -49,8 +49,16 @@ export default function AllServices() {
                   <td>Acrylic Nail art</td>
                   <td>$20</td>
                   <td>
-                    <span>3</span>
-                    <span>4</span>
+                    <span>
+                      <div className="circle-services-edit">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                      </div>
+                    </span>
+                    <span>
+                      <div className="circle-services-cross">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                      </div>
+                    </span>
                   </td>
                 </tr>
                 {/* item row  */}
@@ -60,8 +68,16 @@ export default function AllServices() {
                   <td>Acrylic Nail art</td>
                   <td>$20</td>
                   <td>
-                    <span>3</span>
-                    <span>4</span>
+                    <span>
+                      <div className="circle-services-edit">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                      </div>
+                    </span>
+                    <span>
+                      <div className="circle-services-cross">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                      </div>
+                    </span>
                   </td>
                 </tr>
                 {/* item row 3*/}
@@ -71,8 +87,16 @@ export default function AllServices() {
                   <td>Acrylic Nail art</td>
                   <td>$20</td>
                   <td>
-                    <span>3</span>
-                    <span>4</span>
+                    <span>
+                      <div className="circle-services-edit">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                      </div>
+                    </span>
+                    <span>
+                      <div className="circle-services-cross">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                      </div>
+                    </span>
                   </td>
                 </tr>
                 {/* item row 4 */}
@@ -82,8 +106,16 @@ export default function AllServices() {
                   <td>Acrylic Nail art</td>
                   <td>$20</td>
                   <td>
-                    <span>3</span>
-                    <span>4</span>
+                    <span>
+                      <div className="circle-services-edit">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                      </div>
+                    </span>
+                    <span>
+                      <div className="circle-services-cross">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                      </div>
+                    </span>
                   </td>
                 </tr>
                 {/* item row 5 */}
@@ -93,8 +125,16 @@ export default function AllServices() {
                   <td>Acrylic Nail art</td>
                   <td>$20</td>
                   <td>
-                    <span>3</span>
-                    <span>4</span>
+                    <span>
+                      <div className="circle-services-edit">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                      </div>
+                    </span>
+                    <span>
+                      <div className="circle-services-cross">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                      </div>
+                    </span>
                   </td>
                 </tr>
               </tbody>

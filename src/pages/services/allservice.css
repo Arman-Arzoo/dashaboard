@@ -2,3 +2,41 @@
   flex: 4;
   padding: 20px;
 }
+
+.all-services-list {
+  position: relative;
+}
+.circle-services-cross {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  /* top: 48.48%;
+  left: 60%; */
+  left: 90%;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+.circle-services-edit {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: #313131;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+.circle-services-edit i {
+  color: white;
+  font-size: 12px;
+}
+
+.circle-services-cross i {
+  color: white;
+}

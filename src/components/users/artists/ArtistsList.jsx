@@ -68,7 +68,10 @@ export default function ArtistsList() {
                   <span>(123)242-2134</span>
                 </p>
 
-                <Link to="#" className="btn btn-artist-info ">
+                <Link
+                  to="/artists/artist-profile"
+                  className="btn btn-artist-info "
+                >
                   View More
                 </Link>
               </div>
@@ -107,7 +110,10 @@ export default function ArtistsList() {
                   <span>(123)242-2134</span>
                 </p>
 
-                <Link to="#" className="btn btn-artist-info ">
+                <Link
+                  to="/artists/artist-profile"
+                  className="btn btn-artist-info "
+                >
                   View More
                 </Link>
               </div>
@@ -147,7 +153,10 @@ export default function ArtistsList() {
                   <span>(123)242-2134</span>
                 </p>
 
-                <Link to="#" className="btn btn-artist-info ">
+                <Link
+                  to="/artists/artist-profile"
+                  className="btn btn-artist-info "
+                >
                   View More
                 </Link>
               </div>
@@ -186,7 +195,10 @@ export default function ArtistsList() {
                   <span>(123)242-2134</span>
                 </p>
 
-                <Link to="#" className="btn btn-artist-info ">
+                <Link
+                  to="/artists/artist-profile"
+                  className="btn btn-artist-info "
+                >
                   View More
                 </Link>
               </div>
@@ -225,7 +237,10 @@ export default function ArtistsList() {
                   <span>(123)242-2134</span>
                 </p>
 
-                <Link to="#" className="btn btn-artist-info ">
+                <Link
+                  to="/artists/artist-profile"
+                  className="btn btn-artist-info "
+                >
                   View More
                 </Link>
               </div>
@@ -264,7 +279,10 @@ export default function ArtistsList() {
                   <span>(123)242-2134</span>
                 </p>
 
-                <Link to="#" className="btn btn-artist-info ">
+                <Link
+                  to="/artists/artist-profile"
+                  className="btn btn-artist-info "
+                >
                   View More
                 </Link>
               </div>

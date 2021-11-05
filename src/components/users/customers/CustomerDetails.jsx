@@ -1,6 +1,7 @@
 import "./customerDetail.css";
 import Pagination from "./Pagination";
 import Search from "../../home/search/search";
+import { Link } from "react-router-dom";
 export default function CustomerDetails() {
   return (
     <div>
@@ -52,7 +53,15 @@ export default function CustomerDetails() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td style={{ display: "flex", alignItems: "center" }}>
+                  <Link to="/customers/customer-profile"> View Detail </Link>
+
+                  <i
+                    style={{ color: "#FF5050" }}
+                    className="fa fa-times"
+                    aria-hidden="true"
+                  ></i>
+                </td>
               </tr>
 
               {/* row start */}
@@ -66,7 +75,15 @@ export default function CustomerDetails() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td style={{ display: "flex", alignItems: "center" }}>
+                  <Link to="/customers/customer-profile"> View Detail </Link>
+
+                  <i
+                    style={{ color: "#FF5050" }}
+                    className="fa fa-times"
+                    aria-hidden="true"
+                  ></i>
+                </td>
               </tr>
               {/* row end */}
 
@@ -81,7 +98,15 @@ export default function CustomerDetails() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td style={{ display: "flex", alignItems: "center" }}>
+                  <Link to="/customers/customer-profile"> View Detail </Link>
+
+                  <i
+                    style={{ color: "#FF5050" }}
+                    className="fa fa-times"
+                    aria-hidden="true"
+                  ></i>
+                </td>
               </tr>
               {/* row end */}
 
@@ -96,7 +121,15 @@ export default function CustomerDetails() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td style={{ display: "flex", alignItems: "center" }}>
+                  <Link to="/customers/customer-profile"> View Detail </Link>
+
+                  <i
+                    style={{ color: "#FF5050" }}
+                    className="fa fa-times"
+                    aria-hidden="true"
+                  ></i>
+                </td>
               </tr>
               {/* row end */}
 
@@ -111,7 +144,15 @@ export default function CustomerDetails() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td style={{ display: "flex", alignItems: "center" }}>
+                  <Link to="/customers/customer-profile"> View Detail </Link>
+
+                  <i
+                    style={{ color: "#FF5050" }}
+                    className="fa fa-times"
+                    aria-hidden="true"
+                  ></i>
+                </td>
               </tr>
               {/* row end */}
             </tbody>

@@ -53,7 +53,18 @@ export default function Booking() {
                 <td></td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td>
+                  <span>
+                    <div className="circle-booking-edit">
+                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                  <span>
+                    <div className="circle-booking-cross">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                </td>
               </tr>
 
               {/* row start */}
@@ -67,7 +78,18 @@ export default function Booking() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td>
+                  <span>
+                    <div className="circle-booking-edit">
+                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                  <span>
+                    <div className="circle-booking-cross">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                </td>
               </tr>
               {/* row end */}
 
@@ -82,7 +104,18 @@ export default function Booking() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td>
+                  <span>
+                    <div className="circle-booking-edit">
+                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                  <span>
+                    <div className="circle-booking-cross">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                </td>
               </tr>
               {/* row end */}
 
@@ -97,7 +130,18 @@ export default function Booking() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td>
+                  <span>
+                    <div className="circle-booking-edit">
+                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                  <span>
+                    <div className="circle-booking-cross">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                </td>
               </tr>
               {/* row end */}
 
@@ -112,7 +156,18 @@ export default function Booking() {
                 <td>TinaFox@gmail.com</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
-                <td>View Detail </td>
+                <td>
+                  <span>
+                    <div className="circle-booking-edit">
+                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                  <span>
+                    <div className="circle-booking-cross">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                </td>
               </tr>
               {/* row end */}
             </tbody>

@@ -2,3 +2,36 @@
   flex: 4;
   padding: 20px;
 }
+
+.circle-booking-cross {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 1%;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+.circle-booking-cross i {
+  color: white;
+}
+.circle-booking-edit {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: #313131;
+  border-radius: 50%;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+.circle-booking-edit i {
+  color: white;
+  font-size: 12px;
+}

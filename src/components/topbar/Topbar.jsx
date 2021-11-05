@@ -36,7 +36,8 @@ export default function Topbar() {
 
           <div className="topbarIconContainer">
             {/* <Notification /> */}
-            <img src={envelope} alt="chat" />
+            {/* <img src={envelope} alt="chat" /> */}
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
             <span className="topIconBadge">12</span>
             <span className="bottomTextNotification">Notification</span>
           </div>
