@@ -3,6 +3,7 @@ import Search from "../../components/home/search/search";
 import { Link } from "react-router-dom";
 import DealOffer from "../../components/services/DealOffer";
 import apic from "../services/girl.png";
+import DealOfferSlide from "../../components/services/DealOfferSlide";
 
 export default function DailyDeal() {
   return (
@@ -216,11 +217,11 @@ export default function DailyDeal() {
                     <div className="carousel-item active ">
                       {/* <div className="d-none d-lg-block"> */}
                       <div className="slide-box ">
-                        <DealOffer />
-                        <DealOffer />
-                        <DealOffer />
-                        <DealOffer />
-                        <DealOffer />
+                        <DealOfferSlide />
+                        <DealOfferSlide />
+                        <DealOfferSlide />
+                        <DealOfferSlide />
+                        <DealOfferSlide />
                       </div>
                       {/* </div> */}
                     </div>
@@ -229,11 +230,11 @@ export default function DailyDeal() {
                       {/* <div className="d-none d-lg-block"> */}
                       <div className="slide-box">
                         {/* items box here  start*/}
-                        <DealOffer />
-                        <DealOffer />
-                        <DealOffer />
-                        <DealOffer />
-                        <DealOffer />
+                        <DealOfferSlide />
+                        <DealOfferSlide />
+                        <DealOfferSlide />
+                        <DealOfferSlide />
+                        <DealOfferSlide />
                         {/* items box end */}
                       </div>
                       {/* </div> */}
