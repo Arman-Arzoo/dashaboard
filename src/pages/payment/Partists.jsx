@@ -22,7 +22,7 @@ export default function Partists() {
               {/* body */}
               <div>
                 {/* table for artist payment */}
-                <table class="table table-striped">
+                <table className="table table-striped">
                   <thead>
                     {/* table list */}
                     <tr>
@@ -68,16 +68,18 @@ export default function Partists() {
               </div>
               {/* body */}
               <div className="p-3 make-payment-body">
-             
-                <div>Date: <span className="pl-2">11/08/2021</span> </div>
+                <div>
+                  Date: <span className="pl-2">11/08/2021</span>{" "}
+                </div>
                 <div className="pt-3">
-                  current balance : <span className="float-right font-weight-bold">$5000</span>
+                  current balance :{" "}
+                  <span className="float-right font-weight-bold">$5000</span>
                 </div>
                 {/* form */}
                 <form className="mt-5">
                   <div className="form-row">
                     <div className="form-group col-md-6">
-                      <label for="inputsender">Sender Name</label>
+                      <label htmlFor="inputsender">Sender Name</label>
                       <input
                         type="text"
                         className="form-control"
@@ -86,7 +88,7 @@ export default function Partists() {
                       />
                     </div>
                     <div className="form-group col-md-6">
-                      <label for="inputreciever">Reciever Name</label>
+                      <label htmlFor="inputreciever">Reciever Name</label>
                       <input
                         type="text"
                         className="form-control"
@@ -98,7 +100,7 @@ export default function Partists() {
 
                   <div className="form-row">
                     <div className="form-group col-md-6">
-                      <label for="inputSaccountno">Sender Account no</label>
+                      <label htmlFor="inputSaccountno">Sender Account no</label>
                       <input
                         type="text"
                         className="form-control"
@@ -107,7 +109,9 @@ export default function Partists() {
                       />
                     </div>
                     <div className="form-group col-md-6">
-                      <label for="inputRaccountno">Reciever account No</label>
+                      <label htmlFor="inputRaccountno">
+                        Reciever account No
+                      </label>
                       <input
                         type="text"
                         className="form-control"
@@ -119,11 +123,10 @@ export default function Partists() {
 
                   <div className="form-row">
                     <div className="form-group col-md-11">
-                      <label for="payableAmount">Amount</label>
+                      <label htmlFor="payableAmount">Amount</label>
                       <div
                         style={{
                           display: "flex",
-                          
                         }}
                       >
                         <input
@@ -138,7 +141,7 @@ export default function Partists() {
 
                   <div className="form-row">
                     <div className="form-group col-md-8">
-                      <label for="payableAmount">Payable Amount</label>
+                      <label htmlFor="payableAmount">Payable Amount</label>
                       <div
                         style={{
                           display: "flex",

@@ -51,12 +51,12 @@ export default function AllServices() {
                   <td>
                     <span>
                       <div className="circle-services-edit">
-                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <i className="fa fa-pencil" aria-hidden="true"></i>
                       </div>
                     </span>
                     <span>
                       <div className="circle-services-cross">
-                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <i className="fa fa-times" aria-hidden="true"></i>
                       </div>
                     </span>
                   </td>
@@ -70,12 +70,12 @@ export default function AllServices() {
                   <td>
                     <span>
                       <div className="circle-services-edit">
-                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <i className="fa fa-pencil" aria-hidden="true"></i>
                       </div>
                     </span>
                     <span>
                       <div className="circle-services-cross">
-                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <i className="fa fa-times" aria-hidden="true"></i>
                       </div>
                     </span>
                   </td>
@@ -89,12 +89,12 @@ export default function AllServices() {
                   <td>
                     <span>
                       <div className="circle-services-edit">
-                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <i className="fa fa-pencil" aria-hidden="true"></i>
                       </div>
                     </span>
                     <span>
                       <div className="circle-services-cross">
-                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <i className="fa fa-times" aria-hidden="true"></i>
                       </div>
                     </span>
                   </td>
@@ -108,12 +108,12 @@ export default function AllServices() {
                   <td>
                     <span>
                       <div className="circle-services-edit">
-                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <i className="fa fa-pencil" aria-hidden="true"></i>
                       </div>
                     </span>
                     <span>
                       <div className="circle-services-cross">
-                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <i className="fa fa-times" aria-hidden="true"></i>
                       </div>
                     </span>
                   </td>
@@ -127,12 +127,12 @@ export default function AllServices() {
                   <td>
                     <span>
                       <div className="circle-services-edit">
-                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <i className="fa fa-pencil" aria-hidden="true"></i>
                       </div>
                     </span>
                     <span>
                       <div className="circle-services-cross">
-                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <i className="fa fa-times" aria-hidden="true"></i>
                       </div>
                     </span>
                   </td>

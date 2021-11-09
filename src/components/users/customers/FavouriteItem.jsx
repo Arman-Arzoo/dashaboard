@@ -15,7 +15,7 @@ export default function FavouriteItem() {
         <img src={rated} alt="" />
         <img src={rated} alt="" />
         <div className="circle">
-          <i class="fa fa-heart" aria-hidden="true"></i>
+          <i className="fa fa-heart" aria-hidden="true"></i>
         </div>
       </div>
     </div>

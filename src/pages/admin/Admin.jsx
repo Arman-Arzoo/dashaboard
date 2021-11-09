@@ -29,7 +29,7 @@ export default function Admin() {
         <div className="artist-card-body pl-4">
           {/* admin table */}
           {/* table for artish detail*/}
-          <table class="table table-striped">
+          <table className="table table-striped">
             <thead>
               {/* table list */}
               <tr>

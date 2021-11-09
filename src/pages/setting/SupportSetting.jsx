@@ -15,7 +15,7 @@ export default function SupportSetting() {
           <div className="p-3">
             <div className="alert-notification-setting">
               <p>Accept Chat from Clients</p>
-              <div class="switch_box box_1">
+              <div className="switch_box box_1">
                 <input type="checkbox" className="switch" />
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function SupportSetting() {
                 </small>
               </div>
 
-              <div class="switch_box box_1">
+              <div className="switch_box box_1">
                 <input type="checkbox" className="switch" />
               </div>
             </div>
@@ -39,7 +39,7 @@ export default function SupportSetting() {
                 <textarea name="" id="" cols="80" rows="2"></textarea>
               </div>
 
-              <div class="switch_box box_1">
+              <div className="switch_box box_1">
                 <button className="btn">save</button>
               </div>
             </div>
@@ -52,30 +52,30 @@ export default function SupportSetting() {
                 </small>
               </div>
 
-              <div class="switch_box box_1">
+              <div className="switch_box box_1">
                 <input type="checkbox" className="switch" />
               </div>
             </div>
 
-            <div class="custom-control custom-checkbox mt-2">
+            <div className="custom-control custom-checkbox mt-2">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customCheck1"
               />
-              <label class="custom-control-label" for="customCheck1">
+              <label className="custom-control-label" htmlFor="customCheck1">
                 Enable Chat for all Days(24*7)
               </label>
             </div>
 
             <p className="pt-3 pl-5">or</p>
-            <div class="custom-control custom-checkbox mt-2">
+            <div className="custom-control custom-checkbox mt-2">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customCheck1"
               />
-              <label class="custom-control-label" for="customCheck1">
+              <label className="custom-control-label" htmlFor="customCheck1">
                 Monday
               </label>
               <input
@@ -96,14 +96,14 @@ export default function SupportSetting() {
               ></input>
             </div>
 
-            <div class="custom-control custom-checkbox mt-2">
+            <div className="custom-control custom-checkbox mt-2">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customCheck1"
                 value="11:30"
               />
-              <label class="custom-control-label" for="customCheck1">
+              <label className="custom-control-label" htmlFor="customCheck1">
                 Tuesday
               </label>
               <input
@@ -124,13 +124,13 @@ export default function SupportSetting() {
               ></input>
             </div>
 
-            <div class="custom-control custom-checkbox mt-2">
+            <div className="custom-control custom-checkbox mt-2">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customCheck1"
               />
-              <label class="custom-control-label" for="customCheck1">
+              <label className="custom-control-label" htmlFor="customCheck1">
                 Wednesday
               </label>
               <input
@@ -151,13 +151,13 @@ export default function SupportSetting() {
               ></input>
             </div>
 
-            <div class="custom-control custom-checkbox mt-2">
+            <div className="custom-control custom-checkbox mt-2">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customCheck1"
               />
-              <label class="custom-control-label" for="customCheck1">
+              <label className="custom-control-label" htmlFor="customCheck1">
                 Thursday
               </label>
               <input
@@ -178,13 +178,13 @@ export default function SupportSetting() {
               ></input>
             </div>
 
-            <div class="custom-control custom-checkbox mt-2">
+            <div className="custom-control custom-checkbox mt-2">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customCheck1"
               />
-              <label class="custom-control-label" for="customCheck1">
+              <label className="custom-control-label" htmlFor="customCheck1">
                 Firday
               </label>
               <input
@@ -205,13 +205,13 @@ export default function SupportSetting() {
               ></input>
             </div>
 
-            <div class="custom-control custom-checkbox mt-2">
+            <div className="custom-control custom-checkbox mt-2">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customCheck1"
               />
-              <label class="custom-control-label" for="customCheck1">
+              <label className="custom-control-label" htmlFor="customCheck1">
                 Saturday
               </label>
               <input
@@ -232,13 +232,13 @@ export default function SupportSetting() {
               ></input>
             </div>
 
-            <div class="custom-control custom-checkbox mt-2">
+            <div className="custom-control custom-checkbox mt-2">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customCheck1"
               />
-              <label class="custom-control-label" for="customCheck1">
+              <label className="custom-control-label" htmlFor="customCheck1">
                 Sunday
               </label>
               <input

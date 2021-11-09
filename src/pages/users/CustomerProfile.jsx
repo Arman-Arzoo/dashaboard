@@ -22,18 +22,19 @@ export default function CustomerProfile() {
                 <h4>Cameron Williamson</h4>
 
                 <p className="pt-2">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>{" "}
+                  <i className="fa fa-envelope" aria-hidden="true"></i>{" "}
                   cameron@gmail.com
                 </p>
                 <p>
                   {" "}
-                  <i class="fa fa-map-marker" aria-hidden="true"></i> 4517
+                  <i className="fa fa-map-marker" aria-hidden="true"></i> 4517
                   Washington Ave. Manchester, Kentucky 39495
                 </p>
                 <p>
-                  <i class="fa fa-phone" aria-hidden="true"></i> (123)242-2134
+                  <i className="fa fa-phone" aria-hidden="true"></i>{" "}
+                  (123)242-2134
                 </p>
-                <i class="fa fa-trash-o float-right" aria-hidden="true"></i>
+                <i className="fa fa-trash-o float-right" aria-hidden="true"></i>
               </div>
             </div>
             {/* map on route detail */}
@@ -49,6 +50,7 @@ export default function CustomerProfile() {
                   {/* google map */}
                   <div className="mt-4">
                     <iframe
+                      title="customer-location"
                       width="150"
                       height="240"
                       frameborder="0"
@@ -81,7 +83,7 @@ export default function CustomerProfile() {
                     {/* timeline  start*/}
                     <div className="timeline-artist-location">
                       <div>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <i className="fa fa-map-marker" aria-hidden="true"></i>
                         <h5>Customer’s Location</h5>
                         <p>xyz street , 123 block , abc</p>
                       </div>

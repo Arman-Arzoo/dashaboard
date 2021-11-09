@@ -56,12 +56,12 @@ export default function Booking() {
                 <td>
                   <span>
                     <div className="circle-booking-edit">
-                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                      <i className="fa fa-pencil" aria-hidden="true"></i>
                     </div>
                   </span>
                   <span>
                     <div className="circle-booking-cross">
-                      <i class="fa fa-times" aria-hidden="true"></i>
+                      <i className="fa fa-times" aria-hidden="true"></i>
                     </div>
                   </span>
                 </td>
@@ -81,12 +81,12 @@ export default function Booking() {
                 <td>
                   <span>
                     <div className="circle-booking-edit">
-                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                      <i className="fa fa-pencil" aria-hidden="true"></i>
                     </div>
                   </span>
                   <span>
                     <div className="circle-booking-cross">
-                      <i class="fa fa-times" aria-hidden="true"></i>
+                      <i className="fa fa-times" aria-hidden="true"></i>
                     </div>
                   </span>
                 </td>
@@ -107,12 +107,12 @@ export default function Booking() {
                 <td>
                   <span>
                     <div className="circle-booking-edit">
-                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                      <i className="fa fa-pencil" aria-hidden="true"></i>
                     </div>
                   </span>
                   <span>
                     <div className="circle-booking-cross">
-                      <i class="fa fa-times" aria-hidden="true"></i>
+                      <i className="fa fa-times" aria-hidden="true"></i>
                     </div>
                   </span>
                 </td>
@@ -133,12 +133,12 @@ export default function Booking() {
                 <td>
                   <span>
                     <div className="circle-booking-edit">
-                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                      <i className="fa fa-pencil" aria-hidden="true"></i>
                     </div>
                   </span>
                   <span>
                     <div className="circle-booking-cross">
-                      <i class="fa fa-times" aria-hidden="true"></i>
+                      <i className="fa fa-times" aria-hidden="true"></i>
                     </div>
                   </span>
                 </td>
@@ -159,12 +159,12 @@ export default function Booking() {
                 <td>
                   <span>
                     <div className="circle-booking-edit">
-                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                      <i className="fa fa-pencil" aria-hidden="true"></i>
                     </div>
                   </span>
                   <span>
                     <div className="circle-booking-cross">
-                      <i class="fa fa-times" aria-hidden="true"></i>
+                      <i className="fa fa-times" aria-hidden="true"></i>
                     </div>
                   </span>
                 </td>

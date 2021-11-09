@@ -52,9 +52,9 @@ export default function DailyDeal() {
                       {/* form from add new deal */}
                       <form>
                         <div className="form-group">
-                          <label for="input">Select Services</label>
+                          <label htmlFor="input">Select Services</label>
                           <select id="inputState" className="form-control">
-                            <option selected>Acrylic Full</option>
+                            <option>Acrylic Full</option>
                             <option>...</option>
                             <option>...</option>
                           </select>
@@ -62,7 +62,7 @@ export default function DailyDeal() {
 
                         <div className="form-row">
                           <div className="form-group col-md-6">
-                            <label for="inputEmail4">Start Date</label>
+                            <label htmlFor="inputEmail4">Start Date</label>
                             <input
                               type="date"
                               className="form-control"
@@ -71,7 +71,7 @@ export default function DailyDeal() {
                             />
                           </div>
                           <div className="form-group col-md-6">
-                            <label for="inputPassword4">End date</label>
+                            <label htmlFor="inputPassword4">End date</label>
                             <input
                               type="text"
                               className="form-control"
@@ -83,19 +83,19 @@ export default function DailyDeal() {
 
                         <div className="form-row">
                           <div className="form-group col-md-6">
-                            <label for="inputCity">Add Image</label>
+                            <label htmlFor="inputCity">Add Image</label>
 
-                            <div class="image-upload">
+                            <div className="image-upload">
                               {" "}
-                              <label for="file_upload">
+                              <label htmlFor="file_upload">
                                 {" "}
-                                <img src="" alt="" class="uploaded-image" />
-                                <div class="h-100">
-                                  <div class="dplay-tbl">
-                                    <div class="dplay-tbl-cell">
+                                <img src="" alt="" className="uploaded-image" />
+                                <div className="h-100">
+                                  <div className="dplay-tbl">
+                                    <div className="dplay-tbl-cell">
                                       {" "}
                                       <i
-                                        class="fa fa-camera"
+                                        className="fa fa-camera"
                                         aria-hidden="true"
                                       ></i>
                                     </div>
@@ -106,16 +106,15 @@ export default function DailyDeal() {
                                   type="file"
                                   name="image_name"
                                   id="file_upload"
-                                  class="image-input"
+                                  className="image-input"
                                   data-traget-resolution="image_resolution"
-                                  value=""
                                 />
                               </label>{" "}
                             </div>
                           </div>
 
                           <div className="form-group col-md-4 pl-3">
-                            <label for="inputZip">Discount</label>
+                            <label htmlFor="inputZip">Discount</label>
                             <div
                               style={{
                                 display: "flex",
@@ -175,7 +174,7 @@ export default function DailyDeal() {
                         </div>
                       </div>
                     </div>
-                    <Link className="btn btn-dark mt-2 mb-2">
+                    <Link to="#" className="btn btn-dark mt-2 mb-2">
                       Make a new Deal
                     </Link>
                   </div>

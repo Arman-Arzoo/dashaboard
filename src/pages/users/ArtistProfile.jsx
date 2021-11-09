@@ -32,9 +32,10 @@ export default function ArtistProfile() {
                 <img src={unrated} alt="" />
                 <p className="pt-2">Expert in Acrylic and French Manicure</p>
                 <p>
-                  <i class="fa fa-phone" aria-hidden="true"></i> (123)242-2134
+                  <i className="fa fa-phone" aria-hidden="true"></i>{" "}
+                  (123)242-2134
                 </p>
-                <i class="fa fa-trash-o float-right" aria-hidden="true"></i>
+                <i className="fa fa-trash-o float-right" aria-hidden="true"></i>
               </div>
             </div>
             {/* map on route detail */}
@@ -50,6 +51,7 @@ export default function ArtistProfile() {
                   {/* google map */}
                   <div className="mt-4">
                     <iframe
+                      title="artist-location"
                       width="150"
                       height="240"
                       frameborder="0"
@@ -82,7 +84,7 @@ export default function ArtistProfile() {
                     {/* timeline  start*/}
                     <div className="timeline-artist-location">
                       <div>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <i className="fa fa-map-marker" aria-hidden="true"></i>
                         <h5>Customer’s Location</h5>
                         <p>xyz street , 123 block , abc</p>
                       </div>
@@ -180,10 +182,10 @@ export default function ArtistProfile() {
                 <div>
                   {/* calender start*/}
                   <div>
-                    <div class="month">
+                    <div className="month">
                       <ul>
-                        <li class="prev">&#10094;</li>
-                        <li class="next">&#10095;</li>
+                        <li className="prev">&#10094;</li>
+                        <li className="next">&#10095;</li>
                         <li>
                           August
                           <br />
@@ -192,7 +194,7 @@ export default function ArtistProfile() {
                       </ul>
                     </div>
 
-                    <ul class="weekdays">
+                    <ul className="weekdays">
                       <li>Mo</li>
                       <li>Tu</li>
                       <li>We</li>
@@ -202,7 +204,7 @@ export default function ArtistProfile() {
                       <li>Su</li>
                     </ul>
 
-                    <ul class="days">
+                    <ul className="days">
                       <li>1</li>
                       <li>2</li>
                       <li>3</li>
@@ -213,7 +215,7 @@ export default function ArtistProfile() {
                       {/* <li>8</li>
                     <li>9</li>
                     <li>
-                      <span class="active">10</span>
+                      <span className="active">10</span>
                     </li>
                     <li>11</li>
                     <li>12</li>
@@ -364,7 +366,7 @@ export default function ArtistProfile() {
                   </div>
                 </div>
                 {/* table for recent activity*/}
-                <table class="table table-striped">
+                <table className="table table-striped">
                   <thead>
                     {/* table list */}
                     <tr>

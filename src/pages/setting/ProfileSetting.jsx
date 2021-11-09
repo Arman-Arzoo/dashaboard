@@ -19,16 +19,16 @@ export default function ProfileSetting() {
                 <img src={propic} alt="" />
                 <div className="circle-div-setting">
                   {/* demo start */}
-                  <div class="image-upload-setting mt-3">
+                  <div className="image-upload-setting mt-3">
                     {" "}
-                    <label for="file_upload-setting">
+                    <label htmlFor="file_upload-setting">
                       {" "}
-                      <img src="" alt="" class="uploaded-image" />
-                      <div class="h-100">
-                        <div class="dplay-tbl">
-                          <div class="dplay-tbl-cell">
+                      <img src="" alt="" className="uploaded-image" />
+                      <div className="h-100">
+                        <div className="dplay-tbl">
+                          <div className="dplay-tbl-cell">
                             {" "}
-                            <i class="fa fa-camera" aria-hidden="true"></i>
+                            <i className="fa fa-camera" aria-hidden="true"></i>
                           </div>
                         </div>
                       </div>
@@ -37,9 +37,8 @@ export default function ProfileSetting() {
                         type="file"
                         name="image_name"
                         id="file_upload"
-                        class="image-input"
+                        className="image-input"
                         data-traget-resolution="image_resolution"
-                        value=""
                       />
                     </label>{" "}
                   </div>
@@ -49,7 +48,7 @@ export default function ProfileSetting() {
               <div>
                 <div className="form-row pt-4 pl-5">
                   <div className="form-group col-md-5">
-                    <label for="inputsender">Name</label>
+                    <label htmlFor="inputsender">Name</label>
                     <input
                       type="text"
                       className="form-control"
@@ -58,7 +57,7 @@ export default function ProfileSetting() {
                     />
                   </div>
                   <div className="form-group col-md-5">
-                    <label for="username">User Name</label>
+                    <label htmlFor="username">User Name</label>
                     <input
                       type="text"
                       className="form-control"
@@ -70,7 +69,7 @@ export default function ProfileSetting() {
 
                 <div className="form-row pt-4 pl-5">
                   <div className="form-group col-md-5">
-                    <label for="inputsender">Contact</label>
+                    <label htmlFor="inputsender">Contact</label>
                     <input
                       type="text"
                       className="form-control"
@@ -79,7 +78,7 @@ export default function ProfileSetting() {
                     />
                   </div>
                   <div className="form-group col-md-5">
-                    <label for="username">Address</label>
+                    <label htmlFor="username">Address</label>
                     <input
                       type="text"
                       className="form-control"
@@ -91,7 +90,7 @@ export default function ProfileSetting() {
 
                 <div className="form-row pt-4 pl-5">
                   <div className="form-group col-md-6">
-                    <label for="inputsender">Email</label>
+                    <label htmlFor="inputsender">Email</label>
                     <input
                       type="email"
                       className="form-control"

@@ -10,10 +10,10 @@ export default function Users() {
           <div className="col-12">
             <div className="recent-activity-head">
               <span>Recent Activity</span>
-              <i class="fa fa-refresh" aria-hidden="true"></i>
+              <i className="fa fa-refresh" aria-hidden="true"></i>
             </div>
             {/* table for recent activity*/}
-            <table class="table table-striped">
+            <table className="table table-striped">
               <thead>
                 {/* table list */}
                 <tr>

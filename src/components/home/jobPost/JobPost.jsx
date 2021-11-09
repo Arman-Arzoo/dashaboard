@@ -13,10 +13,10 @@ export default function JobPost() {
                 <span className="jobs-count">20 </span>
                 <span>Job Posts</span>
               </div>
-              <i class="fa fa-refresh" aria-hidden="true"></i>
+              <i className="fa fa-refresh" aria-hidden="true"></i>
             </div>
             {/* table for recent activity*/}
-            <table class="table table-striped">
+            <table className="table table-striped">
               <thead>
                 {/* table list */}
                 <tr>
@@ -42,11 +42,11 @@ export default function JobPost() {
                   <td>$20</td>
                   <td className="job-post-btn-status">
                     <button className="mr-2 approve">
-                      <i class="fa fa-check pr-1" aria-hidden="true"></i>
+                      <i className="fa fa-check pr-1" aria-hidden="true"></i>
                       Approve
                     </button>
                     <button className="cancel">
-                      <i class="fa fa-times pr-1" aria-hidden="true"></i>
+                      <i className="fa fa-times pr-1" aria-hidden="true"></i>
                       Cancel
                     </button>
                   </td>
@@ -65,11 +65,11 @@ export default function JobPost() {
 
                   <td className="job-post-btn-status">
                     <button className="mr-2 approve">
-                      <i class="fa fa-check pr-1" aria-hidden="true"></i>
+                      <i className="fa fa-check pr-1" aria-hidden="true"></i>
                       Approve
                     </button>
                     <button className="cancel">
-                      <i class="fa fa-times pr-1" aria-hidden="true"></i>
+                      <i className="fa fa-times pr-1" aria-hidden="true"></i>
                       Cancel
                     </button>
                   </td>
@@ -88,11 +88,11 @@ export default function JobPost() {
 
                   <td className="job-post-btn-status">
                     <button className="mr-2 approve">
-                      <i class="fa fa-check pr-1" aria-hidden="true"></i>
+                      <i className="fa fa-check pr-1" aria-hidden="true"></i>
                       Approve
                     </button>
                     <button className="cancel">
-                      <i class="fa fa-times pr-1" aria-hidden="true"></i>
+                      <i className="fa fa-times pr-1" aria-hidden="true"></i>
                       Cancel
                     </button>
                   </td>

@@ -6,12 +6,12 @@ export default function Pagination() {
       {/* pagination */}
       <div className=" p-2">
         <span>
-          <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+          <i className="fa fa-angle-double-left" aria-hidden="true"></i>
           <span className="pl-2">Previous</span>
         </span>
         <span className="float-right">
           <span className="pr-2">Next</span>
-          <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+          <i className="fa fa-angle-double-right" aria-hidden="true"></i>
         </span>
       </div>
 

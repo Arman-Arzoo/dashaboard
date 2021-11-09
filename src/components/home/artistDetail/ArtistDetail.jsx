@@ -13,11 +13,11 @@ export default function artistDetail() {
           <div className="col-12   artist-detail-main  align">
             <div className="artist-detail ">
               <span>Artist Details</span>
-              <i class="fa fa-refresh" aria-hidden="true"></i>
+              <i className="fa fa-refresh" aria-hidden="true"></i>
             </div>
 
             {/* table for artish detail*/}
-            <table class="table table-striped">
+            <table className="table table-striped">
               <thead>
                 {/* table list */}
                 <tr>

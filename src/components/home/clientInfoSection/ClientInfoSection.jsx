@@ -4,7 +4,7 @@ export default function ClientInfoSection() {
   return (
     <div>
       {/* client info section */}
-      <div class="container-fluid">
+      <div className="container-fluid">
         <div className="row ">
           <div className="col-6 ">
             <div className="row">
@@ -64,7 +64,7 @@ export default function ClientInfoSection() {
           <div className="col-6 artist-live-location">
             <div className="artist-head">
               <span>Artist live location</span>
-              <i class="fa fa-refresh" aria-hidden="true"></i>
+              <i className="fa fa-refresh" aria-hidden="true"></i>
             </div>
 
             <hr />
@@ -72,10 +72,10 @@ export default function ClientInfoSection() {
               <iframe
                 width="100%"
                 height="250"
-                frameborder="0"
+                frameBorder="0"
                 scrolling="no"
-                marginheight="0"
-                marginwidth="0"
+                marginHeight="0"
+                marginWidth="0"
                 title="artist-map"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>

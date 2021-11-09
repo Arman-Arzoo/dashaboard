@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function GeneralSetting() {
   return (
@@ -17,7 +16,7 @@ export default function GeneralSetting() {
             <form>
               <div className="form-row">
                 <div className="form-group col-md-8">
-                  <label for="payableAmount">Email Address</label>
+                  <label htmlFor="payableAmount">Email Address</label>
                   <div
                     style={{
                       display: "flex",
@@ -37,7 +36,7 @@ export default function GeneralSetting() {
             <form>
               <div className="form-row pt-4">
                 <div className="form-group col-md-3">
-                  <label for="inputsender">Current Password</label>
+                  <label htmlFor="inputsender">Current Password</label>
                   <input
                     type="password"
                     className="form-control"
@@ -46,7 +45,7 @@ export default function GeneralSetting() {
                   />
                 </div>
                 <div className="form-group col-md-3">
-                  <label for="inputsender">New Password</label>
+                  <label htmlFor="inputsender">New Password</label>
                   <input
                     type="password"
                     className="form-control"
@@ -54,7 +53,7 @@ export default function GeneralSetting() {
                   />
                 </div>
                 <div className="form-group col-md-3">
-                  <label for="inputreciever">Confirm Password</label>
+                  <label htmlFor="inputreciever">Confirm Password</label>
                   <input
                     type="password"
                     className="form-control"

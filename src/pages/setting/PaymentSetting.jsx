@@ -16,9 +16,9 @@ export default function PaymentSetting() {
             <form>
               <div className="form-row pt-4">
                 <div className="form-group col-md-12">
-                  <label for="selectCard">Select Card</label>
+                  <label htmlFor="selectCard">Select Card</label>
                   <select
-                    class="form-control"
+                    className="form-control"
                     name=""
                     size="0"
                     id="payment-card"
@@ -31,7 +31,7 @@ export default function PaymentSetting() {
 
               <div className="form-row pt-4 pl-5">
                 <div className="form-group col-md-4">
-                  <label for="inputsender">CardHolder Name</label>
+                  <label htmlFor="inputsender">CardHolder Name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -40,7 +40,7 @@ export default function PaymentSetting() {
                   />
                 </div>
                 <div className="form-group col-md-4">
-                  <label for="inputsender">Card Number</label>
+                  <label htmlFor="inputsender">Card Number</label>
                   <input
                     type="text"
                     className="form-control"
@@ -52,7 +52,7 @@ export default function PaymentSetting() {
 
               <div className="form-row  pl-5">
                 <div className="form-group col-md-4">
-                  <label for="inputsender">Expiration Date</label>
+                  <label htmlFor="inputsender">Expiration Date</label>
                   <input
                     type="date"
                     className="form-control"
@@ -61,7 +61,7 @@ export default function PaymentSetting() {
                   />
                 </div>
                 <div className="form-group col-md-2">
-                  <label for="cvv">CVV</label>
+                  <label htmlFor="cvv">CVV</label>
                   <input type="text" className="form-control" id="CardNumber" />
                 </div>
 

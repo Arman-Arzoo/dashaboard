@@ -64,7 +64,7 @@ export default function ArtistsList() {
                 <span className="ml-4 num">20</span>
                 <span className="float-right num mr-5">2019</span>
                 <p className="text-center para">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i className="fa fa-phone" aria-hidden="true"></i>
                   <span>(123)242-2134</span>
                 </p>
 
@@ -106,7 +106,7 @@ export default function ArtistsList() {
                 <span className="ml-4 num">20</span>
                 <span className="float-right num mr-5">2019</span>
                 <p className="text-center para">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i className="fa fa-phone" aria-hidden="true"></i>
                   <span>(123)242-2134</span>
                 </p>
 
@@ -149,7 +149,7 @@ export default function ArtistsList() {
                 <span className="ml-4 num">20</span>
                 <span className="float-right num mr-5">2019</span>
                 <p className="text-center para">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i className="fa fa-phone" aria-hidden="true"></i>
                   <span>(123)242-2134</span>
                 </p>
 
@@ -191,7 +191,7 @@ export default function ArtistsList() {
                 <span className="ml-4 num">20</span>
                 <span className="float-right num mr-5">2019</span>
                 <p className="text-center para">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i className="fa fa-phone" aria-hidden="true"></i>
                   <span>(123)242-2134</span>
                 </p>
 
@@ -233,7 +233,7 @@ export default function ArtistsList() {
                 <span className="ml-4 num">20</span>
                 <span className="float-right num mr-5">2019</span>
                 <p className="text-center para">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i className="fa fa-phone" aria-hidden="true"></i>
                   <span>(123)242-2134</span>
                 </p>
 
@@ -275,7 +275,7 @@ export default function ArtistsList() {
                 <span className="ml-4 num">20</span>
                 <span className="float-right num mr-5">2019</span>
                 <p className="text-center para">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i className="fa fa-phone" aria-hidden="true"></i>
                   <span>(123)242-2134</span>
                 </p>
 
