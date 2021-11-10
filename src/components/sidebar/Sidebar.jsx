@@ -41,7 +41,7 @@ export default function Sidebar() {
               <img className="sidebarIcon" src={User} alt="house" />
               Users
             </li>
-            <ul className="pl-5 pt-1">
+            <ul className="pl-5 pt-1 ">
               <NavLink to="/customers" className="link">
                 <li
                   className={` sidebarSubListItem ${
