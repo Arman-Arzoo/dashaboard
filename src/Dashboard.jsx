@@ -26,7 +26,7 @@ export default function Dashborad() {
       <div className="container-flex">
         <Sidebar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/dashboard">
             <Home />
           </Route>
           <Route exact path="/customers">
