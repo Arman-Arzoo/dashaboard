@@ -25,7 +25,7 @@ export default function Sidebar() {
             <NavLink to="/dashboard" className="link">
               <li
                 className={`sidebarListItem  ${
-                  splitLocation[1] === "" ? "active" : ""
+                  splitLocation[1] === "dashboard" ? "active" : ""
                 }`}
               >
                 <img className="sidebarIcon" src={house} alt="house" />
