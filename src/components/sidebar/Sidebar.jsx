@@ -188,7 +188,7 @@ export default function Sidebar() {
 
         <div className="sidebarMenu">
           <ul className="sidebarList">
-            <NavLink to="/setting" className="link">
+            <NavLink to="/setting/general-setting" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "setting" ? "active" : ""
