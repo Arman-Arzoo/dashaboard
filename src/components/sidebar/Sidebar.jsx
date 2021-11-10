@@ -9,7 +9,7 @@ import Users from "../sidebar/icons/Users.png";
 import UserCircle from "../sidebar/icons/UserCircle.png";
 import GearSix from "../sidebar/icons/GearSix.png";
 import Power from "../sidebar/icons/Power.png";
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function Sidebar() {
   const location = useLocation();
@@ -22,7 +22,7 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Dashboard</h3> */}
           <ul className="sidebarList">
-            <Link to="/" className="link">
+            <NavLink to="/" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "" ? "active" : ""
@@ -31,18 +31,18 @@ export default function Sidebar() {
                 <img className="sidebarIcon" src={house} alt="house" />
                 Dashboard
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Quick Menu</h3> */}
           <ul className="sidebarList">
-            <li>
+            <li className="sidebarListItem">
               <img className="sidebarIcon" src={User} alt="house" />
               Users
             </li>
             <ul className="pl-5 pt-1">
-              <Link to="/customers" className="link">
+              <NavLink to="/customers" className="link">
                 <li
                   className={` sidebarSubListItem ${
                     splitLocation[1] === "customers" ? "active" : ""
@@ -50,8 +50,8 @@ export default function Sidebar() {
                 >
                   customer
                 </li>
-              </Link>
-              <Link to="/artists" className="link">
+              </NavLink>
+              <NavLink to="/artists" className="link">
                 <li
                   className={` sidebarSubListItem pt-2 ${
                     splitLocation[1] === "artists" ? "active" : ""
@@ -59,14 +59,14 @@ export default function Sidebar() {
                 >
                   artists{" "}
                 </li>
-              </Link>
+              </NavLink>
             </ul>
           </ul>
         </div>
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Notifications</h3> */}
           <ul className="sidebarList">
-            <Link to="/booking" className="link">
+            <NavLink to="/booking" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "booking" ? "active" : ""
@@ -75,7 +75,7 @@ export default function Sidebar() {
                 <img className="sidebarIcon" src={tag} alt="house" />
                 Booking
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -86,7 +86,7 @@ export default function Sidebar() {
               Services
             </li>
             <ul className="pl-5 pt-1">
-              <Link to="/daily-deals" className="link">
+              <NavLink to="/daily-deals" className="link">
                 <li
                   className={` sidebarSubListItem  ${
                     splitLocation[1] === "daily-deals" ? "active" : ""
@@ -94,8 +94,8 @@ export default function Sidebar() {
                 >
                   Daily Deals
                 </li>
-              </Link>
-              <Link to="/all-services" className="link">
+              </NavLink>
+              <NavLink to="/all-services" className="link">
                 <li
                   className={` sidebarSubListItem pt-2 ${
                     splitLocation[1] === "all-services" ? "active" : ""
@@ -103,7 +103,7 @@ export default function Sidebar() {
                 >
                   All Services{" "}
                 </li>
-              </Link>
+              </NavLink>
             </ul>
           </ul>
         </div>
@@ -120,12 +120,20 @@ export default function Sidebar() {
               Payment
             </li>
             <ul className="pl-5 pt-1">
-              <Link to="/payments/customers" className="link">
+              <NavLink
+                to="/payments/customers"
+                className="link"
+                activeClassName="a-active"
+              >
                 <li>Customers</li>
-              </Link>
-              <Link to="/payments/artists" className="link">
+              </NavLink>
+              <NavLink
+                to="/payments/artists"
+                className="link"
+                activeClassName="a-active"
+              >
                 <li className="pt-2">Artists </li>
-              </Link>
+              </NavLink>
             </ul>
           </ul>
         </div>
@@ -133,7 +141,7 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
-            <Link to="/team" className="link">
+            <NavLink to="/team" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "team" ? "active" : ""
@@ -142,14 +150,14 @@ export default function Sidebar() {
                 <img className="sidebarIcon" src={Users} alt="house" />
                 Team
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
 
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
-            <Link to="/chat" className="link">
+            <NavLink to="/chat" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "chat" ? "active" : ""
@@ -158,14 +166,14 @@ export default function Sidebar() {
                 <img className="sidebarIcon" src={ChatCircleText} alt="house" />
                 Chat
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
 
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
-            <Link to="/admin" className="link">
+            <NavLink to="/admin" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "admin" ? "active" : ""
@@ -174,13 +182,13 @@ export default function Sidebar() {
                 <img className="sidebarIcon" src={UserCircle} alt="house" />
                 Admin
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
 
         <div className="sidebarMenu">
           <ul className="sidebarList">
-            <Link to="/setting" className="link">
+            <NavLink to="/setting" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "setting" ? "active" : ""
@@ -189,18 +197,18 @@ export default function Sidebar() {
                 <img className="sidebarIcon" src={GearSix} alt="house" />
                 Setting
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
 
         <div className="sidebarMenu">
           <ul className="sidebarList">
-            <Link to="#" className="link">
+            <NavLink to="#" className="link">
               <li className="sidebarListItem">
                 <img className="sidebarIcon" src={Power} alt="house" />
                 Logout
               </li>
-            </Link>
+            </NavLink>
           </ul>
         </div>
       </div>

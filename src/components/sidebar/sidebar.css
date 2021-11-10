@@ -51,6 +51,17 @@
   font-weight: bold;
 }
 
+.a-active {
+  padding: 4px;
+  background-color: rgb(240, 240, 255);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #313131;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
 .sidebarListItem.active,
 .sidebarListItem:hover {
   font-family: Poppins;
@@ -63,6 +74,13 @@
   background-color: rgb(240, 240, 255);
 }
 
+.sidebarSubListItem.a-active,
+.sidebarSubListItem:hover {
+  color: #313131;
+  background-color: rgb(240, 240, 255);
+  padding: 4px;
+  border-radius: 10px;
+}
 .sidebarIcon {
   margin-right: 5px;
   /* font-size: 20px !important; */
