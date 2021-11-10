@@ -41,6 +41,16 @@
   color: #9b9b9b;
 }
 
+.sidebarSubListItem.active {
+  padding: 5px;
+  background-color: rgb(240, 240, 255);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
 .sidebarListItem.active,
 .sidebarListItem:hover {
   font-family: Poppins;

@@ -9,9 +9,13 @@ import Users from "../sidebar/icons/Users.png";
 import UserCircle from "../sidebar/icons/UserCircle.png";
 import GearSix from "../sidebar/icons/GearSix.png";
 import Power from "../sidebar/icons/Power.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Sidebar() {
+  const location = useLocation();
+  const { pathname } = location;
+  const splitLocation = pathname.split("/");
+
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -19,7 +23,11 @@ export default function Sidebar() {
           {/* <h3 className="sidebarTitle">Dashboard</h3> */}
           <ul className="sidebarList">
             <Link to="/" className="link">
-              <li className="sidebarListItem active">
+              <li
+                className={`sidebarListItem  ${
+                  splitLocation[1] === "" ? "active" : ""
+                }`}
+              >
                 <img className="sidebarIcon" src={house} alt="house" />
                 Dashboard
               </li>
@@ -29,16 +37,28 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Quick Menu</h3> */}
           <ul className="sidebarList">
-            <li className="sidebarListItem">
+            <li>
               <img className="sidebarIcon" src={User} alt="house" />
               Users
             </li>
             <ul className="pl-5 pt-1">
               <Link to="/customers" className="link">
-                <li>customer</li>
+                <li
+                  className={` sidebarSubListItem ${
+                    splitLocation[1] === "customers" ? "active" : ""
+                  }`}
+                >
+                  customer
+                </li>
               </Link>
               <Link to="/artists" className="link">
-                <li className="pt-2">artists </li>
+                <li
+                  className={` sidebarSubListItem pt-2 ${
+                    splitLocation[1] === "artists" ? "active" : ""
+                  }`}
+                >
+                  artists{" "}
+                </li>
               </Link>
             </ul>
           </ul>
@@ -47,7 +67,11 @@ export default function Sidebar() {
           {/* <h3 className="sidebarTitle">Notifications</h3> */}
           <ul className="sidebarList">
             <Link to="/booking" className="link">
-              <li className="sidebarListItem">
+              <li
+                className={`sidebarListItem  ${
+                  splitLocation[1] === "booking" ? "active" : ""
+                }`}
+              >
                 <img className="sidebarIcon" src={tag} alt="house" />
                 Booking
               </li>
@@ -63,10 +87,22 @@ export default function Sidebar() {
             </li>
             <ul className="pl-5 pt-1">
               <Link to="/daily-deals" className="link">
-                <li>Daily Deals</li>
+                <li
+                  className={` sidebarSubListItem  ${
+                    splitLocation[1] === "daily-deals" ? "active" : ""
+                  }`}
+                >
+                  Daily Deals
+                </li>
               </Link>
               <Link to="/all-services" className="link">
-                <li className="pt-2">All Services </li>
+                <li
+                  className={` sidebarSubListItem pt-2 ${
+                    splitLocation[1] === "all-services" ? "active" : ""
+                  }`}
+                >
+                  All Services{" "}
+                </li>
               </Link>
             </ul>
           </ul>
@@ -98,7 +134,11 @@ export default function Sidebar() {
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
             <Link to="/team" className="link">
-              <li className="sidebarListItem">
+              <li
+                className={`sidebarListItem  ${
+                  splitLocation[1] === "team" ? "active" : ""
+                }`}
+              >
                 <img className="sidebarIcon" src={Users} alt="house" />
                 Team
               </li>
@@ -110,7 +150,11 @@ export default function Sidebar() {
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
             <Link to="/chat" className="link">
-              <li className="sidebarListItem">
+              <li
+                className={`sidebarListItem  ${
+                  splitLocation[1] === "chat" ? "active" : ""
+                }`}
+              >
                 <img className="sidebarIcon" src={ChatCircleText} alt="house" />
                 Chat
               </li>
@@ -122,7 +166,11 @@ export default function Sidebar() {
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
             <Link to="/admin" className="link">
-              <li className="sidebarListItem">
+              <li
+                className={`sidebarListItem  ${
+                  splitLocation[1] === "admin" ? "active" : ""
+                }`}
+              >
                 <img className="sidebarIcon" src={UserCircle} alt="house" />
                 Admin
               </li>
@@ -133,7 +181,11 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <ul className="sidebarList">
             <Link to="/setting" className="link">
-              <li className="sidebarListItem">
+              <li
+                className={`sidebarListItem  ${
+                  splitLocation[1] === "setting" ? "active" : ""
+                }`}
+              >
                 <img className="sidebarIcon" src={GearSix} alt="house" />
                 Setting
               </li>
