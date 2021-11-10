@@ -4,6 +4,7 @@ import profilepic from "../topbar/profile.png";
 import logo from "../topbar/logo.png";
 import envelope from "../topbar/Envelope.png";
 import chat from "../topbar/chat.png";
+import { NavLink } from "react-router-dom";
 
 export default function Topbar() {
   return (
@@ -11,7 +12,9 @@ export default function Topbar() {
       <div className="topbarWrapper">
         <div className="topLeft">
           <img className="logo-image" src={logo} alt="" />
-          <span className="logo">Nail2u</span>
+          <NavLink to="/">
+            <span className="logo">Nail2u</span>
+          </NavLink>
           <img src={profilepic} alt="" className="topAvatar" />
           <div className="welcome-text">
             <span className="welcome">Welcome Back , John Doe</span>
