@@ -23,6 +23,13 @@
   box-sizing: border-box;
   border-radius: 8px;
 }
+.test-active {
+  border: 4px solid #313131 !important;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100px;
+}
 .setting-active {
   border: 4px solid #313131 !important;
 }

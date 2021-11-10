@@ -24,43 +24,62 @@ export default function Setting() {
               <div className="setting-wrapper">
                 <div className="setting-menu">
                   <div className="setting-display">
-                    <div className="setting-menu-container setting-active">
-                      <NavLink to="/setting/general-setting">
+                    <NavLink
+                      to="/setting/general-setting"
+                      className="setting-menu-container "
+                      activeClassName="setting-active"
+                    >
+                      <div>
                         <img src={settingicon} alt="" />
                         <p>General settings</p>
-                      </NavLink>
-                    </div>
-
-                    <div className="setting-menu-container ml-3">
-                      <NavLink to="/setting/alert-notification">
+                      </div>
+                    </NavLink>
+                    <NavLink
+                      to="/setting/alert-notification"
+                      activeClassName="setting-active"
+                      className="setting-menu-container ml-3"
+                    >
+                      <div>
                         <img src={notificationicon} alt="" />
                         <p>Alert Notification</p>
-                      </NavLink>
-                    </div>
+                      </div>
+                    </NavLink>
                   </div>
 
                   <div className="setting-display">
-                    <div className="setting-menu-container mt-3">
-                      <NavLink to="/setting/payment-setting">
+                    <NavLink
+                      to="/setting/payment-setting"
+                      className="setting-menu-container mt-3"
+                      activeClassName="setting-active"
+                    >
+                      <div>
                         <img src={walleticon} alt="" />
                         <p>Payment settings</p>
-                      </NavLink>
-                    </div>
+                      </div>
+                    </NavLink>
 
-                    <div className="setting-menu-container ml-3 mt-3">
-                      <NavLink to="/setting/support-setting">
+                    <NavLink
+                      to="/setting/support-setting"
+                      className="setting-menu-container ml-3 mt-3"
+                      activeClassName="setting-active"
+                    >
+                      <div>
                         <img src={supporticon} alt="" />
                         <p>support settings</p>
-                      </NavLink>
-                    </div>
+                      </div>
+                    </NavLink>
                   </div>
                   <div className="setting-display">
-                    <div className="setting-menu-container  mt-3">
-                      <NavLink to="/setting/profile-setting">
+                    <NavLink
+                      to="/setting/profile-setting"
+                      className="setting-menu-container  mt-3"
+                      activeClassName="setting-active"
+                    >
+                      <div>
                         <img src={usericon} alt="" />
                         <p>profile settings</p>
-                      </NavLink>
-                    </div>
+                      </div>
+                    </NavLink>
                   </div>
                 </div>
               </div>
