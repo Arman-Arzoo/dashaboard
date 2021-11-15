@@ -30,7 +30,7 @@ export default function Sidebar() {
               >
                 <img className="sidebarIcon" src={house} alt="house" />
                 Dashboard
-              </li>
+              </li> 
             </NavLink>
           </ul>
         </div>
