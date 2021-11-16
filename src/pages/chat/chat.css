@@ -68,6 +68,8 @@
 }
 
 /* channel content area start */
+
+/* chat header */
 .channel-content-area {
   padding: 20px 10px 10px 0px;
 }
@@ -102,4 +104,36 @@
 }
 .channel-content-header i {
   font-size: 22px;
+}
+/* chatting */
+.chatting-text-with-profile {
+  display: flex;
+  padding-top: 20px;
+}
+
+.chatting-text-with-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.chatting-text-with-profile h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.7675px;
+  line-height: 25px;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 6.70698px;
+  color: #1d2030;
+  margin-bottom: 0px;
+}
+
+.chatting-text-with-profile p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.414px;
+  line-height: 20px;
+  color: #a0a0a0;
 }

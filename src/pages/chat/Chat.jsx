@@ -28,7 +28,7 @@ export default function Chat() {
                 <br />
 
                 {/* channel list item 1 */}
-                <div className="channel-list-item  ">
+                <div className="channel-list-item bg-light ">
                   <div className="channel-list-sub-item">
                     <img src={chatpic} alt="" />
                     <div>
@@ -93,6 +93,13 @@ export default function Chat() {
                       class="fa fa-ellipsis-v pl-3 pr-3"
                       aria-hidden="true"
                     ></i>
+                  </div>
+                </div>
+                <div className="chatting-text-with-profile">
+                  <img src={chatpro} alt="" />
+                  <div>
+                    <h6>Wow, this is really epic</h6>
+                    <p>1 minute ago</p>
                   </div>
                 </div>
               </div>
