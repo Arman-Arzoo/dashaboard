@@ -1,6 +1,7 @@
 import Search from "../../components/home/search/search";
 import "./chat.css";
 import chatpic from "../chat/chatpic.png";
+import chatpro from "../chat/chatpropic.png";
 
 export default function Chat() {
   return (
@@ -16,7 +17,7 @@ export default function Chat() {
         <div>
           {/* channel list */}
           <div className="row">
-            <div className="col-5">
+            <div className="col-4">
               <div className="channel-list rounded ">
                 <span className="chat-new-conservation-btn">
                   <i class="fa fa-plus-circle" aria-hidden="true"></i>
@@ -74,7 +75,27 @@ export default function Chat() {
               </div>
             </div>
             {/* channel content */}
-            <div>channel content</div>
+            <div className="col-8">
+              <div className="channel-content-area">
+                <div className="channel-content-header">
+                  <div className="channel-content-header-left">
+                    <img src={chatpro} alt="" />
+                    <div>
+                      {" "}
+                      <h5>Shailnay Cordon</h5>
+                      <p>typing...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <i class="fa fa-phone " aria-hidden="true"></i>
+                    <i
+                      class="fa fa-ellipsis-v pl-3 pr-3"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

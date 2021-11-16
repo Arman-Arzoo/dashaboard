@@ -66,3 +66,40 @@
   padding-left: 8px;
   color: #a0a0a0;
 }
+
+/* channel content area start */
+.channel-content-area {
+  padding: 20px 10px 10px 0px;
+}
+
+.channel-content-header {
+  display: flex;
+  justify-content: space-between;
+}
+.channel-content-header-left {
+  display: flex;
+}
+
+.channel-content-header img {
+  width: 45px;
+  height: 45px;
+}
+.channel-content-header h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.1451px;
+  padding-left: 10px;
+  color: #313131;
+  margin-bottom: 0;
+}
+.channel-content-header p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.7554px;
+  line-height: 22px;
+  padding-left: 10px;
+  color: #b3b3b3;
+}
+.channel-content-header i {
+  font-size: 22px;
+}
