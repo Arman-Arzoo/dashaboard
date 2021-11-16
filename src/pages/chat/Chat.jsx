@@ -16,6 +16,7 @@ export default function Chat() {
         {/* body */}
         <div>
           {/* channel list */}
+          <h4 className="pt-3 pl-3 border-bottom">Chat with Customer</h4>
           <div className="row">
             <div className="col-4">
               <div className="channel-list rounded ">
@@ -97,6 +98,8 @@ export default function Chat() {
               </div>
             </div>
           </div>
+          {/* chat between customer and artist */}
+          <h4 className="pt-3 pl-3 ">chat between customer and artist</h4>
         </div>
       </div>
     </div>
