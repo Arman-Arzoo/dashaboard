@@ -1,5 +1,6 @@
 export const yourFunctionName = () => async (disptatch) => {
-  //* fetch your api
+  //* fetch our API.
   //? fetching....
-  //todo dispatch into reducer
+  //todo dispatch into reducer.
+  //? dispatched data into reducer.
 };
