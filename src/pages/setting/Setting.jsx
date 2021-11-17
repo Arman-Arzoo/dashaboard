@@ -25,7 +25,7 @@ export default function Setting() {
                 <div className="setting-menu">
                   <div className="setting-display">
                     <NavLink
-                      to="/setting/general-setting"
+                      to="/dashboard/setting/general-setting"
                       className="setting-menu-container "
                       activeClassName="setting-active"
                     >
@@ -35,7 +35,7 @@ export default function Setting() {
                       </div>
                     </NavLink>
                     <NavLink
-                      to="/setting/alert-notification"
+                      to="/dashboard/setting/alert-notification"
                       activeClassName="setting-active"
                       className="setting-menu-container ml-3"
                     >
@@ -48,7 +48,7 @@ export default function Setting() {
 
                   <div className="setting-display">
                     <NavLink
-                      to="/setting/payment-setting"
+                      to="/dashboard/setting/payment-setting"
                       className="setting-menu-container mt-3"
                       activeClassName="setting-active"
                     >
@@ -59,7 +59,7 @@ export default function Setting() {
                     </NavLink>
 
                     <NavLink
-                      to="/setting/support-setting"
+                      to="/dashboard/setting/support-setting"
                       className="setting-menu-container ml-3 mt-3"
                       activeClassName="setting-active"
                     >
@@ -71,7 +71,7 @@ export default function Setting() {
                   </div>
                   <div className="setting-display">
                     <NavLink
-                      to="/setting/profile-setting"
+                      to="/dashboard/setting/profile-setting"
                       className="setting-menu-container  mt-3"
                       activeClassName="setting-active"
                     >

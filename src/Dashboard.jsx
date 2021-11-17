@@ -29,46 +29,46 @@ export default function Dashborad() {
           <Route exact path="/dashboard">
             <Home />
           </Route>
-          <Route exact path="/customers">
+          <Route exact path="/dashboard/customers">
             <Customers />
           </Route>
-          <Route exact path="/customers/customer-profile">
+          <Route exact path="/dashboard/customers/customer-profile">
             <CustomerProfile />
           </Route>
-          <Route exact path="/artists">
+          <Route exact path="/dashboard/artists">
             <Artists />
           </Route>
-          <Route exact path="/artists/artist-profile">
+          <Route exact path="/dashboard/artists/artist-profile">
             <ArtistProfile />
           </Route>
-          <Route path="/booking">
+          <Route path="/dashboard/booking">
             <Booking />
           </Route>
-          <Route path="/daily-deals">
+          <Route path="/dashboard/daily-deals">
             <DailyDeal />
           </Route>
-          <Route path="/all-services">
+          <Route path="/dashboard/all-services">
             <AllServices />
           </Route>
-          <Route path="/payments/customers">
+          <Route path="/dashboard/payments/customers">
             <Pcustomers />
           </Route>
-          <Route path="/payments/artists">
+          <Route path="/dashboard/payments/artists">
             <Partists />
           </Route>
-          <Route path="/team">
+          <Route path="/dashboard/team">
             <Team />
           </Route>
-          <Route path="/chat">
+          <Route path="/dashboard/chat">
             <Chat />
           </Route>
-          <Route exact path="/admin">
+          <Route exact path="/dashboard/admin">
             <Admin />
           </Route>
-          <Route exact path="/admin/admin-profile">
+          <Route exact path="/dashboard/admin/admin-profile">
             <AdminProfile />
           </Route>
-          <Route path="/setting">
+          <Route path="/dashboard/setting">
             <Setting />
           </Route>
         </Switch>

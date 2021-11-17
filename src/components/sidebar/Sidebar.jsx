@@ -30,7 +30,7 @@ export default function Sidebar() {
               >
                 <img className="sidebarIcon" src={house} alt="house" />
                 Dashboard
-              </li> 
+              </li>
             </NavLink>
           </ul>
         </div>
@@ -42,7 +42,7 @@ export default function Sidebar() {
               Users
             </li>
             <ul className="pl-5 pt-1 ">
-              <NavLink to="/customers" className="link">
+              <NavLink to="/dashboard/customers" className="link">
                 <li
                   className={` sidebarSubListItem ${
                     splitLocation[1] === "customers" ? "active" : ""
@@ -51,7 +51,7 @@ export default function Sidebar() {
                   customer
                 </li>
               </NavLink>
-              <NavLink to="/artists" className="link">
+              <NavLink to="/dashboard/artists" className="link">
                 <li
                   className={` sidebarSubListItem pt-2 ${
                     splitLocation[1] === "artists" ? "active" : ""
@@ -66,7 +66,7 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Notifications</h3> */}
           <ul className="sidebarList">
-            <NavLink to="/booking" className="link">
+            <NavLink to="/dashboard/booking" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "booking" ? "active" : ""
@@ -86,7 +86,7 @@ export default function Sidebar() {
               Services
             </li>
             <ul className="pl-5 pt-1">
-              <NavLink to="/daily-deals" className="link">
+              <NavLink to="/dashboard/daily-deals" className="link">
                 <li
                   className={` sidebarSubListItem  ${
                     splitLocation[1] === "daily-deals" ? "active" : ""
@@ -95,7 +95,7 @@ export default function Sidebar() {
                   Daily Deals
                 </li>
               </NavLink>
-              <NavLink to="/all-services" className="link">
+              <NavLink to="/dashboard/all-services" className="link">
                 <li
                   className={` sidebarSubListItem pt-2 ${
                     splitLocation[1] === "all-services" ? "active" : ""
@@ -121,14 +121,14 @@ export default function Sidebar() {
             </li>
             <ul className="pl-5 pt-1">
               <NavLink
-                to="/payments/customers"
+                to="/dashboard/payments/customers"
                 className="link"
                 activeClassName="a-active"
               >
                 <li>Customers</li>
               </NavLink>
               <NavLink
-                to="/payments/artists"
+                to="/dashboard/payments/artists"
                 className="link"
                 activeClassName="a-active"
               >
@@ -141,7 +141,7 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
-            <NavLink to="/team" className="link">
+            <NavLink to="/dashboard/team" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "team" ? "active" : ""
@@ -157,7 +157,7 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
-            <NavLink to="/chat" className="link">
+            <NavLink to="/dashboard/chat" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "chat" ? "active" : ""
@@ -173,7 +173,7 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           {/* <h3 className="sidebarTitle">Staff</h3> */}
           <ul className="sidebarList">
-            <NavLink to="/admin" className="link">
+            <NavLink to="/dashboard/admin" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "admin" ? "active" : ""
@@ -188,7 +188,7 @@ export default function Sidebar() {
 
         <div className="sidebarMenu">
           <ul className="sidebarList">
-            <NavLink to="/setting/general-setting" className="link">
+            <NavLink to="/dashboard/setting/general-setting" className="link">
               <li
                 className={`sidebarListItem  ${
                   splitLocation[1] === "setting" ? "active" : ""
