@@ -108,7 +108,6 @@
 /* chatting */
 .chatting-text-with-profile {
   display: flex;
-  padding-top: 20px;
 }
 
 .chatting-text-with-profile img {
@@ -136,4 +135,114 @@
   font-size: 13.414px;
   line-height: 20px;
   color: #a0a0a0;
+}
+
+.cummunicator-chatting {
+  padding-left: 400px;
+}
+
+/* chat between customer and artist */
+.cus-to-art {
+  background: #ffffff;
+  box-shadow: 0px 1.3414px 8.04838px 3.35349px rgba(0, 0, 0, 0.06);
+  border-radius: 5.414px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.chatting-between-cus-art {
+  display: flex;
+}
+.chatting-between-cus-art img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2.0121px solid #ff5050;
+}
+.chatting-between-cus-art h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.7675px;
+  line-height: 25px;
+  color: #313131;
+  padding-left: 15px;
+  margin-bottom: 0px;
+}
+
+.chatting-between-cus-art p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 15px;
+  color: #a0a0a0;
+}
+
+.cus-to-art-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.414px;
+  line-height: 20px;
+  color: #a0a0a0;
+}
+
+.line-cus-to-art {
+  border: 2.0121px solid #ff5050;
+  transform: rotate(-90deg);
+  width: 26.83px;
+  height: 0px;
+  position: absolute;
+  left: 7.5%;
+}
+
+.chat-item-2 {
+  padding-top: 16px;
+}
+
+/* cus to art chat detail page */
+.cus-to-art-chat-detail {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.cus-to-art-chat-detail-profile {
+  display: flex;
+  position: relative;
+}
+
+.cummunicator-detail-chatting {
+  padding-left: 290px;
+}
+.cus-to-art-chat-detail-data {
+  display: flex;
+  align-items: center;
+}
+.cus-to-art-chat-detail-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.cus-to-art-chat-detail-profile h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.121px;
+  line-height: 30px;
+  /* identical to box height */
+  padding-left: 10px;
+  color: #313131;
+}
+.line-cus-to-art-detail {
+  border: 2.0121px solid #c4c4c4;
+  transform: rotate(180deg);
+  width: 160.7px;
+  height: 0px;
+  top: 50%;
+  left: 32%;
+  position: absolute;
+}
+.cus-to-art-adject {
+  padding-left: 180px;
 }
