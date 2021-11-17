@@ -208,6 +208,15 @@
   padding-top: 30px;
   padding-bottom: 50px;
 }
+.cus-to-art-chat-detail p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.7675px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #a0a0a0;
+}
 .cus-to-art-chat-detail-profile {
   display: flex;
   position: relative;
