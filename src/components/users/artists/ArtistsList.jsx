@@ -69,7 +69,7 @@ export default function ArtistsList() {
                 </p>
 
                 <Link
-                  to="/artists/artist-profile"
+                  to="/dashboard/artists/artist-profile"
                   className="btn btn-artist-info "
                 >
                   View More
@@ -111,7 +111,7 @@ export default function ArtistsList() {
                 </p>
 
                 <Link
-                  to="/artists/artist-profile"
+                  to="/dashboard/artists/artist-profile"
                   className="btn btn-artist-info "
                 >
                   View More
@@ -154,7 +154,7 @@ export default function ArtistsList() {
                 </p>
 
                 <Link
-                  to="/artists/artist-profile"
+                  to="/dashboard/artists/artist-profile"
                   className="btn btn-artist-info "
                 >
                   View More
@@ -196,7 +196,7 @@ export default function ArtistsList() {
                 </p>
 
                 <Link
-                  to="/artists/artist-profile"
+                  to="/dashboard/artists/artist-profile"
                   className="btn btn-artist-info "
                 >
                   View More
@@ -238,7 +238,7 @@ export default function ArtistsList() {
                 </p>
 
                 <Link
-                  to="/artists/artist-profile"
+                  to="/dashboard/artists/artist-profile"
                   className="btn btn-artist-info "
                 >
                   View More
@@ -280,7 +280,7 @@ export default function ArtistsList() {
                 </p>
 
                 <Link
-                  to="/artists/artist-profile"
+                  to="/dashboard/artists/artist-profile"
                   className="btn btn-artist-info "
                 >
                   View More

@@ -60,7 +60,7 @@ export default function Admin() {
                   <div className="admin-active"></div>
                 </td>
                 <td>
-                  <Link to="/admin/admin-profile">view Detail</Link>
+                  <Link to="/dashboard/admin/admin-profile">view Detail</Link>
                 </td>
               </tr>
               {/* table body item1 end */}
@@ -81,7 +81,7 @@ export default function Admin() {
                   <div className="admin-offline"></div>
                 </td>{" "}
                 <td>
-                  <Link to="/admin/admin-profile">view Detail</Link>
+                  <Link to="/dashboard/admin/admin-profile">view Detail</Link>
                 </td>
               </tr>
               {/* table body item1 end */}
@@ -102,7 +102,7 @@ export default function Admin() {
                   <div className="admin-active"></div>
                 </td>
                 <td>
-                  <Link to="/admin/admin-profile">view Detail</Link>
+                  <Link to="/dashboard/admin/admin-profile">view Detail</Link>
                 </td>
               </tr>
               {/* table body item1 end */}

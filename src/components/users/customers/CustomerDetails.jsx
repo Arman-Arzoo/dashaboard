@@ -54,7 +54,7 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
@@ -76,7 +76,7 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
@@ -99,7 +99,7 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
@@ -122,7 +122,7 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
@@ -145,7 +145,7 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
