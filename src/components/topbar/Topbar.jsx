@@ -12,7 +12,7 @@ export default function Topbar() {
       <div className="topbarWrapper">
         <div className="topLeft">
           <img className="logo-image" src={logo} alt="" />
-          <NavLink to="/">
+          <NavLink to="/dashboard">
             <span className="logo">Nail2u</span>
           </NavLink>
           <img src={profilepic} alt="" className="topAvatar" />
