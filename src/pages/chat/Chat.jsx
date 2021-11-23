@@ -21,7 +21,7 @@ export default function Chat() {
             <div className="col-4">
               <div className="channel-list rounded ">
                 <span className="chat-new-conservation-btn">
-                  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                  <i className="fa fa-plus-circle" aria-hidden="true"></i>
                   <span>New Conservation</span>
                 </span>
                 <br />
@@ -88,9 +88,9 @@ export default function Chat() {
                     </div>
                   </div>
                   <div>
-                    <i class="fa fa-phone " aria-hidden="true"></i>
+                    <i className="fa fa-phone " aria-hidden="true"></i>
                     <i
-                      class="fa fa-ellipsis-v pl-3 pr-3"
+                      className="fa fa-ellipsis-v pl-3 pr-3"
                       aria-hidden="true"
                     ></i>
                   </div>
@@ -123,20 +123,23 @@ export default function Chat() {
 
                 {/* typing box */}
                 <div>
-                  <div class="input-group">
-                    <div class="input-group-append">
-                      <span class="input-group-text attach_btn">
-                        <i class="fa fa-paperclip" aria-hidden="true"></i>
+                  <div className="input-group">
+                    <div className="input-group-append">
+                      <span className="input-group-text attach_btn">
+                        <i className="fa fa-paperclip" aria-hidden="true"></i>
                       </span>
                     </div>
                     <textarea
                       name=""
-                      class="form-control type_msg"
+                      className="form-control type_msg"
                       placeholder="Type your message..."
                     ></textarea>
-                    <div class="input-group-append">
-                      <span class="input-group-text send_btn">
-                        <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                    <div className="input-group-append">
+                      <span className="input-group-text send_btn">
+                        <i
+                          className="fa fa-location-arrow"
+                          aria-hidden="true"
+                        ></i>
                       </span>
                     </div>
                   </div>

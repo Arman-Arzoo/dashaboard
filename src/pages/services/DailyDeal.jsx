@@ -219,7 +219,7 @@ export default function DailyDeal() {
                         <DealOfferSlide />
                         <DealOfferSlide />
                         <DealOfferSlide />
-                        <DealOfferSlide />
+
                         <DealOfferSlide />
                       </div>
                       {/* </div> */}
@@ -231,7 +231,7 @@ export default function DailyDeal() {
                         {/* items box here  start*/}
                         <DealOfferSlide />
                         <DealOfferSlide />
-                        <DealOfferSlide />
+
                         <DealOfferSlide />
                         <DealOfferSlide />
                         {/* items box end */}

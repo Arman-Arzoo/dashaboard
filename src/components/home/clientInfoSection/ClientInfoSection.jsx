@@ -41,14 +41,25 @@ export default function ClientInfoSection() {
                 <span>Booking</span>
               </div>
 
-              <div style={{ marginTop: "10px" }}>
-                <span className="today ">20</span>
-                <span className="prebooking leftsideMove">10</span>
-                <span className="cancelled leftsideMove">20</span>
-                <br />
-                <span className="booking-text">Today</span>
-                <span className="booking-text leftsideMove">Prebooking</span>
-                <span className="booking-text leftsideMove">Cancelled</span>
+              <div
+                style={{
+                  marginTop: "10px",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
+                <div>
+                  <span className="today ">20</span>
+                  <span className="prebooking leftsideMove">10</span>
+                  <span className="cancelled leftsideMove">20</span>
+                </div>
+
+                <div>
+                  <span className="booking-text">Today</span>
+                  <span className="booking-text">Prebooking</span>
+                  <span className="booking-text ">Cancelled</span>
+                </div>
               </div>
             </div>
             {/* booking div end */}

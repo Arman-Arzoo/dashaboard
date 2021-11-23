@@ -58,7 +58,7 @@
 }
 
 .leftsideMove {
-  margin-left: 10px;
+  margin-left: 45px;
 }
 .clients-info-home .cancelled {
   font-family: Poppins;
@@ -66,7 +66,7 @@
   font-weight: 600;
   font-size: 25px;
   line-height: 41px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   color: #ff5050;
 }
 
@@ -81,18 +81,6 @@
   color: #7a7a7a;
 }
 
-@media only screen and (max-width: 1200px) {
-  .clients-info-home .cancelled {
-    padding-left: 20px;
-  }
-  .clients-info-home .prebooking {
-    padding-left: 20px;
-  }
-  .clients-info-home .booking-text {
-    font-size: 8.7656px;
-    line-height: 15px;
-  }
-}
 /* artist live location start */
 .artist-live-location {
   background: #ffffff;
@@ -111,7 +99,6 @@
   font-weight: 600;
   font-size: 20.6485px;
   line-height: 31px;
-
   color: #313131;
   padding-top: 10px;
 }

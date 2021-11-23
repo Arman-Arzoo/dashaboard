@@ -50,7 +50,7 @@ export default function Booking() {
                 <td>Acrylic nail art</td>
                 <td>01.00.PM</td>
                 <td>8/9/2021</td>
-                <td></td>
+                <td>$8</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td>
@@ -69,39 +69,13 @@ export default function Booking() {
 
               {/* row start */}
               <tr>
-                <td>2</td>
-                <td>Tina Fox</td>
-                <td>23211233</td>
-                <td>01.00.Pm</td>
+                <td>1</td>
+                <td>234229</td>
+                <td>Tina Fax</td>
+                <td>Acrylic nail art</td>
+                <td>01.00.PM</td>
                 <td>8/9/2021</td>
-                <td>$20</td>
-                <td>TinaFox@gmail.com</td>
-                <td>House No 113 Block A Street 4 xyz</td>
-                <td>Shailnay Cordon</td>
-                <td>
-                  <span>
-                    <div className="circle-booking-edit">
-                      <i className="fa fa-pencil" aria-hidden="true"></i>
-                    </div>
-                  </span>
-                  <span>
-                    <div className="circle-booking-cross">
-                      <i className="fa fa-times" aria-hidden="true"></i>
-                    </div>
-                  </span>
-                </td>
-              </tr>
-              {/* row end */}
-
-              {/* row start */}
-              <tr>
-                <td>3</td>
-                <td>Tina Fox</td>
-                <td>23211233</td>
-                <td>01.00.Pm</td>
-                <td>8/9/2021</td>
-                <td>$20</td>
-                <td>TinaFox@gmail.com</td>
+                <td>$8</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td>
@@ -121,13 +95,38 @@ export default function Booking() {
 
               {/* row start */}
               <tr>
-                <td>4</td>
-                <td>Tina Fox</td>
-                <td>23211233</td>
-                <td>01.00.Pm</td>
+                <td>1</td>
+                <td>234229</td>
+                <td>Tina Fax</td>
+                <td>Acrylic nail art</td>
+                <td>01.00.PM</td>
                 <td>8/9/2021</td>
-                <td>$20</td>
-                <td>TinaFox@gmail.com</td>
+                <td>$8</td>
+                <td>House No 113 Block A Street 4 xyz</td>
+                <td>Shailnay Cordon</td>
+                <td>
+                  <span>
+                    <div className="circle-booking-edit">
+                      <i className="fa fa-pencil" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                  <span>
+                    <div className="circle-booking-cross">
+                      <i className="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                  </span>
+                </td>
+              </tr>
+              {/* row end */}
+              {/* row start */}
+              <tr>
+                <td>1</td>
+                <td>234229</td>
+                <td>Tina Fax</td>
+                <td>Acrylic nail art</td>
+                <td>01.00.PM</td>
+                <td>8/9/2021</td>
+                <td>$8</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td>
@@ -147,13 +146,13 @@ export default function Booking() {
 
               {/* row start */}
               <tr>
-                <td>5</td>
-                <td>Tina Fox</td>
-                <td>23211233</td>
-                <td>01.00.Pm</td>
+                <td>1</td>
+                <td>234229</td>
+                <td>Tina Fax</td>
+                <td>Acrylic nail art</td>
+                <td>01.00.PM</td>
                 <td>8/9/2021</td>
-                <td>$20</td>
-                <td>TinaFox@gmail.com</td>
+                <td>$8</td>
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td>
