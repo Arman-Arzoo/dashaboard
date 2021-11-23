@@ -36,7 +36,7 @@ export default function SupportSetting() {
 
             <div className="alert-notification-setting">
               <div>
-                <textarea name="" id="" cols="80" rows="2"></textarea>
+                <textarea name="" id="" cols="60" rows="2"></textarea>
               </div>
 
               <div className="switch_box box_1">

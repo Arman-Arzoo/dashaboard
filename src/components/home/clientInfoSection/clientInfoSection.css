@@ -8,9 +8,15 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 14.6485px;
+  font-size: 12.6485px;
   line-height: 31px;
   color: #7a7a7a;
+}
+
+.clients-info-home h1 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
 }
 .clients-info-home span {
   font-family: Poppins;
@@ -22,6 +28,10 @@
   padding-left: 10px;
   margin-top: 10px;
 }
+.clients-info-home__header {
+  border-bottom: 1px solid #c4c4c4;
+  margin-top: 10px;
+}
 .clients-info-home img {
   width: 33.04px;
   height: 32.35px;
@@ -31,25 +41,30 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 27.5313px;
+  font-size: 25px;
   line-height: 41px;
 
   color: #313131;
 }
+
 .clients-info-home .prebooking {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 27.5313px;
+  font-size: 25px;
   line-height: 41px;
-  padding-left: 40px;
+  padding-left: 0px;
   color: #313131;
+}
+
+.leftsideMove {
+  margin-left: 10px;
 }
 .clients-info-home .cancelled {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 27.5313px;
+  font-size: 25px;
   line-height: 41px;
   padding-left: 40px;
   color: #ff5050;

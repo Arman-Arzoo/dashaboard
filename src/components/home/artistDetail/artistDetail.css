@@ -13,6 +13,10 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.artist__scroll {
+  overflow-y: scroll;
+}
 .artist-detail span {
   font-family: Poppins;
   font-style: normal;
@@ -60,7 +64,7 @@ th {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 17.207px;
+  font-size: 15px;
   line-height: 26px;
 
   color: #313131;
@@ -71,13 +75,16 @@ th {
   border: none;
   background: #68cb06;
   border-radius: 6.88282px;
-  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 12.3891px;
+  font-size: 10.3891px;
   line-height: 19px;
-  padding: 5.51px 11.5px;
+  padding: 4px 8px;
   color: #ffffff;
+}
+
+.artist-detail-main td {
+  font-size: 11px;
 }
 
 /* customer review section */
@@ -104,10 +111,9 @@ th {
 }
 
 .customer-review span {
-  font-family: Poppins;
   font-style: normal;
-  font-weight: 600;
-  font-size: 15.6485px;
+  font-weight: 800;
+  font-size: 13.6485px;
   line-height: 31px;
   color: #313131;
 }
@@ -115,7 +121,7 @@ th {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 27.5313px;
+  font-size: 20.5313px;
   line-height: 41px;
   color: #313131;
 }
@@ -129,7 +135,7 @@ th {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 16.5188px;
+  font-size: 12.5188px;
   line-height: 25px;
   color: #313131;
 }
@@ -142,7 +148,7 @@ th {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 20.6485px;
+  font-size: 16.6485px;
   line-height: 31px;
   color: #313131;
   padding-left: 10px;
@@ -151,15 +157,15 @@ th {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 10.207px;
+  font-size: 8.207px;
   line-height: 26px;
   color: #7a7a7a;
   padding-left: 41px;
   margin-top: -10px;
 }
 .customer-review-rating img {
-  width: 17.21px;
-  height: 17.21px;
+  width: 10.21px;
+  height: 10.21px;
   margin-left: 5px;
   margin-bottom: 5px;
 }
@@ -168,7 +174,7 @@ th {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 20.6485px;
+  font-size: 16.6485px;
   line-height: 31px;
   color: #313131;
 }

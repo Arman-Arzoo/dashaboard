@@ -1,9 +1,11 @@
 import React from "react";
 import "./topbar.css";
 import profilepic from "../topbar/profile.png";
-import logo from "../topbar/logo.png";
-import envelope from "../topbar/Envelope.png";
-import chat from "../topbar/chat.png";
+import messageIcon from "../topbar/Envelope.svg";
+import resumeIcon from "../topbar/resume.svg";
+import bellIcon from "../topbar/bell.svg";
+import logo from "../topbar/logo.svg";
+
 import { NavLink } from "react-router-dom";
 
 export default function Topbar() {
@@ -25,22 +27,27 @@ export default function Topbar() {
         <div className="topRight">
           <div className="topbarIconContainer">
             {/* <chat /> */}
-            <img src={chat} alt="chat" />
+
+            {/* <i class="fa fa-address-card-o" aria-hidden="true"></i> */}
+            <img src={resumeIcon} alt="" className="topbar__iconSize" />
             <span className="topIconBadge">5</span>
             <span className="bottomTextResumes">Resumes</span>
           </div>
 
           <div className="topbarIconContainer">
             {/* <envelope /> */}
-            <img src={envelope} alt="chat" />
+
+            {/* <i class="fa fa-envelope-o" aria-hidden="true"></i> */}
+            <img src={messageIcon} alt="" className="topbar__iconSize" />
             <span className="topIconBadge">5</span>
             <span className="bottomTextMessage">Messages</span>
           </div>
 
           <div className="topbarIconContainer">
             {/* <Notification /> */}
-            {/* <img src={envelope} alt="chat" /> */}
-            <i className="fa fa-bell-o" aria-hidden="true"></i>
+
+            {/* <i className="fa fa-bell-o" aria-hidden="true"></i> */}
+            <img src={bellIcon} alt="" className="topbar_bell" />
             <span className="topIconBadge">12</span>
             <span className="bottomTextNotification">Notification</span>
           </div>

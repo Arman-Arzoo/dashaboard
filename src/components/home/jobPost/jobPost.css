@@ -2,6 +2,7 @@
   border: 0.69px solid #c4c4c4;
   border-radius: 6.88282px;
   background: #ffffff;
+  overflow-y: scroll;
 }
 .job-post-head {
   display: flex;

@@ -1,6 +1,6 @@
 .topbar {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: #fcfbfb;
   /* position: sticky;
   top: 0; */
@@ -18,14 +18,12 @@
 .logo-image {
   height: 41.6888313293457px;
   width: 68.61701965332031px;
-  padding-left: 30px;
 }
 
 .logo {
-  font-family: Public Sans;
   font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 25px;
   line-height: 35px;
   color: #313131;
   cursor: pointer;
@@ -48,8 +46,8 @@
 }
 
 .topIconBadge {
-  width: 24.48px;
-  height: 24.48px;
+  width: 20.48px;
+  height: 20.48px;
   position: absolute;
   top: -5px;
   right: 0px;
@@ -62,7 +60,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 17.207px;
+  font-size: 12.207px;
   line-height: 26px;
 }
 .bottomTextNotification {
@@ -74,7 +72,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 17.207px;
+  font-size: 14.207px;
   line-height: 26px;
   /* identical to box height */
 
@@ -82,15 +80,14 @@
 }
 .bottomTextMessage {
   position: absolute;
-  left: -15%;
+  left: -25%;
   right: 0;
   top: 80.55%;
   bottom: 4.96%;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 17.207px;
+  font-size: 14.207px;
   line-height: 26px;
   /* identical to box height */
 
@@ -99,7 +96,7 @@
 
 .bottomTextResumes {
   position: absolute;
-  left: -15%;
+  left: -20%;
   right: 0%;
   top: 80.38%;
   bottom: 5.01%;
@@ -107,23 +104,30 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 17.207px;
+  font-size: 14.207px;
   line-height: 26px;
 
   color: #7a7a7a;
 }
 .topAvatar {
-  width: 65.31px;
-  height: 65.39px;
+  width: 50.31px;
+  height: 50.39px;
   margin-left: 65px;
   border-radius: 50%;
   cursor: pointer;
 }
+.topbar__iconSize {
+  width: 45px;
+  height: 45px;
+}
+.topbar_bell {
+  width: 35px;
+  height: 35px;
+}
 .welcome {
-  font-family: Poppins;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20.6485px;
+  font-weight: 600;
+  font-size: 16.6485px;
   line-height: 31px;
   color: #313131;
 }
@@ -134,12 +138,13 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 17.207px;
+  font-size: 14.207px;
   line-height: 26px;
 
   color: #7a7a7a;
 }
 
 .topbarIconContainer i {
-  font-size: 40px;
+  font-size: 32px;
+  color: #857a7a;
 }

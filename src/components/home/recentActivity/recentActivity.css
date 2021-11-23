@@ -50,3 +50,8 @@
 .order-no {
   padding-left: 10px;
 }
+
+.recent-activity th {
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -35,52 +35,54 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 19.27px;
+  font-size: 18px;
   line-height: 29px;
 
   color: #9b9b9b;
 }
-
-.sidebarSubListItem.active {
-  padding: 5px;
-  background-color: rgb(240, 240, 255);
-  cursor: pointer;
+.subMenu__item {
+  position: relative;
+}
+.menu__badge {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #313131;
+  border-radius: 50%;
+  left: -18%;
+  top: 32%;
+  background: #9b9b9b;
   display: flex;
   align-items: center;
-  border-radius: 10px;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+.menu__badgeTwo {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  left: -18%;
+  top: 48%;
+  background: #9b9b9b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px !important;
+}
+
+.link:hover {
+  color: #313131;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .a-active {
-  padding: 4px;
-  background-color: rgb(240, 240, 255);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
   color: #313131;
-  border-radius: 10px;
   font-weight: bold;
 }
 
-.sidebarListItem.active,
-.sidebarListItem:hover {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 19.27px;
-  line-height: 29px;
-
-  color: #313131;
-  background-color: rgb(240, 240, 255);
-}
-
-.sidebarSubListItem.a-active,
-.sidebarSubListItem:hover {
-  color: #313131;
-  background-color: rgb(240, 240, 255);
-  padding: 4px;
-  border-radius: 10px;
-}
 .sidebarIcon {
   margin-right: 5px;
   /* font-size: 20px !important; */
@@ -90,4 +92,9 @@
 
 .sidebarListItem img {
   padding-right: 5px;
+}
+
+/* hide sub menu */
+.hide {
+  display: none;
 }

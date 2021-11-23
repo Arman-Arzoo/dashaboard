@@ -10,7 +10,7 @@ export default function artistDetail() {
       <div className="row">
         <div className="col-8  align">
           {/* artist detail section start */}
-          <div className="col-12   artist-detail-main  align">
+          <div className="col-12   artist-detail-main artist__scroll align">
             <div className="artist-detail ">
               <span>Artist Details</span>
               <i className="fa fa-refresh" aria-hidden="true"></i>
@@ -157,6 +157,19 @@ export default function artistDetail() {
           </div>
           {/*customer list item 2 end */}
 
+          {/* customer list item 2 start*/}
+          <div className="row ">
+            <div className="col-9 customer-review-info">
+              <img src={pic} alt="profile" />
+              <span>Sarah Doe</span>
+              <p>Awesome ! Highly recommended</p>
+            </div>
+            <div className="col-3 customer-review-rating">
+              <span>3.5</span>
+              <img src={rating} alt="rating" />
+            </div>
+          </div>
+          {/*customer list item 2 end */}
           {/* customer list item 2 start*/}
           <div className="row ">
             <div className="col-9 customer-review-info">
