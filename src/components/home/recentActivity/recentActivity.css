@@ -13,7 +13,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 20.6485px;
+  font-size: 17.6485px;
   line-height: 31px;
 
   color: #313131;
@@ -52,6 +52,6 @@
 }
 
 .recent-activity th {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
 }

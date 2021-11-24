@@ -1,4 +1,6 @@
 .home {
   flex: 4;
   padding: 20px;
+  resize: both;
+  overflow: auto;
 }

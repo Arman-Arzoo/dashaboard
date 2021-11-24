@@ -58,8 +58,9 @@
 }
 
 .leftsideMove {
-  margin-left: 45px;
+  margin-left: 30px;
 }
+
 .clients-info-home .cancelled {
   font-family: Poppins;
   font-style: normal;
@@ -74,7 +75,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 12.7656px;
+  font-size: 10.7656px;
   line-height: 21px;
   /* identical to box height */
 
@@ -101,4 +102,18 @@
   line-height: 31px;
   color: #313131;
   padding-top: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .leftsideMove {
+    margin-left: 20px;
+  }
+  .clients-info-home .booking-text {
+    font-size: 9px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .leftsideMove {
+    margin-left: 30px;
+  }
 }
