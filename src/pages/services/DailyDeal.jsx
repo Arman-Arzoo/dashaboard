@@ -218,7 +218,6 @@ export default function DailyDeal() {
                       <div className="slide-box ">
                         <DealOfferSlide />
                         <DealOfferSlide />
-                        <DealOfferSlide />
 
                         <DealOfferSlide />
                       </div>
@@ -232,7 +231,6 @@ export default function DailyDeal() {
                         <DealOfferSlide />
                         <DealOfferSlide />
 
-                        <DealOfferSlide />
                         <DealOfferSlide />
                         {/* items box end */}
                       </div>
