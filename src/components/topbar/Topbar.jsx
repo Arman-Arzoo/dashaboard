@@ -9,6 +9,9 @@ import logo from "../topbar/logo.svg";
 import { NavLink } from "react-router-dom";
 
 export default function Topbar() {
+  const resume = null;
+  const message = null;
+  const notification = null;
   return (
     <div className="topbar">
       <div className="topbarWrapper">
@@ -30,7 +33,9 @@ export default function Topbar() {
 
             {/* <i class="fa fa-address-card-o" aria-hidden="true"></i> */}
             <img src={resumeIcon} alt="" className="topbar__iconSize" />
-            <span className="topIconBadge">5</span>
+            <span className={`topIconBadge ${resume ? "" : "hideBadge"}`}>
+              5
+            </span>
             <span className="bottomTextResumes">Resumes</span>
           </div>
 
@@ -39,7 +44,9 @@ export default function Topbar() {
 
             {/* <i class="fa fa-envelope-o" aria-hidden="true"></i> */}
             <img src={messageIcon} alt="" className="topbar__iconSize" />
-            <span className="topIconBadge">5</span>
+            <span className={`topIconBadge ${message ? "" : "hideBadge"}`}>
+              5
+            </span>
             <span className="bottomTextMessage">Messages</span>
           </div>
 
@@ -48,7 +55,9 @@ export default function Topbar() {
 
             {/* <i className="fa fa-bell-o" aria-hidden="true"></i> */}
             <img src={bellIcon} alt="" className="topbar_bell" />
-            <span className="topIconBadge">12</span>
+            <span className={`topIconBadge ${notification ? "" : "hideBadge"}`}>
+              12
+            </span>
             <span className="bottomTextNotification">Notification</span>
           </div>
         </div>

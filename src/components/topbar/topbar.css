@@ -63,6 +63,9 @@
   font-size: 12.207px;
   line-height: 26px;
 }
+.hideBadge {
+  display: none;
+}
 .bottomTextNotification {
   position: absolute;
   left: -68%;

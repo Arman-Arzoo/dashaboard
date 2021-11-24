@@ -2,8 +2,14 @@ import Search from "../../components/home/search/search";
 import "./chat.css";
 import chatpic from "../chat/chatpic.png";
 import chatpro from "../chat/chatpropic.png";
-
+import plusIcon from "../chat/PlusCircle.svg";
+import SendIcon from "../chat/SendIcon.svg";
+import EmogiIcon from "../chat/emogiIcon.svg";
+import imgIcon from "../chat/imgIcon.svg";
+import FileIcon from "../chat/FileIcon.svg";
+import { useState } from "react";
 export default function Chat() {
+  const [showOption, setShowOption] = useState(true);
   return (
     <div className="chat">
       <Search />
@@ -104,7 +110,7 @@ export default function Chat() {
                   </div>
                 </div>
                 {/* chatting start communicator */}
-                <div className="chatting-text-with-profile cummunicator-chatting">
+                <div className="chatting-text-with-profile cummunicator-chatting ">
                   <div>
                     <h6>I went there yesterday</h6>
                     <p>1 minute ago</p>
@@ -121,28 +127,42 @@ export default function Chat() {
                   </div>
                 </div>
 
-                {/* typing box */}
-                <div>
-                  <div className="input-group">
-                    <div className="input-group-append">
-                      <span className="input-group-text attach_btn">
-                        <i className="fa fa-paperclip" aria-hidden="true"></i>
-                      </span>
-                    </div>
-                    <textarea
-                      name=""
-                      className="form-control type_msg"
-                      placeholder="Type your message..."
-                    ></textarea>
-                    <div className="input-group-append">
-                      <span className="input-group-text send_btn">
-                        <i
-                          className="fa fa-location-arrow"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                    </div>
+                {/* chatting start communicator */}
+                <div className="chatting-text-with-profile cummunicator-chatting ">
+                  <div>
+                    <h6>I went there yesterday</h6>
+                    <p>1 minute ago</p>
                   </div>
+                  <img src={chatpro} alt="" />
+                </div>
+
+                {/* typing box */}
+
+                <div className="chat__footer">
+                  {/* <InsertEmoticon /> */}
+
+                  <form>
+                    <img
+                      className="iconCreate"
+                      onClick={() => setShowOption(!showOption)}
+                      src={plusIcon}
+                      alt=""
+                    />
+                    <input type="text" placeholder="Type Message here" />
+                    <img className="iconEmogi" src={EmogiIcon} alt="" />
+                    <img className="iconSend" src={SendIcon} alt="" />
+                  </form>
+
+                  <img
+                    className={`iconFile  ${showOption ? "iconHide" : ""}`}
+                    src={FileIcon}
+                    alt=""
+                  />
+                  <img
+                    className={`iconImg ${showOption ? "iconHide" : ""}`}
+                    src={imgIcon}
+                    alt=""
+                  />
                 </div>
 
                 <div>{/* serach box and write message goes here */}</div>

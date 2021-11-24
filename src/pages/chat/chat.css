@@ -6,8 +6,10 @@
 .channel-list {
   padding: 10px;
   margin: 10px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   box-shadow: 0px 2.68279px 8.04838px 3.35349px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
 }
 
 .chat-new-conservation-btn {
@@ -36,22 +38,24 @@
   align-items: center;
 }
 .channel-list-sub-item img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }
 .channel-list-item span {
   font-style: normal;
   font-weight: normal;
-  font-size: 13.414px;
+  font-size: 8.414px;
   line-height: 20px;
   color: #313131;
 }
 
 .channel-list-sub-item h5 {
   font-style: normal;
-  font-weight: 500;
-  font-size: 18.4623px;
-  line-height: 32px;
+  font-weight: 600;
+  font-size: 14.4623px;
+  line-height: 30px;
+  padding-top: 8px;
   /* identical to box height */
   padding-left: 8px;
   color: #313131;
@@ -60,7 +64,7 @@
 .channel-list-sub-item p {
   font-style: normal;
   font-weight: normal;
-  font-size: 12.7675px;
+  font-size: 10.7675px;
   line-height: 25px;
   /* identical to box height */
   padding-left: 8px;
@@ -85,11 +89,12 @@
 .channel-content-header img {
   width: 45px;
   height: 45px;
+  border-radius: 50%;
 }
 .channel-content-header h5 {
   font-style: normal;
   font-weight: normal;
-  font-size: 20.1451px;
+  font-size: 18.1451px;
   padding-left: 10px;
   color: #313131;
   margin-bottom: 0;
@@ -103,7 +108,7 @@
   color: #b3b3b3;
 }
 .channel-content-header i {
-  font-size: 22px;
+  font-size: 20px;
 }
 /* chatting */
 .chatting-text-with-profile {
@@ -111,8 +116,8 @@
 }
 
 .chatting-text-with-profile img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: 1px solid black;
 }
@@ -120,10 +125,10 @@
 .chatting-text-with-profile h6 {
   font-style: normal;
   font-weight: 600;
-  font-size: 16.7675px;
+  font-size: 12.7675px;
   line-height: 25px;
   background: #fafafa;
-  padding: 10px;
+  padding: 4px;
   border-radius: 6.70698px;
   color: #1d2030;
   margin-bottom: 0px;
@@ -132,15 +137,101 @@
 .chatting-text-with-profile p {
   font-style: normal;
   font-weight: normal;
-  font-size: 13.414px;
+  font-size: 10.414px;
   line-height: 20px;
   color: #a0a0a0;
 }
 
 .cummunicator-chatting {
-  padding-left: 400px;
+  margin-left: 300px;
 }
 
+@media screen and (min-width: 600px) {
+  .cummunicator-chatting {
+    margin-left: 140px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .cummunicator-chatting {
+    margin-left: 200px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .cummunicator-chatting {
+    margin-left: 280px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cummunicator-chatting {
+    margin-left: 380px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .cummunicator-chatting {
+    margin-left: 480px;
+  }
+}
+
+/* chat footer */
+
+.chat__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  position: relative;
+}
+
+.chat__footer > form {
+  flex: 1;
+  display: flex;
+}
+
+.chat__footer > form > input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  border-left: none;
+  border-right: none;
+  outline-width: 0;
+}
+.chat__footer > form > .iconCreate {
+  border: 1px solid #dbdbdb;
+  border-right: none;
+  padding-left: 5px;
+}
+
+.chat__footer > form > .iconEmogi {
+  border: 1px solid #dbdbdb;
+  border-right: none;
+  border-left: none;
+  padding-left: 5px;
+}
+
+.chat__footer > form > .iconSend {
+  border: 1px solid #dbdbdb;
+
+  border-left: none;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.chat__footer > .iconFile {
+  position: absolute;
+  left: 1.2%;
+  top: -80%;
+}
+.chat__footer > .iconImg {
+  position: absolute;
+  left: 1.2%;
+  top: -160%;
+}
+
+.chat__footer > .iconHide {
+  display: none;
+}
 /* chat between customer and artist */
 .cus-to-art {
   background: #ffffff;
@@ -148,6 +239,7 @@
   border-radius: 5.414px;
   margin: 30px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   position: relative;
 }
@@ -156,25 +248,25 @@
   display: flex;
 }
 .chatting-between-cus-art img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: 2.0121px solid #ff5050;
 }
 .chatting-between-cus-art h6 {
   font-style: normal;
   font-weight: 600;
-  font-size: 14.7675px;
+  font-size: 10.7675px;
   line-height: 25px;
   color: #313131;
-  padding-left: 15px;
+  padding-left: 12px;
   margin-bottom: 0px;
 }
 
 .chatting-between-cus-art p {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 20px;
   padding-left: 15px;
   color: #a0a0a0;
@@ -183,18 +275,19 @@
 .cus-to-art-time {
   font-style: normal;
   font-weight: normal;
-  font-size: 13.414px;
-  line-height: 20px;
+  font-size: 10.414px;
+  line-height: 18px;
   color: #a0a0a0;
 }
 
 .line-cus-to-art {
   border: 2.0121px solid #ff5050;
   transform: rotate(-90deg);
-  width: 26.83px;
+  width: 50.83px;
   height: 0px;
   position: absolute;
-  left: 7.5%;
+  left: 1.8%;
+  top: 40%;
 }
 
 .chat-item-2 {
@@ -211,7 +304,7 @@
 .cus-to-art-chat-detail p {
   font-style: normal;
   font-weight: normal;
-  font-size: 16.7675px;
+  font-size: 10.7675px;
   line-height: 25px;
   /* identical to box height */
 
@@ -230,14 +323,14 @@
   align-items: center;
 }
 .cus-to-art-chat-detail-profile img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 .cus-to-art-chat-detail-profile h6 {
   font-style: normal;
   font-weight: 600;
-  font-size: 18.121px;
+  font-size: 14.121px;
   line-height: 30px;
   /* identical to box height */
   padding-left: 10px;
@@ -246,12 +339,28 @@
 .line-cus-to-art-detail {
   border: 2.0121px solid #c4c4c4;
   transform: rotate(180deg);
-  width: 160.7px;
+  width: 100.7px;
   height: 0px;
   top: 50%;
-  left: 32%;
+  left: 38%;
   position: absolute;
 }
+
 .cus-to-art-adject {
   padding-left: 180px;
+}
+
+@media screen and (min-width: 1000px) {
+  .cus-to-art-adject {
+    padding-left: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cus-to-art-adject {
+    padding-left: 200px;
+  }
+  .cummunicator-detail-chatting {
+    padding-left: 350px;
+  }
 }
