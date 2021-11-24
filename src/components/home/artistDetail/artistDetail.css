@@ -21,7 +21,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 20.6485px;
+  font-size: 17.6485px;
   line-height: 31px;
   color: #313131;
   padding-top: 5px;
@@ -32,14 +32,14 @@
   align-items: center;
 }
 .artist-img img {
-  width: 32.35px;
-  height: 32.35px;
+  width: 20.35px;
+  height: 20.35px;
 }
 .artist-img span {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 13.7656px;
+  font-size: 10px;
   line-height: 21px;
   /* identical to box height */
 
@@ -59,15 +59,15 @@ td {
   padding-left: 10px;
 }
 
-/* for all th */
-th {
-  font-family: Poppins;
+.artist-detail-main th {
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 26px;
-
+  font-size: 14px;
   color: #313131;
+}
+.artist-detail-main td {
+  font-size: 10px;
+  color: #7a7a7a;
 }
 
 /* button status for artist */
