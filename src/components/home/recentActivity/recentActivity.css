@@ -3,6 +3,7 @@
   background: #ffffff;
   border-radius: 6.88282px;
   border: 0.69px solid #c4c4c4;
+  overflow-y: scroll;
 }
 .recent-activity-head {
   display: flex;
@@ -54,4 +55,9 @@
 .recent-activity th {
   font-size: 14px;
   font-weight: bold;
+}
+
+.recent-activity td {
+  font-size: 10px;
+  color: #7a7a7a;
 }
