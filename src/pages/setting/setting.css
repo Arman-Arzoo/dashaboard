@@ -170,21 +170,25 @@ input[type="checkbox"].switch:checked:after {
   box-sizing: border-box;
   border-radius: 5.38993px;
 }
+.setting-image-profile p {
+  font-size: 12px;
+  font-weight: 600;
+}
 
 .setting-image-profile img {
   border: 6px solid #ff5050;
   border-radius: 50%;
-  width: 180.12px;
-  height: 180.12px;
+  width: 135.12px;
+  height: 135 0.12px;
 }
 
 .circle-div-setting {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 18.55%;
+  left: 15.55%;
   right: 90.39%;
-  top: 70%;
+  top: 60%;
 
   background: #ffffff;
   border-radius: 50%;
@@ -213,7 +217,7 @@ input[type="checkbox"].switch:checked:after {
 }
 
 .image-upload-setting i {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .image-upload-setting input {
@@ -232,4 +236,5 @@ input[type="checkbox"].switch:checked:after {
   border-radius: 8px;
   color: white;
   margin-top: 32px;
+  font-size: 12px;
 }
