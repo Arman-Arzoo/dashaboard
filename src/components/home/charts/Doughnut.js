@@ -32,23 +32,23 @@ const data1 = {
 //     ctx.fillText(text, textX, textY);
 //   },
 // });
-// const options1 = {
-//   responsive: true,
-//   legend: {
-//     display: false,
-//     position: "bottom",
-//     labels: {
-//       fontSize: 18,
-//       fontColor: "#6D7278",
-//       fontFamily: "kanit light",
-//     },
-//   },
-// };
+const options1 = {
+  responsive: true,
+  legend: {
+    display: false,
+    position: "bottom",
+    labels: {
+      fontSize: 18,
+      fontColor: "#6D7278",
+      fontFamily: "kanit light",
+    },
+  },
+};
 
 export default function DoughnutChart() {
   return (
     <div>
-      <Doughnut data={data1} height={250} />
+      <Doughnut data={data1} height={250} options={options1} />
     </div>
   );
 }

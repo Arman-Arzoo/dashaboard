@@ -14,7 +14,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 20.6485px;
+  font-size: 17.6485px;
   line-height: 31px;
   color: #313131;
 }
@@ -23,7 +23,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 800;
-  font-size: 20.6485px;
+  font-size: 17.6485px;
   line-height: 31px;
   color: #ff5050;
 }
@@ -42,7 +42,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 12.3891px;
+  font-size: 10.3891px;
   line-height: 19px;
   color: #ffffff;
   padding: 5.51px 11.5px;
@@ -54,8 +54,16 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 12.3891px;
+  font-size: 10.3891px;
   line-height: 19px;
   color: #ffffff;
   padding: 5.51px 11.5px;
+}
+.job-post th {
+  font-size: 14px;
+  font-weight: bold;
+}
+.job-post td {
+  font-size: 10px;
+  color: #7a7a7a;
 }
