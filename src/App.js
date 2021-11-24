@@ -3,7 +3,7 @@ import Dashborad from "./Dashboard";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Dashborad />
     </div>
   );
