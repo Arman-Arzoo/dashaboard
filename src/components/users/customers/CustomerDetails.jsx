@@ -19,7 +19,7 @@ export default function CustomerDetails() {
         </div>
       </div>
       {/* card */}
-      <div className="card card-outline-secondary mt-2">
+      <div className="card card-outline-secondary mt-2 customer__deatail__table">
         {/* heading */}
         <div className="card-header">
           <h3 className=" mb-0 ">All Customers</h3>
@@ -54,7 +54,10 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile">
+                    {" "}
+                    View Detail{" "}
+                  </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
@@ -76,7 +79,10 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile">
+                    {" "}
+                    View Detail{" "}
+                  </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
@@ -99,7 +105,10 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile">
+                    {" "}
+                    View Detail{" "}
+                  </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
@@ -122,7 +131,10 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile">
+                    {" "}
+                    View Detail{" "}
+                  </Link>
 
                   <i
                     style={{ color: "#FF5050" }}
@@ -145,7 +157,10 @@ export default function CustomerDetails() {
                 <td>House No 113 Block A Street 4 xyz</td>
                 <td>Shailnay Cordon</td>
                 <td style={{ display: "flex", alignItems: "center" }}>
-                  <Link to="/dashboard/customers/customer-profile"> View Detail </Link>
+                  <Link to="/dashboard/customers/customer-profile">
+                    {" "}
+                    View Detail{" "}
+                  </Link>
 
                   <i
                     style={{ color: "#FF5050" }}

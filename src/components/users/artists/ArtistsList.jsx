@@ -18,7 +18,7 @@ export default function ArtistsList() {
           users/artists
         </span>
         {/* card */}
-        <div className="card card-outline-secondary mt-2 ">
+        <div className="card card-outline-secondary mt-2  artist__detail_pro">
           {/* heading */}
           <div
             className="card-header"

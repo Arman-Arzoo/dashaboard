@@ -2,3 +2,8 @@
   width: 50%;
   text-align: center;
 }
+
+.customer__deatail__table h3 {
+  font-size: 17.64px;
+  font-weight: bold;
+}
