@@ -1,10 +1,10 @@
 import "./setting.css";
 import { NavLink } from "react-router-dom";
-import settingicon from "../setting/settingsicon.png";
-import notificationicon from "../setting/notificationicon.png";
-import supporticon from "../setting/supporticon.png";
-import usericon from "../setting/usericon.png";
-import walleticon from "../setting/walleticon.png";
+import settingicon from "../setting/settingsicon.svg";
+import notificationicon from "../setting/notificationicon.svg";
+import supporticon from "../setting/supporticon.svg";
+import usericon from "../setting/usericon.svg";
+import walleticon from "../setting/walleticon.svg";
 import SettingsContent from "./SettingsContent";
 
 export default function Setting() {
