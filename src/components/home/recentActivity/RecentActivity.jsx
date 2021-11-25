@@ -1,6 +1,7 @@
 import "./recentActivity.css";
 import caret from "../recentActivity/caret.png";
 import caretd from "../recentActivity/caretd.png";
+import { UserInfoDetail } from "../../UserInfoDetail";
 export default function Users() {
   return (
     <div>
@@ -46,6 +47,13 @@ export default function Users() {
                     <button className="btn-route-status">Onroute</button>
                   </td>
                 </tr>
+
+                <tr>
+                  <td colSpan="9">
+                    <UserInfoDetail />
+                  </td>
+                </tr>
+
                 {/* table body item1 end */}
 
                 {/* table body item2 start */}

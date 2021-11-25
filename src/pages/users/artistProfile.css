@@ -57,6 +57,7 @@
   margin-left: 15px;
   border-left: 2px solid #ccc;
   padding: 0 20px 0 30px;
+  position: relative;
 }
 
 .timeline-artist-location p {
@@ -75,36 +76,18 @@
   background-color: #000;
   border: 3px solid #ddd;
   position: absolute;
-  left: 172px;
+  left: -3%;
   top: 88%;
 }
 
 .timeline-artist-location i {
   position: absolute;
-  left: 175px;
-  top: 48%;
+  left: -2.2%;
+  top: -8%;
   font-size: 22px;
   color: #ff5050;
 }
 
-@media screen and (min-width: 900px) {
-  .timeline-artist-location i {
-    top: 58%;
-  }
-
-  .timeline-artist-location::before {
-    top: 92%;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .timeline-artist-location i {
-    top: 48%;
-  }
-  .timeline-artist-location::before {
-    top: 88%;
-  }
-}
 /* customer reviews */
 .artist-customer-reviews {
   overflow-y: scroll;

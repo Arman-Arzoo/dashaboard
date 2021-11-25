@@ -1,0 +1,38 @@
+.userInfoDetail {
+  display: flex;
+}
+
+.userInfoDetail__timeline {
+  margin-left: 15px;
+  border-left: 2px solid #ccc;
+  padding: 0 20px 0 30px;
+  position: relative;
+}
+
+.userInfoDetail__timeline p {
+  font-size: 8px;
+}
+.userInfoDetail__timeline h5 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.userInfoDetail__timeline::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  border: 3px solid #ddd;
+  position: absolute;
+  left: -2%;
+  top: 88%;
+}
+
+.userInfoDetail__timeline i {
+  position: absolute;
+  left: -1.3%;
+  top: -8%;
+  font-size: 22px;
+  color: #ff5050;
+}
