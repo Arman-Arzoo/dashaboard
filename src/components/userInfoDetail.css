@@ -36,3 +36,12 @@
   font-size: 22px;
   color: #ff5050;
 }
+
+.mapPorwerIcon {
+  display: flex;
+  flex-direction: column;
+}
+.mapPorwerIcon img {
+  width: 30px;
+  padding-top: 20px;
+}

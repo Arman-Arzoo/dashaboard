@@ -1,13 +1,14 @@
 import React from "react";
 import "./userInfoDetail.css";
+import powerIcon from "../components/Power.svg";
 export const UserInfoDetail = () => {
   return (
     <div className="userInfoDetail">
-      <div>
+      <div className="mapPorwerIcon">
         <iframe
           title="customer-location"
           width="150"
-          height="240"
+          height="210"
           frameborder="0"
           scrolling="no"
           marginheight="0"
@@ -16,6 +17,7 @@ export const UserInfoDetail = () => {
         >
           <a href="http://www.gps.ie/">sport gps</a>
         </iframe>
+        <img src={powerIcon} alt="" />
       </div>
       <div>
         <table className="table table-striped">
