@@ -36,7 +36,7 @@
 .setting-menu-container p {
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 18px;
 
   color: #313131;
@@ -57,7 +57,7 @@
 .general-setting-form p {
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 17.56px;
   line-height: 30px;
   color: #313131;
 }
@@ -65,9 +65,16 @@
   background: #313131;
   border-radius: 8px;
   color: white;
+  font-size: 12px;
 }
 .general-setting-form .update-btn {
-  margin-top: 30px !important;
+  margin-top: 48px !important;
+}
+
+.general-setting-form label {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 3;
 }
 
 /* Alert and notification setting page */

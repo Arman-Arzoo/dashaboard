@@ -2,6 +2,11 @@
   flex: 4;
   padding: 20px;
 }
+.admin h3 {
+  font-size: 17.56px;
+  font-weight: bold;
+  padding-top: 12px;
+}
 
 .admin-status {
   position: relative;
