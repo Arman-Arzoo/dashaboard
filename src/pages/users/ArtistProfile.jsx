@@ -25,11 +25,11 @@ export default function ArtistProfile() {
               <img className="img" src={artistprofile} alt="" />
               <div className=" pl-4">
                 <h4>Shailnay Cordon</h4>
-                <img src={rated} alt="" />
-                <img src={rated} alt="" />
-                <img src={rated} alt="" />
-                <img src={rated} alt="" />
-                <img src={unrated} alt="" />
+                <img className="ratedIcon" src={rated} alt="" />
+                <img className="ratedIcon" src={rated} alt="" />
+                <img className="ratedIcon" src={rated} alt="" />
+                <img className="ratedIcon" src={rated} alt="" />
+                <img className="ratedIcon" src={unrated} alt="" />
                 <p className="pt-2">Expert in Acrylic and French Manicure</p>
                 <p>
                   <i className="fa fa-phone" aria-hidden="true"></i>{" "}
@@ -52,8 +52,8 @@ export default function ArtistProfile() {
                   <div className="mt-4">
                     <iframe
                       title="artist-location"
-                      width="150"
-                      height="240"
+                      width="120"
+                      height="250"
                       frameborder="0"
                       scrolling="no"
                       marginheight="0"
@@ -154,7 +154,7 @@ export default function ArtistProfile() {
                   <h5 className=" mb-0 ">Other details</h5>
                 </div>
                 {/* body */}
-                <div className=" p-2">
+                <div className=" p-2 other__details">
                   <div>
                     <h5>Joining date</h5>
                     <p>12/08/2019</p>
@@ -391,7 +391,7 @@ export default function ArtistProfile() {
                       <td>Tina Fox</td>
                       <td>8502 Preston Rd. Inglewood, Maine 98380</td>
                       <td>$20</td>
-                      <td className="job-post-btn-status">
+                      <td className="job-post-btn">
                         <button className="mr-2 approve">Paid</button>
                       </td>
                       <td>12%</td>
@@ -409,7 +409,7 @@ export default function ArtistProfile() {
         <div className="ml-3 mr-3 mt-2">
           <div className="card card-outline-secondary">
             {/* heading */}
-            <div className="card-header">
+            <div className="card-header artist__Protfolio">
               <h3 className=" mb-0 ">portfolio</h3>
             </div>
             {/* body */}
@@ -438,7 +438,6 @@ export default function ArtistProfile() {
                           <PortfolioItem />
                           <PortfolioItem />
                           <PortfolioItem />
-                          <PortfolioItem />
                         </div>
                         {/* </div> */}
                       </div>
@@ -449,7 +448,7 @@ export default function ArtistProfile() {
                           {/* items box here  start*/}
                           <PortfolioItem />
                           <PortfolioItem />
-                          <PortfolioItem />
+
                           <PortfolioItem />
 
                           {/* items box end */}

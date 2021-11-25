@@ -1,4 +1,6 @@
 .customers {
   flex: 4;
   padding: 20px;
+  resize: both;
+  overflow: hidden;
 }

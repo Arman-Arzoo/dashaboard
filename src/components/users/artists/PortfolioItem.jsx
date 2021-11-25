@@ -15,8 +15,8 @@ export default function PortfolioItem() {
           <p>010242</p>
         </div>
       </div>
-      <h5>Client Name:</h5>
-      <p>Cameron Williamson</p>
+      <h5 className="pl-4">Client Name:</h5>
+      <p className="pl-4">Cameron Williamson</p>
     </div>
   );
 }
