@@ -9,11 +9,11 @@ export default function FavouriteItem() {
         <img className="img" src={pic} alt="" />
 
         <h5>Shailny Cordon</h5>
-        <img src={rated} alt="" />
-        <img src={rated} alt="" />
-        <img src={rated} alt="" />
-        <img src={rated} alt="" />
-        <img src={rated} alt="" />
+        <img className="imgIcon" src={rated} alt="" />
+        <img className="imgIcon" src={rated} alt="" />
+        <img className="imgIcon" src={rated} alt="" />
+        <img className="imgIcon" src={rated} alt="" />
+        <img className="imgIcon" src={rated} alt="" />
         <div className="circle">
           <i className="fa fa-heart" aria-hidden="true"></i>
         </div>

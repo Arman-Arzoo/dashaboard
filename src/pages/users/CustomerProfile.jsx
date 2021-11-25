@@ -107,7 +107,7 @@ export default function CustomerProfile() {
         {/* section 2 */}
         <div className="row">
           <div className="col-5">
-            <div className="card card-outline-secondary ml-2">
+            <div className="card card-outline-secondary ml-2 pre__booking">
               {/* heading */}
               <div className="card-header">
                 <h3 className=" mb-0 ">Pre booking</h3>
@@ -155,7 +155,7 @@ export default function CustomerProfile() {
             </div>
           </div>
           <div className="col-7 ">
-            <div className="card card-outline-secondary mr-2 ">
+            <div className="card card-outline-secondary mr-2 previous__booking ">
               {/* heading */}
               <div className="card-header">
                 <h3 className=" mb-0 ">Previous Booking</h3>
@@ -218,7 +218,7 @@ export default function CustomerProfile() {
         {/* favourite section start */}
 
         <div className="ml-2 mr-2 mt-2">
-          <div className="card card-outline-secondary">
+          <div className="card card-outline-secondary favourite">
             {/* heading */}
             <div className="card-header">
               <h3 className=" mb-0 ">Favourite</h3>
@@ -249,7 +249,7 @@ export default function CustomerProfile() {
                           <FavouriteItem />
                           <FavouriteItem />
                           <FavouriteItem />
-                          <FavouriteItem />
+
                           <FavouriteItem />
                         </div>
                         {/* </div> */}
@@ -262,7 +262,7 @@ export default function CustomerProfile() {
                           <FavouriteItem />
                           <FavouriteItem />
                           <FavouriteItem />
-                          <FavouriteItem />
+
                           <FavouriteItem />
 
                           {/* items box end */}
