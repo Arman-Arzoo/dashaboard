@@ -196,7 +196,7 @@ export default function Chat() {
                     </div>
                   </div>
                 </div>
-                <p className="cus-to-art-time">1 minute ago</p>
+                <p className="cus-to-art-time">1 minute</p>
               </div>
 
               {/* chat b/w cus to art div */}

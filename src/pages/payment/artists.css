@@ -3,6 +3,14 @@
   padding-left: 20px;
 }
 
+.partists h3 {
+  font-size: 17.56px;
+  font-weight: bold;
+}
+
+.partists th {
+  font-size: 13px;
+}
 .artist-payment-div {
   padding-left: 0px !important;
 }
@@ -10,20 +18,29 @@
   padding-left: 0px !important;
 }
 
-.make-payment-body label{
+.make-payment-body label {
   font-style: normal;
-font-weight: 500;
-font-size: 14.2787px;
-line-height: 30px;
-/* identical to box height */
+  font-weight: 500;
+  font-size: 12.2787px;
+  line-height: 30px;
+  /* identical to box height */
 
-
-color: #7A7A7A;
+  color: #7a7a7a;
 }
 
-
-.make-payment-body button{
+.make-payment-body button {
   background: #313131;
-border-radius: 5.40767px;
-color: white;
+  border-radius: 5.40767px;
+  color: white;
+}
+.artist-img img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.make-payment-body input,
+input::-webkit-input-placeholder {
+  font-size: 12px;
+  line-height: 2;
 }
