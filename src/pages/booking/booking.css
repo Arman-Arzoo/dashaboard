@@ -2,6 +2,10 @@
   flex: 4;
   padding: 20px;
 }
+.booking__services h3 {
+  font-size: 17.56px;
+  font-weight: bold;
+}
 
 .circle-booking-cross {
   width: 20px;

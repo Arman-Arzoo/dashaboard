@@ -19,7 +19,7 @@ export default function Booking() {
         </div>
       </div>
       {/* card */}
-      <div className="card card-outline-secondary mt-2">
+      <div className="card card-outline-secondary booking__services mt-2 ">
         {/* heading */}
         <div className="card-header">
           <h3 className=" mb-0 ">Booking services</h3>

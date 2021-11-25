@@ -16,7 +16,7 @@ export default function DailyDeal() {
         <div className="row">
           <div className="col-4">
             {/* template */}
-            <div className="customerDetails  ">
+            <div className="customerDetails">
               {/* card */}
               <div className="card card-outline-secondary ">
                 {/* heading */}
@@ -44,13 +44,13 @@ export default function DailyDeal() {
               <div>
                 {/* add new deal and services */}
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-6 add_new_deals">
                     <div className="card-header bg-white">
                       <h4 className=" mb-0 ">add new deals</h4>
                     </div>
                     <div className="pl-4 pt-3">
                       {/* form from add new deal */}
-                      <form>
+                      <form className="select__services">
                         <div className="form-group">
                           <label htmlFor="input">Select Services</label>
                           <select id="inputState" className="form-control">
